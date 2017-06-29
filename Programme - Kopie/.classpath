@@ -2,13 +2,13 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/Oliver Härer/OneDrive/Dokumente/Processing/libraries/Ani/library/Ani.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oliver Härer/OneDrive/Dokumente/Processing/libraries/minim/library/minim.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oliver Härer/OneDrive/Studium/4. Semester/GDG2/Processing/processing-3.3.2/core/library/core.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oliver Härer/OneDrive/Dokumente/Processing/libraries/minim/library/jl1.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oliver Härer/OneDrive/Dokumente/Processing/libraries/minim/library/jsminim.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oliver Härer/OneDrive/Dokumente/Processing/libraries/minim/library/mp3spi1.9.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oliver Härer/OneDrive/Dokumente/Processing/libraries/minim/library/tritonus_aos.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oliver Härer/OneDrive/Dokumente/Processing/libraries/minim/library/tritonus_share.jar"/>
+	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/Ani.jar"/>
+	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/core.jar"/>
+	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/jl1.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/jsminim.jar"/>
+	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/minim.jar"/>
+	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/mp3spi1.9.5.jar"/>
+	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/tritonus_aos.jar"/>
+	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/tritonus_share.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
