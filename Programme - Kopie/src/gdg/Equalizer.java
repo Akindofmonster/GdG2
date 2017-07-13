@@ -13,6 +13,7 @@ import processing.opengl.PShader;
 
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 
 import com.sun.prism.paint.Color;
@@ -100,7 +101,12 @@ public class Equalizer extends PApplet {
     // Start the song right away
 
     Minim minim = new Minim(this);
-    song = minim.loadFile("./gdg/objects/03_m___e.s.t___seven_days_of_falling___evening_in_atlantis.mp3");
+    String path = ""// +Paths.get("").toAbsolutePath().toString().replace('\\',
+                    // '/')
+        // + "./gdg/objects/"
+        + "03_m___e.s.t___seven_days_of_falling___evening_in_atlantis.mp3";
+    System.out.println(path);
+    song = minim.loadFile(path);
     try {
       Thread.sleep(2000);
     } catch (InterruptedException e) {
