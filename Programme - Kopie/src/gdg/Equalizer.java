@@ -20,12 +20,12 @@ import com.sun.prism.paint.Color;
 /**
  * The Equalizer class is the main controller for the Animation.
  *
- * @author Oliver H�rer, Niklas "Lappen" Schmid
+ * @author Oliver Haerer, Niklas Schmid
  */
 public class Equalizer extends PApplet {
 
   private static boolean _verblassen = true;
-  private static boolean _vergrößerm = true;
+  private static boolean _vergroessern = true;
   private static boolean _verschieben = true;
   private static boolean _wiederhohlen = true;
   private static boolean _rand = false;
