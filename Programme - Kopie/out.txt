@@ -1,2936 +1,1089 @@
-9.04214 Framedifference 2   Time 2
-30.524591 Framedifference 4   Time 6
-53.595646 Framedifference 5   Time 11
-72.19345 Framedifference 4   Time 15
-87.56142 Framedifference 4   Time 19
-97.25099 Framedifference 6   Time 25
-111.44072 Framedifference 3   Time 28
-126.69379 Framedifference 4   Time 32
-136.88802 Framedifference 5   Time 37
-147.90823 Framedifference 4   Time 41
-161.0611 Framedifference 3   Time 44
-174.21967 Framedifference 4   Time 48
-185.16551 Framedifference 3   Time 51
-194.00748 Framedifference 4   Time 55
-198.95079 Framedifference 4   Time 59
-204.50192 Framedifference 4   Time 63
-(time 63- lastadded -60)      true
+9.046835 Framedifference 1Time 1 TimeDifference 35.1607666015625
+23.829273 Framedifference 7Time 8 TimeDifference 14.589557647705078
+49.05821 Framedifference 3Time 11 TimeDifference 8.115184783935547
+72.07212 Framedifference 4Time 15 TimeDifference 6.162497043609619
+91.44527 Framedifference 4Time 19 TimeDifference 5.280651092529297
+107.17181 Framedifference 4Time 23 TimeDifference 4.799243927001953
+123.31462 Framedifference 4Time 27 TimeDifference 4.432801246643066
+129.55428 Framedifference 5Time 32 TimeDifference 4.315631866455078
+137.63638 Framedifference 5Time 37 TimeDifference 4.179656028747559
+146.00572 Framedifference 4Time 41 TimeDifference 4.054714202880859
+158.4268 Framedifference 4Time 45 TimeDifference 3.8936190605163574
+168.49107 Framedifference 4Time 49 TimeDifference 3.7805099487304688
+170.15851 Framedifference 6Time 55 TimeDifference 3.763062000274658
+172.65927 Framedifference 4Time 59 TimeDifference 3.7375261783599854
+179.61214 Framedifference 4Time 63 TimeDifference 3.6702656745910645
+184.23955 Framedifference 5Time 68 TimeDifference 3.628314971923828
+(time 68- lastadded -60)      true
 Circle added
-(time 63- lastadded -60)      true
+(time 68- lastadded -60)      true
 Circle added
-(time 63- lastadded -60)      true
+(time 68- lastadded -60)      true
 Circle added
-(time 63- lastadded -60)      true
+(time 68- lastadded -60)      true
 Circle added
-(time 63- lastadded -60)      true
+(time 68- lastadded -60)      true
 Circle added
-(time 63- lastadded -60)      true
+(time 68- lastadded -60)      true
 Circle added
-188.18655 Framedifference 24   Time 87
-186.04771 Framedifference 6   Time 93
-185.80972 Framedifference 5   Time 98
-186.9902 Framedifference 5   Time 103
-188.03268 Framedifference 5   Time 108
-186.38014 Framedifference 7   Time 115
-180.37512 Framedifference 8   Time 123
-179.73195 Framedifference 5   Time 128
-179.26065 Framedifference 6   Time 134
-175.37573 Framedifference 7   Time 141
-178.01923 Framedifference 5   Time 146
-179.40697 Framedifference 5   Time 151
-176.48279 Framedifference 7   Time 158
-179.11932 Framedifference 5   Time 163
-181.64183 Framedifference 5   Time 168
-183.61398 Framedifference 5   Time 173
-186.95396 Framedifference 4   Time 177
-187.84563 Framedifference 6   Time 183
-184.22214 Framedifference 7   Time 190
-183.3364 Framedifference 5   Time 195
-181.57782 Framedifference 6   Time 201
-181.706 Framedifference 5   Time 206
-182.02475 Framedifference 5   Time 211
-180.86375 Framedifference 6   Time 217
-177.82571 Framedifference 7   Time 224
-177.48097 Framedifference 6   Time 230
-179.05064 Framedifference 5   Time 235
-176.63242 Framedifference 6   Time 241
-175.35513 Framedifference 6   Time 247
-175.27849 Framedifference 6   Time 253
-171.97536 Framedifference 7   Time 260
-170.83441 Framedifference 6   Time 266
-170.29515 Framedifference 6   Time 272
-170.35258 Framedifference 6   Time 278
-169.88818 Framedifference 7   Time 285
-166.62622 Framedifference 7   Time 292
-168.30968 Framedifference 5   Time 297
-169.16443 Framedifference 6   Time 303
-168.18925 Framedifference 6   Time 309
-167.60983 Framedifference 7   Time 316
-162.03673 Framedifference 8   Time 324
-161.67412 Framedifference 7   Time 331
-157.3345 Framedifference 8   Time 339
-156.21149 Framedifference 7   Time 346
-155.873 Framedifference 6   Time 352
-153.51376 Framedifference 8   Time 360
-153.12541 Framedifference 7   Time 367
-153.12488 Framedifference 6   Time 373
-154.9865 Framedifference 6   Time 379
-155.5102 Framedifference 6   Time 385
-153.21822 Framedifference 8   Time 393
-154.16498 Framedifference 6   Time 399
-151.9159 Framedifference 7   Time 406
-152.83919 Framedifference 7   Time 413
-152.90158 Framedifference 6   Time 419
-150.28253 Framedifference 8   Time 427
-149.80594 Framedifference 7   Time 434
-147.10297 Framedifference 8   Time 442
-145.26929 Framedifference 8   Time 450
-140.68471 Framedifference 10   Time 460
-137.96007 Framedifference 9   Time 469
-136.99457 Framedifference 8   Time 477
-135.03969 Framedifference 9   Time 486
-131.50064 Framedifference 9   Time 495
-129.75002 Framedifference 10   Time 505
-127.521225 Framedifference 9   Time 514
-126.19957 Framedifference 9   Time 523
-123.4646 Framedifference 10   Time 533
-122.25911 Framedifference 9   Time 542
-121.82208 Framedifference 8   Time 550
-119.290886 Framedifference 10   Time 560
-119.519806 Framedifference 9   Time 569
-116.8147 Framedifference 11   Time 580
-115.542114 Framedifference 9   Time 589
-116.26321 Framedifference 8   Time 597
-115.817726 Framedifference 9   Time 606
-116.79261 Framedifference 8   Time 614
-115.0086 Framedifference 10   Time 624
-115.2354 Framedifference 8   Time 632
-115.47235 Framedifference 9   Time 641
-115.11459 Framedifference 9   Time 650
-113.98326 Framedifference 10   Time 660
-113.64641 Framedifference 9   Time 669
-113.72999 Framedifference 8   Time 677
-113.087555 Framedifference 10   Time 687
-108.25263 Framedifference 15   Time 702
-106.68125 Framedifference 11   Time 713
-105.70364 Framedifference 10   Time 723
-105.04434 Framedifference 10   Time 733
-103.490364 Framedifference 12   Time 745
-99.69049 Framedifference 15   Time 760
-99.05692 Framedifference 11   Time 771
-98.39373 Framedifference 10   Time 781
-97.21566 Framedifference 12   Time 793
-96.41797 Framedifference 11   Time 804
-92.955864 Framedifference 16   Time 820
-91.88379 Framedifference 12   Time 832
-89.76746 Framedifference 14   Time 846
-88.74415 Framedifference 13   Time 859
-88.08028 Framedifference 12   Time 871
-87.861374 Framedifference 12   Time 883
-85.084015 Framedifference 16   Time 899
-84.82396 Framedifference 12   Time 911
-83.36984 Framedifference 15   Time 926
-82.43008 Framedifference 13   Time 939
-81.880775 Framedifference 13   Time 952
-80.66217 Framedifference 15   Time 967
-79.44146 Framedifference 14   Time 981
-78.47787 Framedifference 14   Time 995
-77.258934 Framedifference 16   Time 1011
-77.031784 Framedifference 13   Time 1024
-76.67657 Framedifference 14   Time 1038
-76.347626 Framedifference 13   Time 1051
-75.68793 Framedifference 15   Time 1066
-74.556694 Framedifference 15   Time 1081
-71.74308 Framedifference 22   Time 1103
-71.78293 Framedifference 14   Time 1117
-71.439476 Framedifference 15   Time 1132
-71.22285 Framedifference 14   Time 1146
-70.78683 Framedifference 15   Time 1161
-70.73705 Framedifference 14   Time 1175
-64.07421 Framedifference 35681   Time 36856
-62.17149 Framedifference 22   Time 36878
-61.33492 Framedifference 19   Time 36897
-71.18771 Framedifference 6   Time 36903
-78.49699 Framedifference 7   Time 36910
-85.87099 Framedifference 7   Time 36917
-92.400955 Framedifference 6   Time 36923
-96.88096 Framedifference 7   Time 36930
-102.9534 Framedifference 7   Time 36937
-108.3951 Framedifference 6   Time 36943
-113.30341 Framedifference 6   Time 36949
-117.72725 Framedifference 7   Time 36956
-119.47517 Framedifference 8   Time 36964
-123.86359 Framedifference 6   Time 36970
-126.34175 Framedifference 7   Time 36977
-130.15147 Framedifference 6   Time 36983
-133.65881 Framedifference 6   Time 36989
-131.90451 Framedifference 9   Time 36998
-131.58516 Framedifference 7   Time 37005
-133.31213 Framedifference 7   Time 37012
-132.83719 Framedifference 8   Time 37020
-132.30107 Framedifference 8   Time 37028
-130.62006 Framedifference 8   Time 37036
-130.69359 Framedifference 8   Time 37044
-131.56865 Framedifference 7   Time 37051
-133.85455 Framedifference 7   Time 37058
-134.34564 Framedifference 6   Time 37064
-133.31462 Framedifference 9   Time 37073
-134.02682 Framedifference 6   Time 37079
-136.77567 Framedifference 7   Time 37086
-138.23097 Framedifference 6   Time 37092
-139.80014 Framedifference 7   Time 37099
-141.6567 Framedifference 6   Time 37105
-144.22874 Framedifference 6   Time 37111
-146.45654 Framedifference 6   Time 37117
-146.7225 Framedifference 7   Time 37124
-145.80077 Framedifference 7   Time 37131
-143.08873 Framedifference 8   Time 37139
-145.11441 Framedifference 6   Time 37145
-146.1138 Framedifference 7   Time 37152
-142.79509 Framedifference 9   Time 37161
-144.2172 Framedifference 6   Time 37167
-146.26016 Framedifference 6   Time 37173
-145.15619 Framedifference 8   Time 37181
-147.66867 Framedifference 5   Time 37186
-148.58073 Framedifference 7   Time 37193
-144.95558 Framedifference 9   Time 37202
-146.17111 Framedifference 6   Time 37208
-145.37067 Framedifference 7   Time 37215
-146.42679 Framedifference 7   Time 37222
-143.8111 Framedifference 8   Time 37230
-145.1937 Framedifference 6   Time 37236
-147.88474 Framedifference 6   Time 37242
-148.84726 Framedifference 6   Time 37248
-150.09671 Framedifference 7   Time 37255
-148.48157 Framedifference 7   Time 37262
-148.01683 Framedifference 7   Time 37269
-147.00012 Framedifference 7   Time 37276
-148.05048 Framedifference 7   Time 37283
-148.94263 Framedifference 6   Time 37289
-147.73145 Framedifference 7   Time 37296
-150.38446 Framedifference 6   Time 37302
-151.1531 Framedifference 7   Time 37309
-152.51917 Framedifference 5   Time 37314
-152.68138 Framedifference 7   Time 37321
-152.40498 Framedifference 7   Time 37328
-153.65002 Framedifference 6   Time 37334
-152.02829 Framedifference 7   Time 37341
-149.46008 Framedifference 8   Time 37349
-146.933 Framedifference 8   Time 37357
-148.83026 Framedifference 6   Time 37363
-146.79463 Framedifference 8   Time 37371
-148.8917 Framedifference 6   Time 37377
-150.33163 Framedifference 6   Time 37383
-152.77765 Framedifference 5   Time 37388
-150.1751 Framedifference 8   Time 37396
-151.59802 Framedifference 7   Time 37403
-153.29439 Framedifference 5   Time 37408
-154.57103 Framedifference 6   Time 37414
-156.3814 Framedifference 6   Time 37420
-153.60927 Framedifference 8   Time 37428
-152.39066 Framedifference 7   Time 37435
-153.82571 Framedifference 6   Time 37441
-155.12439 Framedifference 6   Time 37447
-156.69518 Framedifference 6   Time 37453
-156.93317 Framedifference 6   Time 37459
-157.17722 Framedifference 6   Time 37465
-157.97989 Framedifference 6   Time 37471
-158.26825 Framedifference 7   Time 37478
-159.57034 Framedifference 5   Time 37483
-159.90836 Framedifference 7   Time 37490
-158.41678 Framedifference 7   Time 37497
-158.37708 Framedifference 6   Time 37503
-158.15688 Framedifference 7   Time 37510
-158.22282 Framedifference 6   Time 37516
-159.84772 Framedifference 6   Time 37522
-157.26668 Framedifference 7   Time 37529
-157.23154 Framedifference 6   Time 37535
-156.66356 Framedifference 7   Time 37542
-156.65288 Framedifference 7   Time 37549
-157.67453 Framedifference 6   Time 37555
-156.99786 Framedifference 6   Time 37561
-157.67305 Framedifference 7   Time 37568
-155.11548 Framedifference 7   Time 37575
-157.11838 Framedifference 6   Time 37581
-158.35634 Framedifference 5   Time 37586
-159.06349 Framedifference 7   Time 37593
-158.35596 Framedifference 6   Time 37599
-159.02888 Framedifference 6   Time 37605
-159.13521 Framedifference 6   Time 37611
-161.07066 Framedifference 6   Time 37617
-161.07715 Framedifference 6   Time 37623
-158.15198 Framedifference 8   Time 37631
-159.45518 Framedifference 6   Time 37637
-155.4744 Framedifference 8   Time 37645
-156.74033 Framedifference 6   Time 37651
-159.07657 Framedifference 5   Time 37656
-157.44249 Framedifference 7   Time 37663
-157.5406 Framedifference 7   Time 37670
-158.05106 Framedifference 6   Time 37676
-158.96289 Framedifference 6   Time 37682
-160.70842 Framedifference 6   Time 37688
-158.19058 Framedifference 7   Time 37695
-159.34341 Framedifference 6   Time 37701
-161.88008 Framedifference 5   Time 37706
-163.71896 Framedifference 6   Time 37712
-163.93199 Framedifference 6   Time 37718
-165.43109 Framedifference 5   Time 37723
-162.75568 Framedifference 7   Time 37730
-164.55371 Framedifference 6   Time 37736
-165.97919 Framedifference 6   Time 37742
-165.64172 Framedifference 6   Time 37748
-167.72847 Framedifference 5   Time 37753
-168.08603 Framedifference 6   Time 37759
-166.69946 Framedifference 6   Time 37765
-168.0931 Framedifference 6   Time 37771
-167.53342 Framedifference 6   Time 37777
-168.46982 Framedifference 6   Time 37783
-168.21199 Framedifference 6   Time 37789
-167.677 Framedifference 6   Time 37795
-168.67224 Framedifference 5   Time 37800
-169.24829 Framedifference 6   Time 37806
-169.5521 Framedifference 6   Time 37812
-171.00002 Framedifference 6   Time 37818
-171.27733 Framedifference 5   Time 37823
-166.90927 Framedifference 8   Time 37831
-(time 37831- lastadded -60)      true
+171.69928 Framedifference 17Time 85 TimeDifference 3.7472410202026367
+171.52708 Framedifference 6Time 91 TimeDifference 3.748994827270508
+170.70485 Framedifference 6Time 97 TimeDifference 3.7574191093444824
+171.17792 Framedifference 5Time 102 TimeDifference 3.7525625228881836
+174.22453 Framedifference 6Time 108 TimeDifference 3.7219159603118896
+173.7203 Framedifference 5Time 113 TimeDifference 3.7269139289855957
+170.88045 Framedifference 7Time 120 TimeDifference 3.755613327026367
+168.60901 Framedifference 7Time 127 TimeDifference 3.779264450073242
+169.71365 Framedifference 6Time 133 TimeDifference 3.767683267593384
+170.91765 Framedifference 5Time 138 TimeDifference 3.7552313804626465
+171.6765 Framedifference 6Time 144 TimeDifference 3.7474727630615234
+173.26096 Framedifference 5Time 149 TimeDifference 3.731492280960083
+173.87401 Framedifference 5Time 154 TimeDifference 3.7253873348236084
+172.91737 Framedifference 7Time 161 TimeDifference 3.7349326610565186
+174.95393 Framedifference 5Time 166 TimeDifference 3.7147371768951416
+174.61002 Framedifference 6Time 172 TimeDifference 3.7181143760681152
+174.31633 Framedifference 6Time 178 TimeDifference 3.7210092544555664
+173.58449 Framedifference 5Time 183 TimeDifference 3.7282650470733643
+172.95515 Framedifference 6Time 189 TimeDifference 3.734553813934326
+173.36623 Framedifference 6Time 195 TimeDifference 3.730440855026245
+172.83067 Framedifference 6Time 201 TimeDifference 3.7358031272888184
+173.96637 Framedifference 5Time 206 TimeDifference 3.7244713306427
+173.77258 Framedifference 7Time 213 TimeDifference 3.7263941764831543
+172.61797 Framedifference 6Time 219 TimeDifference 3.7379419803619385
+171.92282 Framedifference 6Time 225 TimeDifference 3.744968891143799
+170.47646 Framedifference 6Time 231 TimeDifference 3.7597737312316895
+171.4341 Framedifference 6Time 237 TimeDifference 3.749943733215332
+171.96683 Framedifference 5Time 242 TimeDifference 3.7445225715637207
+169.43765 Framedifference 8Time 250 TimeDifference 3.7705628871917725
+165.74979 Framedifference 7Time 257 TimeDifference 3.8099570274353027
+164.9239 Framedifference 6Time 263 TimeDifference 3.8190207481384277
+164.6528 Framedifference 6Time 269 TimeDifference 3.8220157623291016
+165.17786 Framedifference 6Time 275 TimeDifference 3.8162240982055664
+165.23445 Framedifference 6Time 281 TimeDifference 3.8156020641326904
+163.46214 Framedifference 7Time 288 TimeDifference 3.83528733253479
+162.49849 Framedifference 6Time 294 TimeDifference 3.8461709022521973
+161.6173 Framedifference 7Time 301 TimeDifference 3.8562369346618652
+160.73285 Framedifference 6Time 307 TimeDifference 3.8664510250091553
+160.41121 Framedifference 7Time 314 TimeDifference 3.8701934814453125
+159.51822 Framedifference 6Time 320 TimeDifference 3.8806629180908203
+156.41379 Framedifference 8Time 328 TimeDifference 3.917989492416382
+156.0157 Framedifference 6Time 334 TimeDifference 3.9228835105895996
+156.96393 Framedifference 6Time 340 TimeDifference 3.9112672805786133
+156.56935 Framedifference 7Time 347 TimeDifference 3.916083812713623
+155.62134 Framedifference 7Time 354 TimeDifference 3.9277563095092773
+151.9493 Framedifference 9Time 363 TimeDifference 3.9743428230285645
+148.49295 Framedifference 8Time 371 TimeDifference 4.020298004150391
+145.0651 Framedifference 9Time 380 TimeDifference 4.068037033081055
+141.352 Framedifference 9Time 389 TimeDifference 4.122361183166504
+139.15266 Framedifference 9Time 398 TimeDifference 4.155905723571777
+134.96024 Framedifference 9Time 407 TimeDifference 4.222877025604248
+136.34233 Framedifference 7Time 414 TimeDifference 4.200344085693359
+136.17792 Framedifference 7Time 421 TimeDifference 4.203000068664551
+137.78383 Framedifference 7Time 428 TimeDifference 4.177323818206787
+138.44629 Framedifference 7Time 435 TimeDifference 4.166905403137207
+140.1168 Framedifference 6Time 441 TimeDifference 4.14107084274292
+140.22699 Framedifference 8Time 449 TimeDifference 4.139388561248779
+140.03906 Framedifference 7Time 456 TimeDifference 4.14225959777832
+138.38264 Framedifference 8Time 464 TimeDifference 4.167901992797852
+137.76753 Framedifference 7Time 471 TimeDifference 4.177581310272217
+137.5664 Framedifference 8Time 479 TimeDifference 4.180765151977539
+135.73068 Framedifference 9Time 488 TimeDifference 4.210259437561035
+130.29037 Framedifference 12Time 500 TimeDifference 4.302549362182617
+127.318886 Framedifference 9Time 509 TimeDifference 4.356287956237793
+126.868484 Framedifference 9Time 518 TimeDifference 4.364653587341309
+127.44924 Framedifference 8Time 526 TimeDifference 4.353878021240234
+125.6868 Framedifference 9Time 535 TimeDifference 4.386885643005371
+124.68705 Framedifference 8Time 543 TimeDifference 4.406023979187012
+118.61752 Framedifference 16Time 559 TimeDifference 4.529137134552002
+118.94908 Framedifference 8Time 567 TimeDifference 4.522087574005127
+118.86874 Framedifference 9Time 576 TimeDifference 4.523792266845703
+118.28597 Framedifference 8Time 584 TimeDifference 4.536226272583008
+118.643845 Framedifference 9Time 593 TimeDifference 4.528576374053955
+118.163956 Framedifference 8Time 601 TimeDifference 4.538845062255859
+117.865326 Framedifference 9Time 610 TimeDifference 4.5452775955200195
+117.55898 Framedifference 9Time 619 TimeDifference 4.551910400390625
+115.90354 Framedifference 10Time 629 TimeDifference 4.5883588790893555
+115.185326 Framedifference 9Time 638 TimeDifference 4.604498863220215
+114.94252 Framedifference 9Time 647 TimeDifference 4.610000133514404
+114.45427 Framedifference 9Time 656 TimeDifference 4.621134281158447
+112.908356 Framedifference 10Time 666 TimeDifference 4.657022476196289
+112.07154 Framedifference 9Time 675 TimeDifference 4.676861763000488
+111.30695 Framedifference 10Time 685 TimeDifference 4.695249557495117
+110.659454 Framedifference 9Time 694 TimeDifference 4.711019992828369
+110.17066 Framedifference 10Time 704 TimeDifference 4.723048210144043
+108.946884 Framedifference 10Time 714 TimeDifference 4.753635406494141
+108.25607 Framedifference 10Time 724 TimeDifference 4.771206855773926
+105.333374 Framedifference 13Time 737 TimeDifference 4.848100185394287
+103.68333 Framedifference 11Time 748 TimeDifference 4.893425941467285
+102.6987 Framedifference 11Time 759 TimeDifference 4.92116641998291
+100.347595 Framedifference 12Time 771 TimeDifference 4.989608287811279
+100.59109 Framedifference 10Time 781 TimeDifference 4.9823713302612305
+100.36001 Framedifference 10Time 791 TimeDifference 4.989238739013672
+100.18553 Framedifference 10Time 801 TimeDifference 4.994444370269775
+98.97853 Framedifference 12Time 813 TimeDifference 5.0309600830078125
+97.33721 Framedifference 12Time 825 TimeDifference 5.082068920135498
+96.30473 Framedifference 11Time 836 TimeDifference 5.115111351013184
+95.88059 Framedifference 11Time 847 TimeDifference 5.128891944885254
+95.71086 Framedifference 11Time 858 TimeDifference 5.1344404220581055
+94.96346 Framedifference 11Time 869 TimeDifference 5.159109592437744
+94.24205 Framedifference 11Time 880 TimeDifference 5.183292388916016
+92.7395 Framedifference 13Time 893 TimeDifference 5.234867572784424
+92.07076 Framedifference 11Time 904 TimeDifference 5.258363246917725
+90.20143 Framedifference 14Time 918 TimeDifference 5.325889587402344
+88.79789 Framedifference 13Time 931 TimeDifference 5.378458499908447
+87.518845 Framedifference 13Time 944 TimeDifference 5.427833557128906
+85.42848 Framedifference 16Time 960 TimeDifference 5.511709213256836
+83.745926 Framedifference 14Time 974 TimeDifference 5.582263946533203
+83.02569 Framedifference 13Time 987 TimeDifference 5.613339424133301
+82.40835 Framedifference 13Time 1000 TimeDifference 5.640408039093018
+81.58228 Framedifference 14Time 1014 TimeDifference 5.677268981933594
+80.839386 Framedifference 13Time 1027 TimeDifference 5.711062431335449
+80.04745 Framedifference 14Time 1041 TimeDifference 5.747777462005615
+76.77933 Framedifference 21Time 1062 TimeDifference 5.907301902770996
+76.679726 Framedifference 13Time 1075 TimeDifference 5.91237735748291
+76.02023 Framedifference 15Time 1090 TimeDifference 5.946317672729492
+73.21109 Framedifference 21Time 1111 TimeDifference 6.0977396965026855
+72.13268 Framedifference 16Time 1127 TimeDifference 6.159002304077148
+71.76288 Framedifference 14Time 1141 TimeDifference 6.180434226989746
+71.17897 Framedifference 15Time 1156 TimeDifference 6.214727878570557
+70.175766 Framedifference 17Time 1173 TimeDifference 6.274980068206787
+69.112656 Framedifference 16Time 1189 TimeDifference 6.340738773345947
+68.14978 Framedifference 17Time 1206 TimeDifference 6.402068614959717
+67.13344 Framedifference 17Time 1223 TimeDifference 6.468711853027344
+76.99166 Framedifference 6Time 1229 TimeDifference 5.896525859832764
+85.52255 Framedifference 7Time 1236 TimeDifference 5.507846832275391
+93.27419 Framedifference 6Time 1242 TimeDifference 5.2163238525390625
+99.45268 Framedifference 6Time 1248 TimeDifference 5.016510009765625
+104.36798 Framedifference 7Time 1255 TimeDifference 4.874444961547852
+106.69712 Framedifference 8Time 1263 TimeDifference 4.811697006225586
+110.26145 Framedifference 7Time 1270 TimeDifference 4.720805644989014
+113.77722 Framedifference 7Time 1277 TimeDifference 4.6367316246032715
+117.91034 Framedifference 6Time 1283 TimeDifference 4.54430627822876
+120.38558 Framedifference 7Time 1290 TimeDifference 4.491992950439453
+120.4756 Framedifference 8Time 1298 TimeDifference 4.49013090133667
+125.07659 Framedifference 6Time 1304 TimeDifference 4.39853048324585
+128.7479 Framedifference 6Time 1310 TimeDifference 4.330135345458984
+128.44107 Framedifference 8Time 1318 TimeDifference 4.3357014656066895
+132.25972 Framedifference 6Time 1324 TimeDifference 4.268264293670654
+135.57373 Framedifference 6Time 1330 TimeDifference 4.212818145751953
+138.35776 Framedifference 7Time 1337 TimeDifference 4.168292045593262
+140.92308 Framedifference 6Time 1343 TimeDifference 4.128820896148682
+142.87155 Framedifference 6Time 1349 TimeDifference 4.099788188934326
+144.25453 Framedifference 6Time 1355 TimeDifference 4.079657554626465
+147.27469 Framedifference 6Time 1361 TimeDifference 4.037010192871094
+149.38159 Framedifference 6Time 1367 TimeDifference 4.008279800415039
+150.12614 Framedifference 6Time 1373 TimeDifference 3.998319625854492
+150.59486 Framedifference 7Time 1380 TimeDifference 3.9920997619628906
+153.39822 Framedifference 5Time 1385 TimeDifference 3.9556941986083984
+153.14627 Framedifference 7Time 1392 TimeDifference 3.958911418914795
+153.20331 Framedifference 7Time 1399 TimeDifference 3.9581823348999023
+152.54718 Framedifference 6Time 1405 TimeDifference 3.966604709625244
+153.6915 Framedifference 6Time 1411 TimeDifference 3.9519622325897217
+154.6576 Framedifference 6Time 1417 TimeDifference 3.9397687911987305
+155.44012 Framedifference 6Time 1423 TimeDifference 3.9300036430358887
+156.33447 Framedifference 7Time 1430 TimeDifference 3.9189624786376953
+157.59656 Framedifference 6Time 1436 TimeDifference 3.903594970703125
+158.28427 Framedifference 6Time 1442 TimeDifference 3.895324230194092
+159.09872 Framedifference 6Time 1448 TimeDifference 3.8856215476989746
+159.81827 Framedifference 6Time 1454 TimeDifference 3.877131938934326
+159.06252 Framedifference 6Time 1460 TimeDifference 3.8860507011413574
+160.5941 Framedifference 6Time 1466 TimeDifference 3.8680636882781982
+160.60052 Framedifference 6Time 1472 TimeDifference 3.8679888248443604
+160.73218 Framedifference 6Time 1478 TimeDifference 3.8664588928222656
+160.01491 Framedifference 7Time 1485 TimeDifference 3.8748254776000977
+160.71893 Framedifference 6Time 1491 TimeDifference 3.866612672805786
+161.84685 Framedifference 6Time 1497 TimeDifference 3.853604316711426
+160.81206 Framedifference 6Time 1503 TimeDifference 3.8655319213867188
+161.76045 Framedifference 6Time 1509 TimeDifference 3.8545942306518555
+160.08098 Framedifference 7Time 1516 TimeDifference 3.874051570892334
+158.3967 Framedifference 7Time 1523 TimeDifference 3.8939788341522217
+154.87375 Framedifference 8Time 1531 TimeDifference 3.9370617866516113
+156.29874 Framedifference 6Time 1537 TimeDifference 3.919401168823242
+158.3474 Framedifference 6Time 1543 TimeDifference 3.89456844329834
+156.43867 Framedifference 7Time 1550 TimeDifference 3.917684316635132
+157.93199 Framedifference 6Time 1556 TimeDifference 3.8995518684387207
+155.69087 Framedifference 7Time 1563 TimeDifference 3.9268951416015625
+152.83289 Framedifference 8Time 1571 TimeDifference 3.962928295135498
+155.43454 Framedifference 6Time 1577 TimeDifference 3.930072784423828
+156.04396 Framedifference 6Time 1583 TimeDifference 3.9225351810455322
+156.99287 Framedifference 6Time 1589 TimeDifference 3.910914897918701
+157.46384 Framedifference 6Time 1595 TimeDifference 3.9051992893218994
+159.1374 Framedifference 6Time 1601 TimeDifference 3.8851633071899414
+158.92781 Framedifference 7Time 1608 TimeDifference 3.8876495361328125
+155.08354 Framedifference 8Time 1616 TimeDifference 3.934441089630127
+156.71613 Framedifference 5Time 1621 TimeDifference 3.9142892360687256
+158.85037 Framedifference 6Time 1627 TimeDifference 3.8885698318481445
+154.93411 Framedifference 8Time 1635 TimeDifference 3.936306953430176
+155.99893 Framedifference 7Time 1642 TimeDifference 3.9230899810791016
+157.18062 Framedifference 5Time 1647 TimeDifference 3.908632278442383
+158.39032 Framedifference 6Time 1653 TimeDifference 3.894055128097534
+155.12613 Framedifference 8Time 1661 TimeDifference 3.933910369873047
+156.78082 Framedifference 6Time 1667 TimeDifference 3.913499355316162
+158.31468 Framedifference 6Time 1673 TimeDifference 3.8949601650238037
+160.32649 Framedifference 6Time 1679 TimeDifference 3.8711817264556885
+162.23546 Framedifference 5Time 1684 TimeDifference 3.8491642475128174
+160.79599 Framedifference 7Time 1691 TimeDifference 3.865718364715576
+162.13634 Framedifference 6Time 1697 TimeDifference 3.850294589996338
+162.86955 Framedifference 6Time 1703 TimeDifference 3.8419647216796875
+162.54668 Framedifference 6Time 1709 TimeDifference 3.845623731613159
+157.91429 Framedifference 9Time 1718 TimeDifference 3.8997645378112793
+158.01614 Framedifference 6Time 1724 TimeDifference 3.8985402584075928
+160.17181 Framedifference 5Time 1729 TimeDifference 3.872988700866699
+159.74596 Framedifference 7Time 1736 TimeDifference 3.8779819011688232
+159.79767 Framedifference 6Time 1742 TimeDifference 3.8773741722106934
+160.3537 Framedifference 6Time 1748 TimeDifference 3.870864152908325
+161.83043 Framedifference 5Time 1753 TimeDifference 3.853792190551758
+163.27089 Framedifference 6Time 1759 TimeDifference 3.837437152862549
+163.74777 Framedifference 6Time 1765 TimeDifference 3.8320860862731934
+164.59175 Framedifference 6Time 1771 TimeDifference 3.8226914405822754
+165.39243 Framedifference 6Time 1777 TimeDifference 3.8138678073883057
+166.05527 Framedifference 6Time 1783 TimeDifference 3.8066272735595703
+166.39732 Framedifference 5Time 1788 TimeDifference 3.8029136657714844
+167.91014 Framedifference 6Time 1794 TimeDifference 3.786669969558716
+168.76253 Framedifference 6Time 1800 TimeDifference 3.7776458263397217
+168.07866 Framedifference 6Time 1806 TimeDifference 3.7848784923553467
+169.22972 Framedifference 5Time 1811 TimeDifference 3.772738218307495
+167.18713 Framedifference 7Time 1818 TimeDifference 3.79439640045166
+165.38118 Framedifference 7Time 1825 TimeDifference 3.813991069793701
+164.12215 Framedifference 6Time 1831 TimeDifference 3.827906847000122
+165.77435 Framedifference 6Time 1837 TimeDifference 3.8096888065338135
+166.73654 Framedifference 6Time 1843 TimeDifference 3.799245595932007
+162.8753 Framedifference 7Time 1850 TimeDifference 3.841899871826172
+163.58255 Framedifference 6Time 1856 TimeDifference 3.8339364528656006
+162.47653 Framedifference 7Time 1863 TimeDifference 3.8464205265045166
+162.0347 Framedifference 6Time 1869 TimeDifference 3.8514552116394043
+160.6664 Framedifference 7Time 1876 TimeDifference 3.867223024368286
+156.85464 Framedifference 8Time 1884 TimeDifference 3.9125986099243164
+158.37885 Framedifference 6Time 1890 TimeDifference 3.8941924571990967
+161.43729 Framedifference 5Time 1895 TimeDifference 3.858306884765625
+162.02985 Framedifference 6Time 1901 TimeDifference 3.851510763168335
+161.33154 Framedifference 7Time 1908 TimeDifference 3.859524726867676
+160.75616 Framedifference 6Time 1914 TimeDifference 3.866180419921875
+160.49852 Framedifference 6Time 1920 TimeDifference 3.869176149368286
+159.9663 Framedifference 7Time 1927 TimeDifference 3.8753950595855713
+160.49426 Framedifference 6Time 1933 TimeDifference 3.86922550201416
+160.6473 Framedifference 6Time 1939 TimeDifference 3.8674449920654297
+157.3803 Framedifference 8Time 1947 TimeDifference 3.9062106609344482
+157.57964 Framedifference 6Time 1953 TimeDifference 3.903799295425415
+157.17824 Framedifference 6Time 1959 TimeDifference 3.908661127090454
+159.58517 Framedifference 6Time 1965 TimeDifference 3.879873752593994
+162.39136 Framedifference 5Time 1970 TimeDifference 3.847388744354248
+164.24509 Framedifference 6Time 1976 TimeDifference 3.826538562774658
+164.70882 Framedifference 6Time 1982 TimeDifference 3.8213961124420166
+164.6033 Framedifference 6Time 1988 TimeDifference 3.822563648223877
+166.5739 Framedifference 5Time 1993 TimeDifference 3.8010025024414062
+169.30717 Framedifference 6Time 1999 TimeDifference 3.7719273567199707
+170.5874 Framedifference 5Time 2004 TimeDifference 3.758629322052002
+173.6453 Framedifference 5Time 2009 TimeDifference 3.7276597023010254
+173.39168 Framedifference 6Time 2015 TimeDifference 3.730186939239502
+172.64449 Framedifference 6Time 2021 TimeDifference 3.7376749515533447
+174.91226 Framedifference 5Time 2026 TimeDifference 3.7151455879211426
+175.46793 Framedifference 6Time 2032 TimeDifference 3.70971417427063
+175.20772 Framedifference 5Time 2037 TimeDifference 3.7122533321380615
+176.79214 Framedifference 6Time 2043 TimeDifference 3.6969079971313477
+175.93498 Framedifference 6Time 2049 TimeDifference 3.7051753997802734
+175.79646 Framedifference 5Time 2054 TimeDifference 3.70651912689209
+176.19312 Framedifference 6Time 2060 TimeDifference 3.7026772499084473
+174.86275 Framedifference 6Time 2066 TimeDifference 3.7156314849853516
+174.51366 Framedifference 5Time 2071 TimeDifference 3.7190632820129395
+174.53131 Framedifference 6Time 2077 TimeDifference 3.7188892364501953
+176.9139 Framedifference 5Time 2082 TimeDifference 3.695740222930908
+177.62477 Framedifference 6Time 2088 TimeDifference 3.6889536380767822
+179.1906 Framedifference 5Time 2093 TimeDifference 3.674194812774658
+179.56778 Framedifference 6Time 2099 TimeDifference 3.6706783771514893
+179.67624 Framedifference 5Time 2104 TimeDifference 3.6696698665618896
+178.34583 Framedifference 7Time 2111 TimeDifference 3.6821250915527344
+175.6894 Framedifference 6Time 2117 TimeDifference 3.7075586318969727
+174.81099 Framedifference 6Time 2123 TimeDifference 3.716139316558838
+175.48581 Framedifference 6Time 2129 TimeDifference 3.7095398902893066
+174.69147 Framedifference 6Time 2135 TimeDifference 3.717313289642334
+174.81725 Framedifference 5Time 2140 TimeDifference 3.7160778045654297
+176.1445 Framedifference 5Time 2145 TimeDifference 3.7031471729278564
+175.02742 Framedifference 7Time 2152 TimeDifference 3.714017152786255
+170.55202 Framedifference 7Time 2159 TimeDifference 3.7589941024780273
+171.37111 Framedifference 6Time 2165 TimeDifference 3.750586748123169
+171.05894 Framedifference 6Time 2171 TimeDifference 3.753781318664551
+171.23428 Framedifference 6Time 2177 TimeDifference 3.751985549926758
+170.35576 Framedifference 6Time 2183 TimeDifference 3.7610206604003906
+170.16037 Framedifference 6Time 2189 TimeDifference 3.763042688369751
+171.68549 Framedifference 5Time 2194 TimeDifference 3.7473812103271484
+170.80724 Framedifference 6Time 2200 TimeDifference 3.7563657760620117
+171.6459 Framedifference 6Time 2206 TimeDifference 3.74778413772583
+172.12312 Framedifference 5Time 2211 TimeDifference 3.74293851852417
+172.52081 Framedifference 6Time 2217 TimeDifference 3.7389206886291504
+172.01865 Framedifference 6Time 2223 TimeDifference 3.743997097015381
+171.7548 Framedifference 6Time 2229 TimeDifference 3.746675968170166
+167.87492 Framedifference 8Time 2237 TimeDifference 3.7870447635650635
+168.43466 Framedifference 5Time 2242 TimeDifference 3.7811059951782227
+169.73616 Framedifference 6Time 2248 TimeDifference 3.767448902130127
+169.49525 Framedifference 6Time 2254 TimeDifference 3.76996111869812
+168.37589 Framedifference 6Time 2260 TimeDifference 3.7817277908325195
+169.46346 Framedifference 6Time 2266 TimeDifference 3.7702932357788086
+169.65579 Framedifference 5Time 2271 TimeDifference 3.7682862281799316
+(time 2271- lastadded -60)      true
 Circle added
-(time 37831- lastadded -60)      true
+(time 2271- lastadded -60)      true
 Circle added
-(time 37831- lastadded -60)      true
+(time 2271- lastadded -60)      true
 Circle added
-(time 37831- lastadded -60)      true
+(time 2271- lastadded -60)      true
 Circle added
-(time 37831- lastadded -60)      true
+(time 2271- lastadded -60)      true
 Circle added
-165.16591 Framedifference 7   Time 37838
-(time 37838- lastadded 37831)      false
-(time 37838- lastadded 37831)      false
-(time 37838- lastadded 37831)      false
-(time 37838- lastadded 37831)      false
-(time 37838- lastadded 37831)      false
-158.9631 Framedifference 9   Time 37847
-158.15874 Framedifference 7   Time 37854
-156.56033 Framedifference 7   Time 37861
-156.05948 Framedifference 7   Time 37868
-150.67636 Framedifference 9   Time 37877
-151.94739 Framedifference 7   Time 37884
-150.48431 Framedifference 7   Time 37891
-149.48865 Framedifference 7   Time 37898
-149.08928 Framedifference 7   Time 37905
-148.46384 Framedifference 7   Time 37912
-146.32152 Framedifference 8   Time 37920
-144.41827 Framedifference 8   Time 37928
-144.03934 Framedifference 6   Time 37934
-144.51295 Framedifference 7   Time 37941
-144.25227 Framedifference 8   Time 37949
-144.68874 Framedifference 6   Time 37955
-142.24057 Framedifference 9   Time 37964
-143.88525 Framedifference 6   Time 37970
-144.12741 Framedifference 7   Time 37977
-145.08391 Framedifference 6   Time 37983
-145.88994 Framedifference 7   Time 37990
-145.87105 Framedifference 7   Time 37997
-146.87961 Framedifference 6   Time 38003
-145.54315 Framedifference 8   Time 38011
-144.05933 Framedifference 7   Time 38018
-142.22015 Framedifference 9   Time 38027
-141.47493 Framedifference 7   Time 38034
-139.6093 Framedifference 8   Time 38042
-138.3347 Framedifference 8   Time 38050
-138.13655 Framedifference 7   Time 38057
-137.08133 Framedifference 8   Time 38065
-138.2871 Framedifference 7   Time 38072
-137.98325 Framedifference 7   Time 38079
-137.60707 Framedifference 7   Time 38086
-135.98134 Framedifference 9   Time 38095
-136.35655 Framedifference 7   Time 38102
-137.2921 Framedifference 7   Time 38109
-136.77173 Framedifference 7   Time 38116
-137.31201 Framedifference 7   Time 38123
-135.06032 Framedifference 9   Time 38132
-134.92911 Framedifference 7   Time 38139
-134.764 Framedifference 8   Time 38147
-134.60951 Framedifference 7   Time 38154
-131.87354 Framedifference 10   Time 38164
-131.3204 Framedifference 8   Time 38172
-130.61954 Framedifference 8   Time 38180
-129.88753 Framedifference 8   Time 38188
-127.58648 Framedifference 9   Time 38197
-127.79033 Framedifference 8   Time 38205
-127.192055 Framedifference 8   Time 38213
-127.422455 Framedifference 8   Time 38221
-124.81184 Framedifference 10   Time 38231
-123.8794 Framedifference 8   Time 38239
-122.960526 Framedifference 9   Time 38248
-123.37929 Framedifference 8   Time 38256
-120.514725 Framedifference 10   Time 38266
-119.21183 Framedifference 10   Time 38276
-116.83484 Framedifference 10   Time 38286
-115.40478 Framedifference 10   Time 38296
-115.537636 Framedifference 8   Time 38304
-114.993904 Framedifference 9   Time 38313
-114.91362 Framedifference 9   Time 38322
-113.61815 Framedifference 10   Time 38332
-112.62571 Framedifference 10   Time 38342
-112.15597 Framedifference 9   Time 38351
-111.142914 Framedifference 10   Time 38361
-110.65931 Framedifference 9   Time 38370
-110.28635 Framedifference 9   Time 38379
-110.86238 Framedifference 9   Time 38388
-110.02311 Framedifference 10   Time 38398
-110.11684 Framedifference 9   Time 38407
-109.26101 Framedifference 10   Time 38417
-108.167885 Framedifference 10   Time 38427
-106.36351 Framedifference 11   Time 38438
-104.7782 Framedifference 11   Time 38449
-103.0832 Framedifference 12   Time 38461
-100.542786 Framedifference 13   Time 38474
-98.59881 Framedifference 12   Time 38486
-97.38451 Framedifference 12   Time 38498
-96.926315 Framedifference 11   Time 38509
-95.870094 Framedifference 11   Time 38520
-93.8327 Framedifference 13   Time 38533
-92.91973 Framedifference 12   Time 38545
-92.3085 Framedifference 11   Time 38556
-90.6548 Framedifference 14   Time 38570
-87.94456 Framedifference 16   Time 38586
-(time 38586- lastadded -60)      true
+(time 2271- lastadded -60)      true
 Circle added
-85.799034 Framedifference 14   Time 38600
-85.08069 Framedifference 13   Time 38613
-82.23188 Framedifference 18   Time 38631
-81.43431 Framedifference 13   Time 38644
-81.013794 Framedifference 13   Time 38657
-79.98729 Framedifference 14   Time 38671
-78.88664 Framedifference 15   Time 38686
-76.129745 Framedifference 19   Time 38705
-72.7132 Framedifference 24   Time 38729
-71.69718 Framedifference 16   Time 38745
-70.362816 Framedifference 17   Time 38762
-69.099884 Framedifference 18   Time 38780
-67.96957 Framedifference 17   Time 38797
-67.274025 Framedifference 17   Time 38814
-66.35051 Framedifference 16   Time 38830
-66.26451 Framedifference 15   Time 38845
-65.56398 Framedifference 17   Time 38862
-64.871056 Framedifference 17   Time 38879
-64.28722 Framedifference 17   Time 38896
-63.984596 Framedifference 17   Time 38913
-63.20955 Framedifference 17   Time 38930
-62.681633 Framedifference 18   Time 38948
-62.113274 Framedifference 17   Time 38965
-60.253777 Framedifference 24   Time 38989
-59.56575 Framedifference 18   Time 39007
-58.09999 Framedifference 23   Time 39030
-57.85215 Framedifference 18   Time 39048
-57.610462 Framedifference 17   Time 39065
-57.267612 Framedifference 19   Time 39084
-56.756275 Framedifference 19   Time 39103
-56.39802 Framedifference 19   Time 39122
-55.775555 Framedifference 20   Time 39142
-55.039356 Framedifference 20   Time 39162
-54.524563 Framedifference 21   Time 39183
-53.75221 Framedifference 21   Time 39204
-52.323013 Framedifference 25   Time 39229
-52.009987 Framedifference 20   Time 39249
-59.986187 Framedifference 9   Time 39258
-65.614 Framedifference 8   Time 39266
-72.35137 Framedifference 7   Time 39273
-76.7962 Framedifference 9   Time 39282
-80.89055 Framedifference 8   Time 39290
-84.97542 Framedifference 9   Time 39299
-84.549805 Framedifference 12   Time 39311
-88.176506 Framedifference 8   Time 39319
-89.95409 Framedifference 10   Time 39329
-92.954285 Framedifference 8   Time 39337
-95.713684 Framedifference 8   Time 39345
-97.17909 Framedifference 9   Time 39354
-98.35667 Framedifference 9   Time 39363
-101.14093 Framedifference 8   Time 39371
-104.0494 Framedifference 8   Time 39379
-105.51719 Framedifference 9   Time 39388
-105.47518 Framedifference 9   Time 39397
-107.385796 Framedifference 8   Time 39405
-108.80864 Framedifference 8   Time 39413
-110.62813 Framedifference 8   Time 39421
-109.78842 Framedifference 10   Time 39431
-111.044136 Framedifference 8   Time 39439
-111.828354 Framedifference 8   Time 39447
-112.83883 Framedifference 8   Time 39455
-113.61574 Framedifference 9   Time 39464
-114.908844 Framedifference 8   Time 39472
-114.3721 Framedifference 9   Time 39481
-114.49594 Framedifference 9   Time 39490
-113.804985 Framedifference 9   Time 39499
-114.70828 Framedifference 9   Time 39508
-115.52589 Framedifference 7   Time 39515
-116.033714 Framedifference 9   Time 39524
-115.67005 Framedifference 9   Time 39533
-115.80681 Framedifference 8   Time 39541
-115.912384 Framedifference 9   Time 39550
-116.03158 Framedifference 8   Time 39558
-112.4232 Framedifference 13   Time 39571
-112.35276 Framedifference 9   Time 39580
-113.15932 Framedifference 8   Time 39588
-113.02102 Framedifference 9   Time 39597
-113.51421 Framedifference 8   Time 39605
-113.61269 Framedifference 9   Time 39614
-114.38263 Framedifference 8   Time 39622
-114.45805 Framedifference 9   Time 39631
-114.84399 Framedifference 9   Time 39640
-115.519875 Framedifference 8   Time 39648
-116.39076 Framedifference 8   Time 39656
-116.173134 Framedifference 9   Time 39665
-116.989365 Framedifference 8   Time 39673
-116.93454 Framedifference 8   Time 39681
-117.71553 Framedifference 8   Time 39689
-116.85498 Framedifference 9   Time 39698
-117.40442 Framedifference 8   Time 39706
-116.99957 Framedifference 9   Time 39715
-117.573 Framedifference 9   Time 39724
-116.30791 Framedifference 9   Time 39733
-115.856674 Framedifference 9   Time 39742
-116.275826 Framedifference 8   Time 39750
-116.46245 Framedifference 9   Time 39759
-115.93846 Framedifference 9   Time 39768
-115.32586 Framedifference 9   Time 39777
-115.37283 Framedifference 8   Time 39785
-113.98692 Framedifference 10   Time 39795
-114.9902 Framedifference 8   Time 39803
-113.59528 Framedifference 10   Time 39813
-114.22032 Framedifference 8   Time 39821
-113.218285 Framedifference 10   Time 39831
-113.406075 Framedifference 9   Time 39840
-113.01808 Framedifference 9   Time 39849
-113.574585 Framedifference 9   Time 39858
-113.04616 Framedifference 8   Time 39866
-112.37831 Framedifference 10   Time 39876
-112.22739 Framedifference 9   Time 39885
-110.11968 Framedifference 11   Time 39896
-109.77965 Framedifference 9   Time 39905
-108.00758 Framedifference 11   Time 39916
-108.247665 Framedifference 10   Time 39926
-107.06058 Framedifference 10   Time 39936
-107.35307 Framedifference 9   Time 39945
-107.70844 Framedifference 9   Time 39954
-104.34407 Framedifference 14   Time 39968
-103.815956 Framedifference 9   Time 39977
-104.46429 Framedifference 9   Time 39986
-103.01926 Framedifference 12   Time 39998
-99.79643 Framedifference 14   Time 40012
-99.54447 Framedifference 10   Time 40022
-100.866394 Framedifference 9   Time 40031
-105.40771 Framedifference 7   Time 40038
-108.10801 Framedifference 7   Time 40045
-112.11324 Framedifference 7   Time 40052
-114.54772 Framedifference 8   Time 40060
-115.107 Framedifference 8   Time 40068
-116.0955 Framedifference 8   Time 40076
-118.17719 Framedifference 7   Time 40083
-119.84371 Framedifference 8   Time 40091
-120.754654 Framedifference 7   Time 40098
-122.57597 Framedifference 7   Time 40105
-123.64437 Framedifference 8   Time 40113
-125.011604 Framedifference 7   Time 40120
-124.64467 Framedifference 9   Time 40129
-124.197205 Framedifference 8   Time 40137
-123.962425 Framedifference 8   Time 40145
-124.35008 Framedifference 8   Time 40153
-122.79295 Framedifference 9   Time 40162
-123.054985 Framedifference 8   Time 40170
-122.70727 Framedifference 8   Time 40178
-(time 40178- lastadded -60)      true
+164.96283 Framedifference 9Time 2280 TimeDifference 3.818591594696045
+162.4574 Framedifference 7Time 2287 TimeDifference 3.8466379642486572
+158.8947 Framedifference 8Time 2295 TimeDifference 3.88804292678833
+156.80383 Framedifference 7Time 2302 TimeDifference 3.9132184982299805
+152.90274 Framedifference 8Time 2310 TimeDifference 3.962031602859497
+152.08649 Framedifference 7Time 2317 TimeDifference 3.972561836242676
+150.60228 Framedifference 7Time 2324 TimeDifference 3.992001533508301
+150.45482 Framedifference 7Time 2331 TimeDifference 3.9939541816711426
+147.5901 Framedifference 8Time 2339 TimeDifference 4.032656669616699
+145.95914 Framedifference 8Time 2347 TimeDifference 4.055369853973389
+145.68547 Framedifference 7Time 2354 TimeDifference 4.059230804443359
+144.79187 Framedifference 7Time 2361 TimeDifference 4.071939468383789
+143.22377 Framedifference 8Time 2369 TimeDifference 4.0946245193481445
+142.46428 Framedifference 7Time 2376 TimeDifference 4.105791091918945
+141.28748 Framedifference 8Time 2384 TimeDifference 4.123330116271973
+139.87231 Framedifference 8Time 2392 TimeDifference 4.144813537597656
+138.3747 Framedifference 8Time 2400 TimeDifference 4.168026447296143
+137.54115 Framedifference 7Time 2407 TimeDifference 4.18116569519043
+137.30347 Framedifference 8Time 2415 TimeDifference 4.184941291809082
+137.09938 Framedifference 7Time 2422 TimeDifference 4.188193321228027
+137.85864 Framedifference 7Time 2429 TimeDifference 4.17614221572876
+137.3856 Framedifference 8Time 2437 TimeDifference 4.1836347579956055
+137.45346 Framedifference 7Time 2444 TimeDifference 4.182557106018066
+135.56212 Framedifference 8Time 2452 TimeDifference 4.213007926940918
+134.88464 Framedifference 8Time 2460 TimeDifference 4.224123001098633
+133.93147 Framedifference 8Time 2468 TimeDifference 4.2399516105651855
+133.40857 Framedifference 8Time 2476 TimeDifference 4.2487311363220215
+132.34302 Framedifference 8Time 2484 TimeDifference 4.266836643218994
+132.28014 Framedifference 8Time 2492 TimeDifference 4.267914295196533
+131.68144 Framedifference 8Time 2500 TimeDifference 4.278225421905518
+130.92393 Framedifference 7Time 2507 TimeDifference 4.291406631469727
+130.48991 Framedifference 9Time 2516 TimeDifference 4.299028396606445
+129.93132 Framedifference 7Time 2523 TimeDifference 4.30891227722168
+129.11401 Framedifference 9Time 2532 TimeDifference 4.323527812957764
+127.49136 Framedifference 9Time 2541 TimeDifference 4.353100776672363
+126.57791 Framedifference 8Time 2549 TimeDifference 4.370081901550293
+126.38025 Framedifference 8Time 2557 TimeDifference 4.373788833618164
+125.85387 Framedifference 8Time 2565 TimeDifference 4.383717060089111
+124.98664 Framedifference 9Time 2574 TimeDifference 4.400256633758545
+124.660774 Framedifference 8Time 2582 TimeDifference 4.406530857086182
+124.90291 Framedifference 8Time 2590 TimeDifference 4.401865482330322
+124.395706 Framedifference 8Time 2598 TimeDifference 4.411658763885498
+123.95616 Framedifference 9Time 2607 TimeDifference 4.420210838317871
+123.17487 Framedifference 9Time 2616 TimeDifference 4.435561656951904
+122.556946 Framedifference 8Time 2624 TimeDifference 4.447841644287109
+122.55384 Framedifference 8Time 2632 TimeDifference 4.447903633117676
+121.719574 Framedifference 9Time 2641 TimeDifference 4.464681625366211
+120.67114 Framedifference 9Time 2650 TimeDifference 4.486095428466797
+119.613754 Framedifference 9Time 2659 TimeDifference 4.508072853088379
+119.661255 Framedifference 8Time 2667 TimeDifference 4.507077217102051
+119.23808 Framedifference 9Time 2676 TimeDifference 4.515974521636963
+118.285034 Framedifference 9Time 2685 TimeDifference 4.536246299743652
+117.5991 Framedifference 9Time 2694 TimeDifference 4.551040172576904
+117.17019 Framedifference 9Time 2703 TimeDifference 4.560378074645996
+117.275246 Framedifference 9Time 2712 TimeDifference 4.558084487915039
+115.98387 Framedifference 9Time 2721 TimeDifference 4.58656644821167
+115.35009 Framedifference 9Time 2730 TimeDifference 4.600778579711914
+114.49782 Framedifference 9Time 2739 TimeDifference 4.6201372146606445
+114.073296 Framedifference 10Time 2749 TimeDifference 4.62988805770874
+113.61275 Framedifference 9Time 2758 TimeDifference 4.6405487060546875
+111.92735 Framedifference 10Time 2768 TimeDifference 4.680310249328613
+111.01232 Framedifference 9Time 2777 TimeDifference 4.7024030685424805
+110.05956 Framedifference 10Time 2787 TimeDifference 4.725796699523926
+109.95396 Framedifference 10Time 2797 TimeDifference 4.728414535522461
+109.9035 Framedifference 9Time 2806 TimeDifference 4.729667663574219
+109.83514 Framedifference 9Time 2815 TimeDifference 4.731366157531738
+109.49913 Framedifference 9Time 2824 TimeDifference 4.739748001098633
+109.22641 Framedifference 10Time 2834 TimeDifference 4.746588706970215
+105.22397 Framedifference 14Time 2848 TimeDifference 4.851061820983887
+104.39137 Framedifference 11Time 2859 TimeDifference 4.873800754547119
+103.66661 Framedifference 10Time 2869 TimeDifference 4.893892288208008
+102.70309 Framedifference 11Time 2880 TimeDifference 4.921041965484619
+100.68077 Framedifference 12Time 2892 TimeDifference 4.979714870452881
+96.9728 Framedifference 15Time 2907 TimeDifference 5.093650817871094
+97.108505 Framedifference 10Time 2917 TimeDifference 5.089327812194824
+96.96992 Framedifference 11Time 2928 TimeDifference 5.093743324279785
+96.58039 Framedifference 11Time 2939 TimeDifference 5.106220722198486
+95.95999 Framedifference 11Time 2950 TimeDifference 5.126302719116211
+94.37911 Framedifference 12Time 2962 TimeDifference 5.178669452667236
+94.89673 Framedifference 10Time 2972 TimeDifference 5.1613311767578125
+95.55368 Framedifference 10Time 2982 TimeDifference 5.139596462249756
+94.91384 Framedifference 11Time 2993 TimeDifference 5.16076135635376
+94.10957 Framedifference 11Time 3004 TimeDifference 5.187773704528809
+94.2335 Framedifference 11Time 3015 TimeDifference 5.183581352233887
+94.16822 Framedifference 11Time 3026 TimeDifference 5.185788154602051
+94.04359 Framedifference 10Time 3036 TimeDifference 5.190010070800781
+93.31381 Framedifference 12Time 3048 TimeDifference 5.214958190917969
+90.16536 Framedifference 16Time 3064 TimeDifference 5.3272199630737305
+89.85491 Framedifference 12Time 3076 TimeDifference 5.338715553283691
+88.99863 Framedifference 12Time 3088 TimeDifference 5.370838165283203
+85.30113 Framedifference 20Time 3108 TimeDifference 5.516952037811279
+83.95189 Framedifference 13Time 3121 TimeDifference 5.573474884033203
+83.256935 Framedifference 13Time 3134 TimeDifference 5.6033034324646
+82.56555 Framedifference 14Time 3148 TimeDifference 5.633476257324219
+82.13951 Framedifference 12Time 3160 TimeDifference 5.652322769165039
+82.189255 Framedifference 12Time 3172 TimeDifference 5.650112152099609
+79.69369 Framedifference 18Time 3190 TimeDifference 5.764413833618164
+79.106445 Framedifference 13Time 3203 TimeDifference 5.7923583984375
+76.326355 Framedifference 20Time 3223 TimeDifference 5.930490493774414
+75.73061 Framedifference 14Time 3237 TimeDifference 5.961410045623779
+75.41203 Framedifference 14Time 3251 TimeDifference 5.978144645690918
+75.42147 Framedifference 13Time 3264 TimeDifference 5.977646827697754
+75.55504 Framedifference 13Time 3277 TimeDifference 5.970615386962891
+75.36301 Framedifference 13Time 3290 TimeDifference 5.9807329177856445
+74.59523 Framedifference 15Time 3305 TimeDifference 6.02170467376709
+73.7302 Framedifference 15Time 3320 TimeDifference 6.068889141082764
+73.15799 Framedifference 15Time 3335 TimeDifference 6.100714206695557
+72.14107 Framedifference 16Time 3351 TimeDifference 6.1585187911987305
+71.98419 Framedifference 14Time 3365 TimeDifference 6.167581558227539
+71.467354 Framedifference 15Time 3380 TimeDifference 6.197721004486084
+70.978165 Framedifference 15Time 3395 TimeDifference 6.226652145385742
+70.17263 Framedifference 16Time 3411 TimeDifference 6.275171279907227
+69.77131 Framedifference 15Time 3426 TimeDifference 6.299761772155762
+68.688805 Framedifference 17Time 3443 TimeDifference 6.367524147033691
+68.12379 Framedifference 16Time 3459 TimeDifference 6.403748035430908
+67.56841 Framedifference 16Time 3475 TimeDifference 6.439944267272949
+66.168175 Framedifference 19Time 3494 TimeDifference 6.533901691436768
+65.368126 Framedifference 17Time 3511 TimeDifference 6.58939266204834
+64.80819 Framedifference 16Time 3527 TimeDifference 6.629044532775879
+64.27739 Framedifference 17Time 3544 TimeDifference 6.667271137237549
+63.429207 Framedifference 18Time 3562 TimeDifference 6.729681968688965
+62.876495 Framedifference 17Time 3579 TimeDifference 6.771258354187012
+62.325146 Framedifference 18Time 3597 TimeDifference 6.813466548919678
+61.48294 Framedifference 18Time 3615 TimeDifference 6.879402160644531
+67.94237 Framedifference 8Time 3623 TimeDifference 6.415506839752197
+74.04217 Framedifference 8Time 3631 TimeDifference 6.051745414733887
+79.75321 Framedifference 7Time 3638 TimeDifference 5.761604309082031
+85.32573 Framedifference 8Time 3646 TimeDifference 5.5159382820129395
+88.48466 Framedifference 8Time 3654 TimeDifference 5.39041805267334
+93.10881 Framedifference 8Time 3662 TimeDifference 5.222036361694336
+95.862076 Framedifference 8Time 3670 TimeDifference 5.1294965744018555
+98.7535 Framedifference 8Time 3678 TimeDifference 5.037867069244385
+102.13676 Framedifference 8Time 3686 TimeDifference 4.9372382164001465
+105.221405 Framedifference 7Time 3693 TimeDifference 4.851130962371826
+108.66762 Framedifference 7Time 3700 TimeDifference 4.760711669921875
+111.88453 Framedifference 8Time 3708 TimeDifference 4.681335926055908
+112.81412 Framedifference 8Time 3716 TimeDifference 4.659241676330566
+112.02012 Framedifference 10Time 3726 TimeDifference 4.6780900955200195
+114.27216 Framedifference 7Time 3733 TimeDifference 4.625311374664307
+113.87893 Framedifference 9Time 3742 TimeDifference 4.634376525878906
+114.90878 Framedifference 8Time 3750 TimeDifference 4.610766410827637
+116.2215 Framedifference 8Time 3758 TimeDifference 4.581277847290039
+115.73556 Framedifference 9Time 3767 TimeDifference 4.592115879058838
+116.74819 Framedifference 8Time 3775 TimeDifference 4.569632530212402
+117.064926 Framedifference 8Time 3783 TimeDifference 4.562680244445801
+117.896545 Framedifference 9Time 3792 TimeDifference 4.5446038246154785
+114.774155 Framedifference 11Time 3803 TimeDifference 4.613828659057617
+115.216576 Framedifference 8Time 3811 TimeDifference 4.603792190551758
+115.205894 Framedifference 9Time 3820 TimeDifference 4.604033470153809
+112.348724 Framedifference 12Time 3832 TimeDifference 4.670257568359375
+113.09143 Framedifference 8Time 3840 TimeDifference 4.652720928192139
+114.636444 Framedifference 8Time 3848 TimeDifference 4.616968631744385
+116.27531 Framedifference 7Time 3855 TimeDifference 4.580083847045898
+117.672516 Framedifference 8Time 3863 TimeDifference 4.549448013305664
+118.69963 Framedifference 8Time 3871 TimeDifference 4.527387619018555
+119.82407 Framedifference 8Time 3879 TimeDifference 4.503670692443848
+121.298035 Framedifference 7Time 3886 TimeDifference 4.473247051239014
+121.84592 Framedifference 8Time 3894 TimeDifference 4.462125778198242
+118.172226 Framedifference 12Time 3906 TimeDifference 4.538667678833008
+119.15692 Framedifference 7Time 3913 TimeDifference 4.517688274383545
+119.08194 Framedifference 9Time 3922 TimeDifference 4.51927375793457
+119.42865 Framedifference 8Time 3930 TimeDifference 4.511960029602051
+119.66882 Framedifference 8Time 3938 TimeDifference 4.506918907165527
+119.98728 Framedifference 9Time 3947 TimeDifference 4.500265121459961
+118.96116 Framedifference 9Time 3956 TimeDifference 4.521831512451172
+118.24332 Framedifference 8Time 3964 TimeDifference 4.537140846252441
+117.21092 Framedifference 10Time 3974 TimeDifference 4.559488296508789
+117.60148 Framedifference 8Time 3982 TimeDifference 4.55098819732666
+117.49899 Framedifference 8Time 3990 TimeDifference 4.553213119506836
+118.021706 Framedifference 9Time 3999 TimeDifference 4.541905403137207
+117.98854 Framedifference 8Time 4007 TimeDifference 4.542619705200195
+118.64147 Framedifference 8Time 4015 TimeDifference 4.528626441955566
+118.776245 Framedifference 8Time 4023 TimeDifference 4.525757789611816
+119.853386 Framedifference 8Time 4031 TimeDifference 4.503058433532715
+120.772736 Framedifference 8Time 4039 TimeDifference 4.484004020690918
+122.281 Framedifference 7Time 4046 TimeDifference 4.453365325927734
+123.339005 Framedifference 7Time 4053 TimeDifference 4.432320594787598
+124.095314 Framedifference 8Time 4061 TimeDifference 4.417496681213379
+124.29758 Framedifference 8Time 4069 TimeDifference 4.413562774658203
+124.80156 Framedifference 9Time 4078 TimeDifference 4.403816223144531
+123.843925 Framedifference 8Time 4086 TimeDifference 4.422403812408447
+123.62854 Framedifference 8Time 4094 TimeDifference 4.426624298095703
+123.102806 Framedifference 8Time 4102 TimeDifference 4.436987400054932
+123.33346 Framedifference 9Time 4111 TimeDifference 4.432430267333984
+121.88012 Framedifference 8Time 4119 TimeDifference 4.461435317993164
+122.00651 Framedifference 9Time 4128 TimeDifference 4.458885192871094
+120.674965 Framedifference 9Time 4137 TimeDifference 4.486017227172852
+120.2056 Framedifference 9Time 4146 TimeDifference 4.495724201202393
+119.00537 Framedifference 9Time 4155 TimeDifference 4.520895004272461
+119.00107 Framedifference 8Time 4163 TimeDifference 4.5209856033325195
+119.061676 Framedifference 8Time 4171 TimeDifference 4.519702911376953
+120.1564 Framedifference 8Time 4179 TimeDifference 4.496746063232422
+119.02835 Framedifference 9Time 4188 TimeDifference 4.5204081535339355
+119.52434 Framedifference 8Time 4196 TimeDifference 4.509949207305908
+118.79998 Framedifference 9Time 4205 TimeDifference 4.5252532958984375
+119.31684 Framedifference 9Time 4214 TimeDifference 4.5143141746521
+120.0247 Framedifference 7Time 4221 TimeDifference 4.499485492706299
+119.62483 Framedifference 9Time 4230 TimeDifference 4.507840156555176
+118.6122 Framedifference 9Time 4239 TimeDifference 4.5292510986328125
+119.266594 Framedifference 8Time 4247 TimeDifference 4.515373229980469
+120.6623 Framedifference 8Time 4255 TimeDifference 4.4862775802612305
+121.46547 Framedifference 7Time 4262 TimeDifference 4.469837665557861
+121.19454 Framedifference 9Time 4271 TimeDifference 4.475358963012695
+121.940254 Framedifference 8Time 4279 TimeDifference 4.460221290588379
+121.9804 Framedifference 8Time 4287 TimeDifference 4.45941162109375
+121.966545 Framedifference 8Time 4295 TimeDifference 4.459691047668457
+121.96397 Framedifference 9Time 4304 TimeDifference 4.459742546081543
+120.90982 Framedifference 8Time 4312 TimeDifference 4.48118782043457
+120.395996 Framedifference 9Time 4321 TimeDifference 4.491777420043945
+117.691216 Framedifference 11Time 4332 TimeDifference 4.54904317855835
+115.16262 Framedifference 11Time 4343 TimeDifference 4.605011940002441
+114.47689 Framedifference 9Time 4352 TimeDifference 4.6206159591674805
+115.23089 Framedifference 8Time 4360 TimeDifference 4.603468894958496
+113.558876 Framedifference 10Time 4370 TimeDifference 4.641801834106445
+115.20735 Framedifference 8Time 4378 TimeDifference 4.604000568389893
+115.831406 Framedifference 8Time 4386 TimeDifference 4.58997106552124
+115.35787 Framedifference 9Time 4395 TimeDifference 4.600603103637695
+115.57869 Framedifference 9Time 4404 TimeDifference 4.595634460449219
+114.051506 Framedifference 9Time 4413 TimeDifference 4.630390644073486
+115.53487 Framedifference 8Time 4421 TimeDifference 4.59661865234375
+114.80171 Framedifference 9Time 4430 TimeDifference 4.613201141357422
+115.83957 Framedifference 8Time 4438 TimeDifference 4.589788436889648
+116.881256 Framedifference 9Time 4447 TimeDifference 4.566707611083984
+116.47863 Framedifference 8Time 4455 TimeDifference 4.575579643249512
+118.41064 Framedifference 7Time 4462 TimeDifference 4.53355598449707
+119.68924 Framedifference 8Time 4470 TimeDifference 4.506490707397461
+116.13914 Framedifference 12Time 4482 TimeDifference 4.583108425140381
+113.46462 Framedifference 11Time 4493 TimeDifference 4.643995761871338
+114.66352 Framedifference 8Time 4501 TimeDifference 4.616351127624512
+116.43062 Framedifference 8Time 4509 TimeDifference 4.576642036437988
+113.22656 Framedifference 11Time 4520 TimeDifference 4.649555206298828
+111.937164 Framedifference 10Time 4530 TimeDifference 4.680075168609619
+114.82814 Framedifference 8Time 4538 TimeDifference 4.612600326538086
+117.24607 Framedifference 7Time 4545 TimeDifference 4.55872106552124
+119.57727 Framedifference 7Time 4552 TimeDifference 4.508837699890137
+121.250114 Framedifference 7Time 4559 TimeDifference 4.474224090576172
+123.30078 Framedifference 7Time 4566 TimeDifference 4.433074474334717
+124.33683 Framedifference 8Time 4574 TimeDifference 4.4128007888793945
+126.04905 Framedifference 6Time 4580 TimeDifference 4.380025863647461
+127.163765 Framedifference 8Time 4588 TimeDifference 4.359162330627441
+128.99527 Framedifference 7Time 4595 TimeDifference 4.325666427612305
+130.64958 Framedifference 6Time 4601 TimeDifference 4.2962188720703125
+132.22354 Framedifference 7Time 4608 TimeDifference 4.268884658813477
+133.66043 Framedifference 7Time 4615 TimeDifference 4.24449348449707
+133.42155 Framedifference 8Time 4623 TimeDifference 4.248512268066406
+133.0656 Framedifference 7Time 4630 TimeDifference 4.2545270919799805
+133.75542 Framedifference 8Time 4638 TimeDifference 4.2428998947143555
+135.02704 Framedifference 6Time 4644 TimeDifference 4.221776962280273
+135.84132 Framedifference 7Time 4651 TimeDifference 4.20845890045166
+135.7886 Framedifference 8Time 4659 TimeDifference 4.209316253662109
+137.05394 Framedifference 7Time 4666 TimeDifference 4.1889190673828125
+137.83707 Framedifference 6Time 4672 TimeDifference 4.176483154296875
+138.2414 Framedifference 7Time 4679 TimeDifference 4.170117378234863
+138.32245 Framedifference 8Time 4687 TimeDifference 4.168845176696777
+137.68076 Framedifference 7Time 4694 TimeDifference 4.178953647613525
+137.1059 Framedifference 8Time 4702 TimeDifference 4.188089370727539
+133.27579 Framedifference 10Time 4712 TimeDifference 4.250971794128418
+133.72346 Framedifference 7Time 4719 TimeDifference 4.243435859680176
+133.98502 Framedifference 8Time 4727 TimeDifference 4.239056587219238
+133.84827 Framedifference 8Time 4735 TimeDifference 4.241343975067139
+134.22705 Framedifference 7Time 4742 TimeDifference 4.235018730163574
+133.67375 Framedifference 8Time 4750 TimeDifference 4.244270324707031
+133.80646 Framedifference 7Time 4757 TimeDifference 4.242044448852539
+133.97977 Framedifference 7Time 4764 TimeDifference 4.239144325256348
+133.24715 Framedifference 8Time 4772 TimeDifference 4.251455307006836
+133.11922 Framedifference 8Time 4780 TimeDifference 4.253619194030762
+133.10834 Framedifference 7Time 4787 TimeDifference 4.253803253173828
+133.30786 Framedifference 8Time 4795 TimeDifference 4.250430107116699
+133.702 Framedifference 7Time 4802 TimeDifference 4.243795871734619
+134.15189 Framedifference 7Time 4809 TimeDifference 4.236270904541016
+134.02461 Framedifference 8Time 4817 TimeDifference 4.238394737243652
+135.10637 Framedifference 7Time 4824 TimeDifference 4.220472812652588
+136.22862 Framedifference 7Time 4831 TimeDifference 4.2021803855896
+135.84056 Framedifference 7Time 4838 TimeDifference 4.208471298217773
+135.59525 Framedifference 8Time 4846 TimeDifference 4.212467193603516
+134.72041 Framedifference 7Time 4853 TimeDifference 4.226834297180176
+134.63144 Framedifference 8Time 4861 TimeDifference 4.228305816650391
+134.4278 Framedifference 8Time 4869 TimeDifference 4.2316813468933105
+134.08093 Framedifference 7Time 4876 TimeDifference 4.237454414367676
+133.2009 Framedifference 8Time 4884 TimeDifference 4.252237319946289
+132.8446 Framedifference 8Time 4892 TimeDifference 4.258277893066406
+128.47527 Framedifference 11Time 4903 TimeDifference 4.335079669952393
+128.441 Framedifference 8Time 4911 TimeDifference 4.335702896118164
+128.83977 Framedifference 8Time 4919 TimeDifference 4.3284735679626465
+129.77148 Framedifference 7Time 4926 TimeDifference 4.311756134033203
+130.38791 Framedifference 7Time 4933 TimeDifference 4.3008270263671875
+129.56836 Framedifference 8Time 4941 TimeDifference 4.315380096435547
+125.36071 Framedifference 12Time 4953 TimeDifference 4.393094062805176
+125.29033 Framedifference 8Time 4961 TimeDifference 4.394438743591309
+126.56869 Framedifference 7Time 4968 TimeDifference 4.3702545166015625
+127.97826 Framedifference 7Time 4975 TimeDifference 4.3441481590271
+129.10645 Framedifference 7Time 4982 TimeDifference 4.323663711547852
+129.59448 Framedifference 8Time 4990 TimeDifference 4.314913749694824
+129.38431 Framedifference 8Time 4998 TimeDifference 4.318673610687256
+127.95007 Framedifference 8Time 5006 TimeDifference 4.344664573669434
+127.32861 Framedifference 8Time 5014 TimeDifference 4.35610818862915
+127.64791 Framedifference 8Time 5022 TimeDifference 4.350214958190918
+127.55094 Framedifference 8Time 5030 TimeDifference 4.352001190185547
+128.4041 Framedifference 7Time 5037 TimeDifference 4.336374282836914
+129.22238 Framedifference 7Time 5044 TimeDifference 4.3215789794921875
+128.90176 Framedifference 8Time 5052 TimeDifference 4.327353477478027
+128.7646 Framedifference 8Time 5060 TimeDifference 4.329833030700684
+128.53546 Framedifference 8Time 5068 TimeDifference 4.333986282348633
+128.46289 Framedifference 8Time 5076 TimeDifference 4.3353047370910645
+127.56524 Framedifference 8Time 5084 TimeDifference 4.351737976074219
+128.08264 Framedifference 8Time 5092 TimeDifference 4.342237949371338
+127.65277 Framedifference 8Time 5100 TimeDifference 4.350125312805176
+127.72686 Framedifference 8Time 5108 TimeDifference 4.348762035369873
+128.01855 Framedifference 8Time 5116 TimeDifference 4.343410491943359
+127.3596 Framedifference 7Time 5123 TimeDifference 4.355535507202148
+128.28806 Framedifference 8Time 5131 TimeDifference 4.33848762512207
+128.79889 Framedifference 7Time 5138 TimeDifference 4.329212665557861
+128.785 Framedifference 8Time 5146 TimeDifference 4.329463958740234
+128.85483 Framedifference 8Time 5154 TimeDifference 4.3282012939453125
+129.20728 Framedifference 7Time 5161 TimeDifference 4.321850776672363
+130.02788 Framedifference 7Time 5168 TimeDifference 4.307197570800781
+130.8354 Framedifference 8Time 5176 TimeDifference 4.292957305908203
+131.34166 Framedifference 7Time 5183 TimeDifference 4.284119129180908
+131.31131 Framedifference 8Time 5191 TimeDifference 4.284646987915039
+130.75056 Framedifference 8Time 5199 TimeDifference 4.294445037841797
+129.5216 Framedifference 8Time 5207 TimeDifference 4.316215991973877
+130.09384 Framedifference 8Time 5215 TimeDifference 4.306027412414551
+130.19531 Framedifference 7Time 5222 TimeDifference 4.304230690002441
+130.13441 Framedifference 8Time 5230 TimeDifference 4.305308818817139
+129.84077 Framedifference 8Time 5238 TimeDifference 4.310522079467773
+129.33554 Framedifference 8Time 5246 TimeDifference 4.319547653198242
+129.73299 Framedifference 7Time 5253 TimeDifference 4.312441825866699
+130.4447 Framedifference 7Time 5260 TimeDifference 4.299825191497803
+129.70299 Framedifference 9Time 5269 TimeDifference 4.312976837158203
+130.00797 Framedifference 8Time 5277 TimeDifference 4.30755090713501
+128.6596 Framedifference 8Time 5285 TimeDifference 4.3317341804504395
+128.83273 Framedifference 8Time 5293 TimeDifference 4.328600883483887
+128.02815 Framedifference 8Time 5301 TimeDifference 4.343234539031982
+128.31642 Framedifference 8Time 5309 TimeDifference 4.337970733642578
+129.39047 Framedifference 7Time 5316 TimeDifference 4.318563461303711
+128.59357 Framedifference 8Time 5324 TimeDifference 4.3329315185546875
+129.03253 Framedifference 8Time 5332 TimeDifference 4.324995040893555
+129.59029 Framedifference 7Time 5339 TimeDifference 4.314988136291504
+130.10062 Framedifference 8Time 5347 TimeDifference 4.305907726287842
+131.08092 Framedifference 7Time 5354 TimeDifference 4.288662910461426
+131.59389 Framedifference 7Time 5361 TimeDifference 4.279741287231445
+131.10643 Framedifference 8Time 5369 TimeDifference 4.288217544555664
+131.95116 Framedifference 7Time 5376 TimeDifference 4.273568630218506
+132.90912 Framedifference 7Time 5383 TimeDifference 4.257181167602539
+131.9919 Framedifference 8Time 5391 TimeDifference 4.272866725921631
+131.3272 Framedifference 8Time 5399 TimeDifference 4.2843708992004395
+130.52715 Framedifference 8Time 5407 TimeDifference 4.298372268676758
+130.31 Framedifference 8Time 5415 TimeDifference 4.302202224731445
+129.87411 Framedifference 8Time 5423 TimeDifference 4.309928894042969
+130.48738 Framedifference 7Time 5430 TimeDifference 4.299073219299316
+130.25568 Framedifference 8Time 5438 TimeDifference 4.303162574768066
+130.3931 Framedifference 8Time 5446 TimeDifference 4.3007354736328125
+130.11472 Framedifference 8Time 5454 TimeDifference 4.305657386779785
+129.36815 Framedifference 8Time 5462 TimeDifference 4.318963527679443
+129.75778 Framedifference 8Time 5470 TimeDifference 4.312000274658203
+125.8947 Framedifference 10Time 5480 TimeDifference 4.382944107055664
+126.881325 Framedifference 8Time 5488 TimeDifference 4.364414215087891
+126.81028 Framedifference 8Time 5496 TimeDifference 4.365738868713379
+126.018616 Framedifference 8Time 5504 TimeDifference 4.380600929260254
+127.00796 Framedifference 7Time 5511 TimeDifference 4.362056732177734
+126.79477 Framedifference 8Time 5519 TimeDifference 4.36602783203125
+127.56425 Framedifference 8Time 5527 TimeDifference 4.3517560958862305
+128.45506 Framedifference 7Time 5534 TimeDifference 4.335447311401367
+128.23357 Framedifference 8Time 5542 TimeDifference 4.339481353759766
+128.46455 Framedifference 8Time 5550 TimeDifference 4.335274696350098
+128.34576 Framedifference 7Time 5557 TimeDifference 4.337435722351074
+129.21156 Framedifference 8Time 5565 TimeDifference 4.321773529052734
+124.664825 Framedifference 12Time 5577 TimeDifference 4.406452655792236
+(time 5577- lastadded -60)      true
 Circle added
-(time 40178- lastadded -60)      true
+123.83517 Framedifference 9Time 5586 TimeDifference 4.422574996948242
+122.23494 Framedifference 9Time 5595 TimeDifference 4.454290390014648
+122.05142 Framedifference 8Time 5603 TimeDifference 4.457980155944824
+122.279434 Framedifference 8Time 5611 TimeDifference 4.453396797180176
+118.39016 Framedifference 12Time 5623 TimeDifference 4.533994197845459
+118.91934 Framedifference 8Time 5631 TimeDifference 4.52271842956543
+119.13305 Framedifference 8Time 5639 TimeDifference 4.518192768096924
+119.62684 Framedifference 8Time 5647 TimeDifference 4.507798194885254
+120.79706 Framedifference 8Time 5655 TimeDifference 4.483504295349121
+116.81807 Framedifference 12Time 5667 TimeDifference 4.568096160888672
+116.84108 Framedifference 9Time 5676 TimeDifference 4.567590236663818
+116.81532 Framedifference 8Time 5684 TimeDifference 4.5681562423706055
+117.04672 Framedifference 9Time 5693 TimeDifference 4.563078880310059
+117.156975 Framedifference 8Time 5701 TimeDifference 4.560667037963867
+117.046646 Framedifference 9Time 5710 TimeDifference 4.563080787658691
+115.41197 Framedifference 10Time 5720 TimeDifference 4.599383354187012
+116.10419 Framedifference 8Time 5728 TimeDifference 4.58388614654541
+116.1119 Framedifference 8Time 5736 TimeDifference 4.583714485168457
+116.51698 Framedifference 9Time 5745 TimeDifference 4.574731826782227
+117.51587 Framedifference 8Time 5753 TimeDifference 4.552846908569336
+117.866554 Framedifference 8Time 5761 TimeDifference 4.545251369476318
+117.59902 Framedifference 9Time 5770 TimeDifference 4.551041603088379
+114.48815 Framedifference 11Time 5781 TimeDifference 4.620358467102051
+115.61621 Framedifference 8Time 5789 TimeDifference 4.594791889190674
+116.799286 Framedifference 8Time 5797 TimeDifference 4.568509101867676
+118.414055 Framedifference 8Time 5805 TimeDifference 4.533483028411865
+118.07854 Framedifference 9Time 5814 TimeDifference 4.540681838989258
+119.08899 Framedifference 7Time 5821 TimeDifference 4.519124507904053
+119.744415 Framedifference 8Time 5829 TimeDifference 4.505335807800293
+120.2528 Framedifference 8Time 5837 TimeDifference 4.494744300842285
+121.18701 Framedifference 8Time 5845 TimeDifference 4.475512504577637
+121.31168 Framedifference 8Time 5853 TimeDifference 4.472968578338623
+120.909935 Framedifference 9Time 5862 TimeDifference 4.4811859130859375
+120.145996 Framedifference 9Time 5871 TimeDifference 4.496962070465088
+120.6226 Framedifference 7Time 5878 TimeDifference 4.487096309661865
+120.99626 Framedifference 8Time 5886 TimeDifference 4.479415416717529
+119.53514 Framedifference 10Time 5896 TimeDifference 4.5097222328186035
+119.06384 Framedifference 9Time 5905 TimeDifference 4.519656658172607
+118.709625 Framedifference 8Time 5913 TimeDifference 4.527174949645996
+118.24744 Framedifference 9Time 5922 TimeDifference 4.537053108215332
+118.48348 Framedifference 8Time 5930 TimeDifference 4.531998634338379
+118.98106 Framedifference 9Time 5939 TimeDifference 4.52140998840332
+119.06163 Framedifference 8Time 5947 TimeDifference 4.519703388214111
+119.52719 Framedifference 8Time 5955 TimeDifference 4.509889125823975
+120.97545 Framedifference 7Time 5962 TimeDifference 4.479842185974121
+121.76216 Framedifference 8Time 5970 TimeDifference 4.46381950378418
+121.74321 Framedifference 8Time 5978 TimeDifference 4.464202880859375
+121.694824 Framedifference 9Time 5987 TimeDifference 4.465182781219482
+122.190285 Framedifference 8Time 5995 TimeDifference 4.45518684387207
+121.61571 Framedifference 8Time 6003 TimeDifference 4.4667863845825195
+121.94853 Framedifference 8Time 6011 TimeDifference 4.460054397583008
+120.65829 Framedifference 9Time 6020 TimeDifference 4.486360549926758
+120.236565 Framedifference 9Time 6029 TimeDifference 4.495080947875977
+120.180954 Framedifference 8Time 6037 TimeDifference 4.4962358474731445
+119.90674 Framedifference 9Time 6046 TimeDifference 4.501944541931152
+119.17748 Framedifference 8Time 6054 TimeDifference 4.517253875732422
+119.218254 Framedifference 9Time 6063 TimeDifference 4.516393184661865
+119.73711 Framedifference 8Time 6071 TimeDifference 4.505488872528076
+120.75262 Framedifference 7Time 6078 TimeDifference 4.484417915344238
+121.743484 Framedifference 8Time 6086 TimeDifference 4.464197635650635
+121.10901 Framedifference 9Time 6095 TimeDifference 4.477107048034668
+120.69102 Framedifference 8Time 6103 TimeDifference 4.485686302185059
+119.51557 Framedifference 10Time 6113 TimeDifference 4.510132789611816
+118.95582 Framedifference 8Time 6121 TimeDifference 4.521944522857666
+119.47522 Framedifference 8Time 6129 TimeDifference 4.51098108291626
+119.32193 Framedifference 9Time 6138 TimeDifference 4.514206886291504
+119.88773 Framedifference 8Time 6146 TimeDifference 4.502341270446777
+119.83482 Framedifference 8Time 6154 TimeDifference 4.503446102142334
+119.48817 Framedifference 8Time 6162 TimeDifference 4.510708808898926
+119.87747 Framedifference 9Time 6171 TimeDifference 4.5025553703308105
+121.015564 Framedifference 8Time 6179 TimeDifference 4.479020118713379
+120.31678 Framedifference 8Time 6187 TimeDifference 4.493417739868164
+120.71707 Framedifference 8Time 6195 TimeDifference 4.48514986038208
+120.08052 Framedifference 9Time 6204 TimeDifference 4.498323440551758
+120.925354 Framedifference 8Time 6212 TimeDifference 4.480869293212891
+120.52187 Framedifference 8Time 6220 TimeDifference 4.489174842834473
+120.674805 Framedifference 8Time 6228 TimeDifference 4.486020088195801
+120.85147 Framedifference 9Time 6237 TimeDifference 4.482385635375977
+120.62536 Framedifference 8Time 6245 TimeDifference 4.487039566040039
+120.22397 Framedifference 8Time 6253 TimeDifference 4.49534273147583
+120.2605 Framedifference 9Time 6262 TimeDifference 4.494585037231445
+119.14576 Framedifference 9Time 6271 TimeDifference 4.5179243087768555
+119.44928 Framedifference 8Time 6279 TimeDifference 4.511526107788086
+119.09147 Framedifference 9Time 6288 TimeDifference 4.51907205581665
+117.703636 Framedifference 9Time 6297 TimeDifference 4.548774242401123
+116.61601 Framedifference 10Time 6307 TimeDifference 4.572545528411865
+116.58846 Framedifference 8Time 6315 TimeDifference 4.573153495788574
+116.89033 Framedifference 9Time 6324 TimeDifference 4.5665082931518555
+117.191376 Framedifference 8Time 6332 TimeDifference 4.559915542602539
+117.41431 Framedifference 8Time 6340 TimeDifference 4.555055141448975
+118.07052 Framedifference 8Time 6348 TimeDifference 4.540854454040527
+117.70298 Framedifference 9Time 6357 TimeDifference 4.548788547515869
+117.785965 Framedifference 9Time 6366 TimeDifference 4.546992778778076
+117.31082 Framedifference 9Time 6375 TimeDifference 4.557309150695801
+117.2461 Framedifference 8Time 6383 TimeDifference 4.558720588684082
+117.47123 Framedifference 8Time 6391 TimeDifference 4.553816795349121
+117.092705 Framedifference 9Time 6400 TimeDifference 4.56207275390625
+116.65591 Framedifference 9Time 6409 TimeDifference 4.5716657638549805
+115.73416 Framedifference 9Time 6418 TimeDifference 4.592147350311279
+116.01007 Framedifference 9Time 6427 TimeDifference 4.585982322692871
+116.6509 Framedifference 8Time 6435 TimeDifference 4.571776390075684
+116.92496 Framedifference 8Time 6443 TimeDifference 4.56574821472168
+116.38648 Framedifference 10Time 6453 TimeDifference 4.5776190757751465
+116.567406 Framedifference 8Time 6461 TimeDifference 4.573618412017822
+116.19779 Framedifference 9Time 6470 TimeDifference 4.5818047523498535
+115.68383 Framedifference 9Time 6479 TimeDifference 4.59327507019043
+115.64341 Framedifference 9Time 6488 TimeDifference 4.594181537628174
+114.954834 Framedifference 9Time 6497 TimeDifference 4.609720230102539
+113.95156 Framedifference 10Time 6507 TimeDifference 4.632697582244873
+113.28108 Framedifference 9Time 6516 TimeDifference 4.648279666900635
+112.87557 Framedifference 9Time 6525 TimeDifference 4.657793998718262
+112.386215 Framedifference 9Time 6534 TimeDifference 4.669366836547852
+112.07141 Framedifference 9Time 6543 TimeDifference 4.6768646240234375
+(time 6543- lastadded -60)      true
 Circle added
-(time 40178- lastadded -60)      true
+(time 6543- lastadded -60)      true
 Circle added
-(time 40178- lastadded -60)      true
+(time 6543- lastadded -60)      true
 Circle added
-119.362656 Framedifference 12   Time 40190
-115.853745 Framedifference 11   Time 40201
-115.64192 Framedifference 9   Time 40210
-114.27654 Framedifference 10   Time 40220
-111.163414 Framedifference 12   Time 40232
-112.30312 Framedifference 8   Time 40240
-113.71275 Framedifference 8   Time 40248
-114.91065 Framedifference 8   Time 40256
-114.844376 Framedifference 9   Time 40265
-116.34095 Framedifference 7   Time 40272
-114.9455 Framedifference 10   Time 40282
-114.49554 Framedifference 9   Time 40291
-114.193634 Framedifference 9   Time 40300
-114.07348 Framedifference 9   Time 40309
-113.25705 Framedifference 9   Time 40318
-112.02762 Framedifference 11   Time 40329
-108.26533 Framedifference 13   Time 40342
-104.82845 Framedifference 13   Time 40355
-105.437546 Framedifference 9   Time 40364
-106.34873 Framedifference 9   Time 40373
-103.1392 Framedifference 13   Time 40386
-102.49996 Framedifference 11   Time 40397
-103.49647 Framedifference 9   Time 40406
-100.48595 Framedifference 13   Time 40419
-100.11562 Framedifference 11   Time 40430
-101.06343 Framedifference 9   Time 40439
-101.63369 Framedifference 9   Time 40448
-102.770836 Framedifference 9   Time 40457
-102.53062 Framedifference 10   Time 40467
-102.29101 Framedifference 10   Time 40477
-103.23059 Framedifference 9   Time 40486
-102.71459 Framedifference 10   Time 40496
-102.973526 Framedifference 9   Time 40505
-102.270065 Framedifference 11   Time 40516
-100.141426 Framedifference 12   Time 40528
-100.38098 Framedifference 10   Time 40538
-100.459816 Framedifference 10   Time 40548
-101.07587 Framedifference 10   Time 40558
-101.19594 Framedifference 9   Time 40567
-100.9411 Framedifference 11   Time 40578
-101.46959 Framedifference 9   Time 40587
-101.0057 Framedifference 10   Time 40597
-101.236664 Framedifference 10   Time 40607
-101.12901 Framedifference 10   Time 40617
-100.971886 Framedifference 11   Time 40628
-101.04828 Framedifference 9   Time 40637
-101.22197 Framedifference 9   Time 40646
-101.94293 Framedifference 10   Time 40656
-102.066795 Framedifference 9   Time 40665
-102.239136 Framedifference 10   Time 40675
-101.93132 Framedifference 10   Time 40685
-101.083725 Framedifference 11   Time 40696
-101.417076 Framedifference 9   Time 40705
-101.90462 Framedifference 10   Time 40715
-101.658775 Framedifference 10   Time 40725
-100.92919 Framedifference 10   Time 40735
-100.66455 Framedifference 10   Time 40745
-100.9573 Framedifference 10   Time 40755
-100.49212 Framedifference 11   Time 40766
-100.4328 Framedifference 10   Time 40776
-100.21656 Framedifference 10   Time 40786
-99.06246 Framedifference 11   Time 40797
-99.018234 Framedifference 10   Time 40807
-98.74269 Framedifference 11   Time 40818
-98.13943 Framedifference 10   Time 40828
-96.97912 Framedifference 12   Time 40840
-97.22735 Framedifference 10   Time 40850
-97.039024 Framedifference 11   Time 40861
-96.91513 Framedifference 10   Time 40871
-96.93679 Framedifference 10   Time 40881
-96.69288 Framedifference 11   Time 40892
-96.49236 Framedifference 10   Time 40902
-96.17215 Framedifference 11   Time 40913
-95.40722 Framedifference 11   Time 40924
-95.42143 Framedifference 11   Time 40935
-95.55038 Framedifference 10   Time 40945
-95.42685 Framedifference 11   Time 40956
-94.36679 Framedifference 11   Time 40967
-93.915565 Framedifference 11   Time 40978
-93.906815 Framedifference 11   Time 40989
-90.35288 Framedifference 18   Time 41007
-86.80782 Framedifference 18   Time 41025
-86.37468 Framedifference 12   Time 41037
-86.75482 Framedifference 10   Time 41047
-87.88689 Framedifference 11   Time 41058
-88.07912 Framedifference 11   Time 41069
-88.53672 Framedifference 11   Time 41080
-89.315025 Framedifference 11   Time 41091
-89.18991 Framedifference 11   Time 41102
-89.26776 Framedifference 11   Time 41113
-89.82516 Framedifference 10   Time 41123
-89.75715 Framedifference 12   Time 41135
-89.81051 Framedifference 11   Time 41146
-90.5308 Framedifference 10   Time 41156
-90.632484 Framedifference 11   Time 41167
-90.54025 Framedifference 11   Time 41178
-89.08742 Framedifference 13   Time 41191
-88.82426 Framedifference 12   Time 41203
-86.94265 Framedifference 14   Time 41217
-85.69538 Framedifference 13   Time 41230
-85.99481 Framedifference 12   Time 41242
-85.88976 Framedifference 11   Time 41253
-85.26589 Framedifference 13   Time 41266
-84.563065 Framedifference 13   Time 41279
-84.413506 Framedifference 12   Time 41291
-84.27837 Framedifference 12   Time 41303
-83.88494 Framedifference 13   Time 41316
-82.946 Framedifference 13   Time 41329
-80.69626 Framedifference 16   Time 41345
-80.99711 Framedifference 13   Time 41358
-80.4875 Framedifference 12   Time 41370
-80.07948 Framedifference 13   Time 41383
-78.94425 Framedifference 15   Time 41398
-78.34196 Framedifference 14   Time 41412
-77.58943 Framedifference 14   Time 41426
-77.19674 Framedifference 13   Time 41439
-77.13924 Framedifference 13   Time 41452
-76.52461 Framedifference 14   Time 41466
-75.78856 Framedifference 15   Time 41481
-75.10134 Framedifference 15   Time 41496
-74.96259 Framedifference 13   Time 41509
-74.120026 Framedifference 15   Time 41524
-73.084015 Framedifference 16   Time 41540
-72.63578 Framedifference 14   Time 41554
-75.20865 Framedifference 10   Time 41564
-78.21165 Framedifference 10   Time 41574
-82.05162 Framedifference 9   Time 41583
-84.04741 Framedifference 10   Time 41593
-85.8781 Framedifference 10   Time 41603
-87.48484 Framedifference 10   Time 41613
-89.45485 Framedifference 9   Time 41622
-89.77114 Framedifference 10   Time 41632
-92.55735 Framedifference 9   Time 41641
-93.68947 Framedifference 10   Time 41651
-94.57368 Framedifference 10   Time 41661
-95.48569 Framedifference 9   Time 41670
-96.472626 Framedifference 9   Time 41679
-97.48303 Framedifference 10   Time 41689
-97.61946 Framedifference 10   Time 41699
-99.177025 Framedifference 9   Time 41708
-98.83652 Framedifference 10   Time 41718
-98.404 Framedifference 11   Time 41729
-96.058464 Framedifference 13   Time 41742
-97.27115 Framedifference 9   Time 41751
-97.52066 Framedifference 10   Time 41761
-98.68387 Framedifference 9   Time 41770
-99.34104 Framedifference 10   Time 41780
-100.31155 Framedifference 9   Time 41789
-98.65283 Framedifference 12   Time 41801
-95.8114 Framedifference 14   Time 41815
-96.23398 Framedifference 10   Time 41825
-97.145515 Framedifference 10   Time 41835
-98.2229 Framedifference 9   Time 41844
-99.84413 Framedifference 9   Time 41853
-101.08392 Framedifference 9   Time 41862
-102.03857 Framedifference 9   Time 41871
-102.82893 Framedifference 9   Time 41880
-103.17789 Framedifference 9   Time 41889
-102.22266 Framedifference 11   Time 41900
-99.44455 Framedifference 13   Time 41913
-99.854904 Framedifference 10   Time 41923
-99.24928 Framedifference 11   Time 41934
-99.884346 Framedifference 9   Time 41943
-97.145546 Framedifference 14   Time 41957
-97.70816 Framedifference 10   Time 41967
-97.98893 Framedifference 10   Time 41977
-99.47585 Framedifference 8   Time 41985
-98.586655 Framedifference 11   Time 41996
-99.919075 Framedifference 9   Time 42005
-99.543015 Framedifference 11   Time 42016
-96.61762 Framedifference 14   Time 42030
-87.44072 Framedifference -5211   Time 36819
-88.70548 Framedifference 10   Time 36829
-90.86362 Framedifference 9   Time 36838
-92.47081 Framedifference 10   Time 36848
-93.60496 Framedifference 9   Time 36857
-95.36229 Framedifference 9   Time 36866
-95.71079 Framedifference 11   Time 36877
-96.511566 Framedifference 9   Time 36886
-96.86156 Framedifference 10   Time 36896
-98.00173 Framedifference 9   Time 36905
-97.791916 Framedifference 11   Time 36916
-95.14625 Framedifference 14   Time 36930
-96.69341 Framedifference 9   Time 36939
-97.50052 Framedifference 9   Time 36948
-99.008316 Framedifference 9   Time 36957
-100.24687 Framedifference 9   Time 36966
-100.88742 Framedifference 10   Time 36976
-101.49282 Framedifference 9   Time 36985
-102.23264 Framedifference 9   Time 36994
-102.896355 Framedifference 9   Time 37003
-102.587425 Framedifference 10   Time 37013
-99.18692 Framedifference 15   Time 37028
-100.484055 Framedifference 9   Time 37037
-100.97172 Framedifference 9   Time 37046
-102.41749 Framedifference 9   Time 37055
-103.34474 Framedifference 9   Time 37064
-104.00387 Framedifference 9   Time 37073
-102.16118 Framedifference 11   Time 37084
-103.36283 Framedifference 9   Time 37093
-104.65505 Framedifference 9   Time 37102
-104.033676 Framedifference 10   Time 37112
-105.47927 Framedifference 9   Time 37121
-106.31485 Framedifference 8   Time 37129
-107.40715 Framedifference 9   Time 37138
-107.4542 Framedifference 9   Time 37147
-104.20106 Framedifference 14   Time 37161
-104.35839 Framedifference 9   Time 37170
-104.7336 Framedifference 9   Time 37179
-105.75562 Framedifference 9   Time 37188
-107.14517 Framedifference 8   Time 37196
-108.15233 Framedifference 9   Time 37205
-107.39334 Framedifference 10   Time 37215
-106.68649 Framedifference 10   Time 37225
-106.62457 Framedifference 9   Time 37234
-106.18415 Framedifference 11   Time 37245
-103.12983 Framedifference 13   Time 37258
-103.909096 Framedifference 8   Time 37266
-104.87092 Framedifference 10   Time 37276
-105.3156 Framedifference 8   Time 37284
-105.7302 Framedifference 9   Time 37293
-106.77463 Framedifference 9   Time 37302
-105.836975 Framedifference 10   Time 37312
-107.02618 Framedifference 9   Time 37321
-108.06461 Framedifference 8   Time 37329
-108.75523 Framedifference 9   Time 37338
-109.88896 Framedifference 8   Time 37346
-111.24793 Framedifference 8   Time 37354
-112.13978 Framedifference 9   Time 37363
-112.07186 Framedifference 9   Time 37372
-112.26146 Framedifference 9   Time 37381
-112.19251 Framedifference 8   Time 37389
-112.478806 Framedifference 9   Time 37398
-112.1906 Framedifference 9   Time 37407
-111.857 Framedifference 9   Time 37416
-110.552536 Framedifference 10   Time 37426
-110.853645 Framedifference 10   Time 37436
-109.81728 Framedifference 9   Time 37445
-109.93254 Framedifference 9   Time 37454
-109.268906 Framedifference 10   Time 37464
-109.903404 Framedifference 8   Time 37472
-110.00437 Framedifference 10   Time 37482
-110.06822 Framedifference 9   Time 37491
-109.89824 Framedifference 9   Time 37500
-108.95354 Framedifference 10   Time 37510
-109.21985 Framedifference 9   Time 37519
-110.14503 Framedifference 8   Time 37527
-111.39119 Framedifference 8   Time 37535
-110.728516 Framedifference 10   Time 37545
-111.36715 Framedifference 8   Time 37553
-111.70253 Framedifference 9   Time 37562
-112.13109 Framedifference 9   Time 37571
-111.64737 Framedifference 9   Time 37580
-111.73496 Framedifference 9   Time 37589
-111.57988 Framedifference 9   Time 37598
-111.73091 Framedifference 9   Time 37607
-112.33995 Framedifference 8   Time 37615
-113.25754 Framedifference 9   Time 37624
-113.62293 Framedifference 8   Time 37632
-114.6011 Framedifference 8   Time 37640
-114.28768 Framedifference 9   Time 37649
-113.81828 Framedifference 10   Time 37659
-114.17398 Framedifference 8   Time 37667
-114.20749 Framedifference 9   Time 37676
-114.26288 Framedifference 8   Time 37684
-113.80796 Framedifference 9   Time 37693
-114.651 Framedifference 8   Time 37701
-113.6458 Framedifference 10   Time 37711
-111.580696 Framedifference 11   Time 37722
-111.35409 Framedifference 9   Time 37731
-111.78589 Framedifference 9   Time 37740
-111.17072 Framedifference 9   Time 37749
-111.83223 Framedifference 9   Time 37758
-111.48825 Framedifference 9   Time 37767
-111.625244 Framedifference 9   Time 37776
-111.48517 Framedifference 9   Time 37785
-110.909225 Framedifference 9   Time 37794
-110.87695 Framedifference 10   Time 37804
-110.46527 Framedifference 9   Time 37813
-110.01081 Framedifference 9   Time 37822
-110.36973 Framedifference 10   Time 37832
-(time 37832- lastadded -60)      true
+(time 6543- lastadded -60)      true
 Circle added
-(time 37832- lastadded -60)      true
+(time 6543- lastadded -60)      true
 Circle added
-(time 37832- lastadded -60)      true
+(time 6543- lastadded -60)      true
 Circle added
-(time 37832- lastadded -60)      true
+110.37222 Framedifference 11Time 6554 TimeDifference 4.718075275421143
+108.915245 Framedifference 10Time 6564 TimeDifference 4.7544355392456055
+106.20229 Framedifference 12Time 6576 TimeDifference 4.824797630310059
+105.67442 Framedifference 10Time 6586 TimeDifference 4.8389081954956055
+105.46344 Framedifference 10Time 6596 TimeDifference 4.844587326049805
+103.47536 Framedifference 12Time 6608 TimeDifference 4.8992414474487305
+102.31726 Framedifference 11Time 6619 TimeDifference 4.932056427001953
+101.27995 Framedifference 10Time 6629 TimeDifference 4.9620866775512695
+101.04395 Framedifference 10Time 6639 TimeDifference 4.969005107879639
+100.32935 Framedifference 11Time 6650 TimeDifference 4.990151882171631
+100.18516 Framedifference 10Time 6660 TimeDifference 4.994455337524414
+101.430016 Framedifference 9Time 6669 TimeDifference 4.957704544067383
+102.92245 Framedifference 9Time 6678 TimeDifference 4.914815902709961
+103.90495 Framedifference 8Time 6686 TimeDifference 4.887253761291504
+105.09265 Framedifference 9Time 6695 TimeDifference 4.854623794555664
+105.43829 Framedifference 9Time 6704 TimeDifference 4.845266342163086
+105.859375 Framedifference 9Time 6713 TimeDifference 4.833948135375977
+106.551445 Framedifference 9Time 6722 TimeDifference 4.8155412673950195
+107.05542 Framedifference 9Time 6731 TimeDifference 4.802286624908447
+107.4239 Framedifference 9Time 6740 TimeDifference 4.792674541473389
+107.24407 Framedifference 10Time 6750 TimeDifference 4.797357559204102
+106.79197 Framedifference 9Time 6759 TimeDifference 4.809200286865234
+106.34579 Framedifference 10Time 6769 TimeDifference 4.820986270904541
+106.42177 Framedifference 10Time 6779 TimeDifference 4.818972110748291
+106.76424 Framedifference 9Time 6788 TimeDifference 4.809929847717285
+106.77318 Framedifference 9Time 6797 TimeDifference 4.809694290161133
+106.39389 Framedifference 10Time 6807 TimeDifference 4.819710731506348
+107.06352 Framedifference 9Time 6816 TimeDifference 4.802074909210205
+106.29876 Framedifference 10Time 6826 TimeDifference 4.822234153747559
+105.31657 Framedifference 10Time 6836 TimeDifference 4.848554611206055
+105.09816 Framedifference 10Time 6846 TimeDifference 4.8544745445251465
+104.38679 Framedifference 10Time 6856 TimeDifference 4.873927116394043
+104.421745 Framedifference 9Time 6865 TimeDifference 4.872964859008789
+103.60941 Framedifference 11Time 6876 TimeDifference 4.895489692687988
+103.27452 Framedifference 10Time 6886 TimeDifference 4.904879093170166
+103.718765 Framedifference 9Time 6895 TimeDifference 4.892436981201172
+103.45178 Framedifference 10Time 6905 TimeDifference 4.899901390075684
+103.41333 Framedifference 10Time 6915 TimeDifference 4.900979995727539
+101.82588 Framedifference 12Time 6927 TimeDifference 4.9462056159973145
+101.683 Framedifference 9Time 6936 TimeDifference 4.950345516204834
+100.769455 Framedifference 11Time 6947 TimeDifference 4.977092742919922
+100.203476 Framedifference 11Time 6958 TimeDifference 4.993907928466797
+100.325806 Framedifference 10Time 6968 TimeDifference 4.990257263183594
+99.5693 Framedifference 10Time 6978 TimeDifference 5.01297664642334
+99.046616 Framedifference 11Time 6989 TimeDifference 5.028876781463623
+99.005226 Framedifference 10Time 6999 TimeDifference 5.030142784118652
+98.48908 Framedifference 11Time 7010 TimeDifference 5.046022891998291
+97.96141 Framedifference 10Time 7020 TimeDifference 5.062430381774902
+97.670685 Framedifference 11Time 7031 TimeDifference 5.0715460777282715
+97.76862 Framedifference 10Time 7041 TimeDifference 5.068469047546387
+97.554886 Framedifference 10Time 7051 TimeDifference 5.075191974639893
+97.6954 Framedifference 10Time 7061 TimeDifference 5.070769309997559
+97.373795 Framedifference 11Time 7072 TimeDifference 5.080911159515381
+97.04612 Framedifference 11Time 7083 TimeDifference 5.09131383895874
+95.75543 Framedifference 12Time 7095 TimeDifference 5.132981777191162
+95.725716 Framedifference 10Time 7105 TimeDifference 5.133954048156738
+93.359055 Framedifference 14Time 7119 TimeDifference 5.213400363922119
+93.14819 Framedifference 11Time 7130 TimeDifference 5.220674514770508
+92.86684 Framedifference 11Time 7141 TimeDifference 5.230432033538818
+92.78649 Framedifference 11Time 7152 TimeDifference 5.233229160308838
+92.77182 Framedifference 10Time 7162 TimeDifference 5.23374080657959
+92.56586 Framedifference 12Time 7174 TimeDifference 5.240935802459717
+92.370605 Framedifference 11Time 7185 TimeDifference 5.247786521911621
+92.31651 Framedifference 10Time 7195 TimeDifference 5.249689102172852
+92.23213 Framedifference 12Time 7207 TimeDifference 5.252662658691406
+91.44811 Framedifference 11Time 7218 TimeDifference 5.280549049377441
+90.98714 Framedifference 12Time 7230 TimeDifference 5.2971696853637695
+90.39154 Framedifference 11Time 7241 TimeDifference 5.318894386291504
+89.470116 Framedifference 13Time 7254 TimeDifference 5.35307502746582
+89.26113 Framedifference 12Time 7266 TimeDifference 5.360925197601318
+88.64282 Framedifference 11Time 7277 TimeDifference 5.384368896484375
+88.19827 Framedifference 12Time 7289 TimeDifference 5.401427268981934
+87.65124 Framedifference 12Time 7301 TimeDifference 5.422656059265137
+87.39275 Framedifference 12Time 7313 TimeDifference 5.432779312133789
+87.14938 Framedifference 12Time 7325 TimeDifference 5.4423651695251465
+86.979416 Framedifference 12Time 7337 TimeDifference 5.449091911315918
+86.65895 Framedifference 11Time 7348 TimeDifference 5.461846828460693
+86.13311 Framedifference 13Time 7361 TimeDifference 5.482980728149414
+85.82991 Framedifference 11Time 7372 TimeDifference 5.4952850341796875
+84.93245 Framedifference 14Time 7386 TimeDifference 5.532218933105469
+84.4675 Framedifference 12Time 7398 TimeDifference 5.551661968231201
+83.877556 Framedifference 13Time 7411 TimeDifference 5.576642036437988
+83.71193 Framedifference 12Time 7423 TimeDifference 5.583718299865723
+83.18729 Framedifference 13Time 7436 TimeDifference 5.606320381164551
+82.45159 Framedifference 13Time 7449 TimeDifference 5.638498306274414
+81.976814 Framedifference 13Time 7462 TimeDifference 5.659571647644043
+81.29317 Framedifference 13Time 7475 TimeDifference 5.690347194671631
+80.45326 Framedifference 14Time 7489 TimeDifference 5.728873252868652
+79.6153 Framedifference 14Time 7503 TimeDifference 5.768119812011719
+78.9657 Framedifference 14Time 7517 TimeDifference 5.7991180419921875
+78.26906 Framedifference 13Time 7530 TimeDifference 5.832932472229004
+77.36604 Framedifference 15Time 7545 TimeDifference 5.8776702880859375
+76.26336 Framedifference 15Time 7560 TimeDifference 5.933736801147461
+74.41909 Framedifference 17Time 7577 TimeDifference 6.031223773956299
+74.06695 Framedifference 14Time 7591 TimeDifference 6.050389289855957
+73.63296 Framedifference 15Time 7606 TimeDifference 6.074262619018555
+72.970146 Framedifference 15Time 7621 TimeDifference 6.111270427703857
+71.508224 Framedifference 17Time 7638 TimeDifference 6.195321559906006
+70.86934 Framedifference 15Time 7653 TimeDifference 6.233142375946045
+70.33498 Framedifference 15Time 7668 TimeDifference 6.265303134918213
+69.51341 Framedifference 17Time 7685 TimeDifference 6.315713882446289
+68.68654 Framedifference 16Time 7701 TimeDifference 6.367668151855469
+67.973625 Framedifference 16Time 7717 TimeDifference 6.413476467132568
+67.175446 Framedifference 17Time 7734 TimeDifference 6.465917587280273
+66.35092 Framedifference 17Time 7751 TimeDifference 6.521414279937744
+65.60938 Framedifference 17Time 7768 TimeDifference 6.572516441345215
+64.698456 Framedifference 17Time 7785 TimeDifference 6.636896133422852
+64.039406 Framedifference 18Time 7803 TimeDifference 6.684615612030029
+63.31761 Framedifference 17Time 7820 TimeDifference 6.738018035888672
+62.414135 Framedifference 19Time 7839 TimeDifference 6.80660343170166
+61.88662 Framedifference 17Time 7856 TimeDifference 6.847574710845947
+61.045246 Framedifference 19Time 7875 TimeDifference 6.9143877029418945
+60.290356 Framedifference 19Time 7894 TimeDifference 6.9759202003479
+59.83427 Framedifference 17Time 7911 TimeDifference 7.013849258422852
+59.046566 Framedifference 20Time 7931 TimeDifference 7.080735683441162
+58.246513 Framedifference 19Time 7950 TimeDifference 7.150522708892822
+57.13938 Framedifference 21Time 7971 TimeDifference 7.250319480895996
+56.477497 Framedifference 20Time 7991 TimeDifference 7.311850547790527
+55.76855 Framedifference 20Time 8011 TimeDifference 7.37937593460083
+55.138447 Framedifference 21Time 8032 TimeDifference 7.440849781036377
+54.503143 Framedifference 20Time 8052 TimeDifference 7.504269599914551
+53.897125 Framedifference 21Time 8073 TimeDifference 7.566159248352051
+53.09895 Framedifference 21Time 8094 TimeDifference 7.649829387664795
+52.391846 Framedifference 23Time 8117 TimeDifference 7.726081848144531
+56.457245 Framedifference 10Time 8127 TimeDifference 7.313755989074707
+60.54042 Framedifference 10Time 8137 TimeDifference 6.955367088317871
+63.729095 Framedifference 11Time 8148 TimeDifference 6.707426071166992
+66.290474 Framedifference 12Time 8160 TimeDifference 6.525537014007568
+69.3196 Framedifference 10Time 8170 TimeDifference 6.327779769897461
+72.049164 Framedifference 11Time 8181 TimeDifference 6.16382360458374
+74.29104 Framedifference 10Time 8191 TimeDifference 6.038172245025635
+76.517006 Framedifference 10Time 8201 TimeDifference 5.920697212219238
+78.96262 Framedifference 10Time 8211 TimeDifference 5.7992658615112305
+80.74464 Framedifference 10Time 8221 TimeDifference 5.71541690826416
+82.52275 Framedifference 11Time 8232 TimeDifference 5.635361194610596
+84.33995 Framedifference 9Time 8241 TimeDifference 5.557033538818359
+85.4079 Framedifference 11Time 8252 TimeDifference 5.5125555992126465
+86.91068 Framedifference 10Time 8262 TimeDifference 5.45181941986084
+87.81822 Framedifference 10Time 8272 TimeDifference 5.416147232055664
+89.11497 Framedifference 10Time 8282 TimeDifference 5.366437911987305
+90.26205 Framedifference 10Time 8292 TimeDifference 5.32365608215332
+91.03503 Framedifference 10Time 8302 TimeDifference 5.295434951782227
+91.23145 Framedifference 11Time 8313 TimeDifference 5.288339614868164
+91.958145 Framedifference 10Time 8323 TimeDifference 5.262353897094727
+92.08757 Framedifference 11Time 8334 TimeDifference 5.257768630981445
+92.23062 Framedifference 11Time 8345 TimeDifference 5.252716064453125
+92.722664 Framedifference 10Time 8355 TimeDifference 5.235454559326172
+93.39502 Framedifference 10Time 8365 TimeDifference 5.212162971496582
+93.453674 Framedifference 11Time 8376 TimeDifference 5.210146903991699
+94.14131 Framedifference 10Time 8386 TimeDifference 5.186698913574219
+95.025215 Framedifference 9Time 8395 TimeDifference 5.15705680847168
+95.532555 Framedifference 10Time 8405 TimeDifference 5.1402907371521
+95.30409 Framedifference 11Time 8416 TimeDifference 5.147818565368652
+95.44573 Framedifference 10Time 8426 TimeDifference 5.1431474685668945
+95.759445 Framedifference 11Time 8437 TimeDifference 5.132850170135498
+96.29991 Framedifference 9Time 8446 TimeDifference 5.115267753601074
+96.40051 Framedifference 11Time 8457 TimeDifference 5.112016677856445
+96.549576 Framedifference 10Time 8467 TimeDifference 5.107212066650391
+96.82534 Framedifference 10Time 8477 TimeDifference 5.098362445831299
+97.05438 Framedifference 10Time 8487 TimeDifference 5.091050148010254
+97.20922 Framedifference 10Time 8497 TimeDifference 5.086127281188965
+97.32103 Framedifference 10Time 8507 TimeDifference 5.082581520080566
+97.47566 Framedifference 11Time 8518 TimeDifference 5.077691078186035
+97.44586 Framedifference 10Time 8528 TimeDifference 5.078632354736328
+97.6214 Framedifference 10Time 8538 TimeDifference 5.07309627532959
+97.85247 Framedifference 10Time 8548 TimeDifference 5.065839767456055
+98.07965 Framedifference 10Time 8558 TimeDifference 5.058738708496094
+98.0635 Framedifference 10Time 8568 TimeDifference 5.059242248535156
+97.414925 Framedifference 11Time 8579 TimeDifference 5.0796098709106445
+97.43223 Framedifference 11Time 8590 TimeDifference 5.079063415527344
+97.38674 Framedifference 10Time 8600 TimeDifference 5.080501556396484
+95.82938 Framedifference 12Time 8612 TimeDifference 5.130564212799072
+96.541756 Framedifference 9Time 8621 TimeDifference 5.107463836669922
+97.197845 Framedifference 10Time 8631 TimeDifference 5.086488246917725
+97.38184 Framedifference 10Time 8641 TimeDifference 5.0806565284729
+97.71988 Framedifference 10Time 8651 TimeDifference 5.069999694824219
+97.86022 Framedifference 10Time 8661 TimeDifference 5.065597057342529
+98.16239 Framedifference 10Time 8671 TimeDifference 5.056159973144531
+98.582924 Framedifference 10Time 8681 TimeDifference 5.043123245239258
+99.550964 Framedifference 9Time 8690 TimeDifference 5.013531684875488
+100.23872 Framedifference 10Time 8700 TimeDifference 4.992855072021484
+100.44948 Framedifference 9Time 8709 TimeDifference 4.986576080322266
+100.06438 Framedifference 11Time 8720 TimeDifference 4.998069763183594
+100.525406 Framedifference 9Time 8729 TimeDifference 4.984320163726807
+101.25944 Framedifference 9Time 8738 TimeDifference 4.962686538696289
+101.905785 Framedifference 10Time 8748 TimeDifference 4.9438958168029785
+102.094505 Framedifference 9Time 8757 TimeDifference 4.938453674316406
+102.18417 Framedifference 10Time 8767 TimeDifference 4.935875415802002
+102.7789 Framedifference 9Time 8776 TimeDifference 4.918887138366699
+103.28342 Framedifference 10Time 8786 TimeDifference 4.904628753662109
+(time 8786- lastadded -60)      true
 Circle added
-(time 37832- lastadded -60)      true
+(time 8786- lastadded -60)      true
 Circle added
-108.7479 Framedifference 10   Time 37842
-107.99686 Framedifference 10   Time 37852
-107.596085 Framedifference 9   Time 37861
-107.248695 Framedifference 10   Time 37871
-106.91306 Framedifference 10   Time 37881
-107.31087 Framedifference 8   Time 37889
-106.7778 Framedifference 10   Time 37899
-105.488464 Framedifference 11   Time 37910
-105.558464 Framedifference 9   Time 37919
-105.511765 Framedifference 10   Time 37929
-105.554665 Framedifference 9   Time 37938
-105.0736 Framedifference 10   Time 37948
-104.74353 Framedifference 10   Time 37958
-104.94023 Framedifference 10   Time 37968
-103.71414 Framedifference 10   Time 37978
-103.83945 Framedifference 9   Time 37987
-104.42041 Framedifference 10   Time 37997
-104.647964 Framedifference 9   Time 38006
-103.387985 Framedifference 11   Time 38017
-103.10336 Framedifference 10   Time 38027
-103.41129 Framedifference 9   Time 38036
-102.98827 Framedifference 10   Time 38046
-103.235756 Framedifference 10   Time 38056
-102.98866 Framedifference 10   Time 38066
-103.17525 Framedifference 10   Time 38076
-102.756226 Framedifference 9   Time 38085
-102.7876 Framedifference 10   Time 38095
-102.734085 Framedifference 10   Time 38105
-101.529366 Framedifference 11   Time 38116
-101.61642 Framedifference 10   Time 38126
-102.109825 Framedifference 9   Time 38135
-99.6242 Framedifference 13   Time 38148
-99.52255 Framedifference 10   Time 38158
-99.20204 Framedifference 11   Time 38169
-97.73546 Framedifference 11   Time 38180
-98.18929 Framedifference 10   Time 38190
-98.35107 Framedifference 10   Time 38200
-97.1049 Framedifference 12   Time 38212
-96.972534 Framedifference 10   Time 38222
-97.096146 Framedifference 10   Time 38232
-96.66966 Framedifference 11   Time 38243
-96.420105 Framedifference 11   Time 38254
-96.29764 Framedifference 11   Time 38265
-96.57416 Framedifference 10   Time 38275
-94.893074 Framedifference 12   Time 38287
-94.34091 Framedifference 11   Time 38298
-92.7367 Framedifference 13   Time 38311
-92.425606 Framedifference 11   Time 38322
-93.1216 Framedifference 10   Time 38332
-93.664246 Framedifference 11   Time 38343
-93.40096 Framedifference 10   Time 38353
-92.40007 Framedifference 13   Time 38366
-91.23483 Framedifference 12   Time 38378
-91.63182 Framedifference 10   Time 38388
-91.606705 Framedifference 11   Time 38399
-90.60819 Framedifference 13   Time 38412
-87.898994 Framedifference 15   Time 38427
-88.21945 Framedifference 11   Time 38438
-87.72196 Framedifference 12   Time 38450
-87.56617 Framedifference 12   Time 38462
-87.77254 Framedifference 11   Time 38473
-86.777275 Framedifference 13   Time 38486
-86.63332 Framedifference 12   Time 38498
-86.14496 Framedifference 12   Time 38510
-85.63488 Framedifference 12   Time 38522
-86.11719 Framedifference 11   Time 38533
-85.11317 Framedifference 13   Time 38546
-84.81274 Framedifference 13   Time 38559
-84.31284 Framedifference 12   Time 38571
-82.90251 Framedifference 14   Time 38585
-(time 38585- lastadded -60)      true
+(time 8786- lastadded -60)      true
 Circle added
-82.04579 Framedifference 14   Time 38599
-80.78392 Framedifference 14   Time 38613
-79.66556 Framedifference 14   Time 38627
-78.6154 Framedifference 15   Time 38642
-78.30713 Framedifference 13   Time 38655
-77.887955 Framedifference 14   Time 38669
-75.097496 Framedifference 19   Time 38688
-75.24541 Framedifference 14   Time 38702
-74.693695 Framedifference 14   Time 38716
-74.654045 Framedifference 13   Time 38729
-74.192345 Framedifference 15   Time 38744
-73.95253 Framedifference 14   Time 38758
-73.713806 Framedifference 13   Time 38771
-72.99079 Framedifference 16   Time 38787
-73.192474 Framedifference 13   Time 38800
-72.85416 Framedifference 15   Time 38815
-72.64502 Framedifference 14   Time 38829
-71.690384 Framedifference 16   Time 38845
-70.6161 Framedifference 16   Time 38861
-69.55054 Framedifference 17   Time 38878
-68.91822 Framedifference 15   Time 38893
-68.242775 Framedifference 17   Time 38910
-66.17108 Framedifference 20   Time 38930
-65.55721 Framedifference 17   Time 38947
-65.21204 Framedifference 16   Time 38963
-64.49628 Framedifference 17   Time 38980
-64.38189 Framedifference 16   Time 38996
-63.927902 Framedifference 17   Time 39013
-63.58428 Framedifference 16   Time 39029
-62.701157 Framedifference 18   Time 39047
-61.97158 Framedifference 19   Time 39066
-60.793438 Framedifference 20   Time 39086
-60.106857 Framedifference 18   Time 39104
-58.463768 Framedifference 23   Time 39127
-57.8174 Framedifference 19   Time 39146
-55.64871 Framedifference 28   Time 39174
-55.04069 Framedifference 20   Time 39194
-54.01457 Framedifference 22   Time 39216
-53.39245 Framedifference 21   Time 39237
-52.633217 Framedifference 22   Time 39259
-51.044357 Framedifference 27   Time 39286
-50.462193 Framedifference 23   Time 39309
-49.926445 Framedifference 22   Time 39331
-49.611214 Framedifference 21   Time 39352
-49.26593 Framedifference 22   Time 39374
-48.80265 Framedifference 22   Time 39396
-48.23696 Framedifference 23   Time 39419
-47.59886 Framedifference 25   Time 39444
-47.21646 Framedifference 22   Time 39466
-46.688408 Framedifference 24   Time 39490
-46.285427 Framedifference 23   Time 39513
-45.989986 Framedifference 23   Time 39536
-45.535946 Framedifference 25   Time 39561
-45.067017 Framedifference 24   Time 39585
-49.995014 Framedifference 11   Time 39596
-53.884663 Framedifference 11   Time 39607
-57.406437 Framedifference 11   Time 39618
-61.05175 Framedifference 11   Time 39629
-64.045685 Framedifference 11   Time 39640
-66.45724 Framedifference 11   Time 39651
-68.94744 Framedifference 11   Time 39662
-70.927505 Framedifference 11   Time 39673
-72.18536 Framedifference 12   Time 39685
-73.87829 Framedifference 11   Time 39696
-75.346954 Framedifference 12   Time 39708
-76.61924 Framedifference 11   Time 39719
-78.29258 Framedifference 11   Time 39730
-79.66034 Framedifference 11   Time 39741
-80.299706 Framedifference 11   Time 39752
-81.798325 Framedifference 11   Time 39763
-82.70047 Framedifference 11   Time 39774
-83.08731 Framedifference 11   Time 39785
-83.56872 Framedifference 12   Time 39797
-84.24698 Framedifference 11   Time 39808
-84.520035 Framedifference 11   Time 39819
-85.28219 Framedifference 11   Time 39830
-85.880714 Framedifference 12   Time 39842
-85.58986 Framedifference 11   Time 39853
-85.067924 Framedifference 13   Time 39866
-84.448395 Framedifference 13   Time 39879
-85.214455 Framedifference 10   Time 39889
-85.91826 Framedifference 11   Time 39900
-85.457504 Framedifference 12   Time 39912
-85.87042 Framedifference 12   Time 39924
-86.2579 Framedifference 11   Time 39935
-86.63724 Framedifference 11   Time 39946
-86.65098 Framedifference 11   Time 39957
-86.52002 Framedifference 12   Time 39969
-85.831665 Framedifference 13   Time 39982
-86.11887 Framedifference 11   Time 39993
-87.00962 Framedifference 10   Time 40003
-87.08359 Framedifference 12   Time 40015
-87.58721 Framedifference 11   Time 40026
-87.8915 Framedifference 11   Time 40037
-88.02541 Framedifference 11   Time 40048
-88.00984 Framedifference 11   Time 40059
-88.500595 Framedifference 11   Time 40070
-87.57364 Framedifference 13   Time 40083
-87.88245 Framedifference 11   Time 40094
-88.150276 Framedifference 11   Time 40105
-87.94899 Framedifference 11   Time 40116
-87.71292 Framedifference 12   Time 40128
-87.56222 Framedifference 11   Time 40139
-88.00171 Framedifference 11   Time 40150
-87.790474 Framedifference 12   Time 40162
-87.53142 Framedifference 12   Time 40174
-(time 40174- lastadded -60)      true
+(time 8786- lastadded -60)      true
 Circle added
-(time 40174- lastadded -60)      true
-Circle added
-(time 40174- lastadded -60)      true
-Circle added
-(time 40174- lastadded -60)      true
-Circle added
-86.33271 Framedifference 13   Time 40187
-(time 40187- lastadded 40174)      false
-(time 40187- lastadded 40174)      false
-(time 40187- lastadded 40174)      false
-(time 40187- lastadded 40174)      false
-86.08591 Framedifference 12   Time 40199
-84.57675 Framedifference 14   Time 40213
-83.680824 Framedifference 13   Time 40226
-84.18916 Framedifference 11   Time 40237
-84.10696 Framedifference 13   Time 40250
-76.29365 Framedifference -3470   Time 36780
-77.07404 Framedifference 11   Time 36791
-77.58842 Framedifference 13   Time 36804
-77.923416 Framedifference 12   Time 36816
-78.6587 Framedifference 12   Time 36828
-78.05432 Framedifference 14   Time 36842
-78.408325 Framedifference 12   Time 36854
-78.831184 Framedifference 12   Time 36866
-78.910095 Framedifference 13   Time 36879
-79.09552 Framedifference 12   Time 36891
-79.272934 Framedifference 13   Time 36904
-79.04967 Framedifference 12   Time 36916
-80.41286 Framedifference 11   Time 36927
-81.410255 Framedifference 12   Time 36939
-81.949005 Framedifference 11   Time 36950
-82.142914 Framedifference 12   Time 36962
-81.62112 Framedifference 13   Time 36975
-82.37331 Framedifference 11   Time 36986
-83.2171 Framedifference 11   Time 36997
-83.45422 Framedifference 12   Time 37009
-83.359406 Framedifference 12   Time 37021
-83.869736 Framedifference 11   Time 37032
-83.688126 Framedifference 12   Time 37044
-84.2436 Framedifference 11   Time 37055
-84.68961 Framedifference 12   Time 37067
-84.520515 Framedifference 12   Time 37079
-84.064384 Framedifference 12   Time 37091
-84.58141 Framedifference 11   Time 37102
-84.87971 Framedifference 12   Time 37114
-84.67312 Framedifference 12   Time 37126
-84.68585 Framedifference 12   Time 37138
-84.38421 Framedifference 12   Time 37150
-84.249535 Framedifference 12   Time 37162
-83.68139 Framedifference 13   Time 37175
-83.44517 Framedifference 12   Time 37187
-83.37835 Framedifference 12   Time 37199
-83.50384 Framedifference 12   Time 37211
-83.42905 Framedifference 13   Time 37224
-83.48758 Framedifference 11   Time 37235
-83.41582 Framedifference 12   Time 37247
-82.90773 Framedifference 13   Time 37260
-82.365456 Framedifference 13   Time 37273
-81.86957 Framedifference 13   Time 37286
-82.264755 Framedifference 11   Time 37297
-82.08908 Framedifference 13   Time 37310
-82.251724 Framedifference 12   Time 37322
-82.22882 Framedifference 12   Time 37334
-81.75489 Framedifference 13   Time 37347
-81.750275 Framedifference 12   Time 37359
-81.70835 Framedifference 13   Time 37372
-81.05141 Framedifference 13   Time 37385
-80.33481 Framedifference 13   Time 37398
-80.1921 Framedifference 13   Time 37411
-79.540665 Framedifference 13   Time 37424
-79.90466 Framedifference 12   Time 37436
-79.609116 Framedifference 13   Time 37449
-80.01133 Framedifference 12   Time 37461
-79.19899 Framedifference 14   Time 37475
-79.23447 Framedifference 13   Time 37488
-79.48275 Framedifference 12   Time 37500
-79.1588 Framedifference 13   Time 37513
-78.89083 Framedifference 13   Time 37526
-78.06115 Framedifference 14   Time 37540
-78.38052 Framedifference 13   Time 37553
-78.49364 Framedifference 12   Time 37565
-77.9874 Framedifference 14   Time 37579
-77.952545 Framedifference 13   Time 37592
-77.95793 Framedifference 13   Time 37605
-77.58001 Framedifference 13   Time 37618
-77.576195 Framedifference 13   Time 37631
-77.06646 Framedifference 14   Time 37645
-77.096794 Framedifference 13   Time 37658
-77.107124 Framedifference 13   Time 37671
-76.5819 Framedifference 14   Time 37685
-76.51765 Framedifference 13   Time 37698
-76.47922 Framedifference 13   Time 37711
-76.37363 Framedifference 13   Time 37724
-76.69504 Framedifference 13   Time 37737
-75.94452 Framedifference 14   Time 37751
-75.850975 Framedifference 13   Time 37764
-75.298584 Framedifference 15   Time 37779
-74.98274 Framedifference 13   Time 37792
-74.561386 Framedifference 15   Time 37807
-74.06156 Framedifference 14   Time 37821
-73.56716 Framedifference 14   Time 37835
-(time 37835- lastadded -60)      true
-Circle added
-(time 37835- lastadded -60)      true
-Circle added
-(time 37835- lastadded -60)      true
-Circle added
-(time 37835- lastadded -60)      true
-Circle added
-(time 37835- lastadded -60)      true
-Circle added
-73.02193 Framedifference 15   Time 37850
-72.755615 Framedifference 15   Time 37865
-72.19782 Framedifference 15   Time 37880
-71.7583 Framedifference 14   Time 37894
-71.25423 Framedifference 15   Time 37909
-71.04754 Framedifference 15   Time 37924
-70.76783 Framedifference 15   Time 37939
-70.18793 Framedifference 15   Time 37954
-69.64458 Framedifference 16   Time 37970
-69.019066 Framedifference 15   Time 37985
-68.769035 Framedifference 15   Time 38000
-68.35976 Framedifference 15   Time 38015
-68.097305 Framedifference 15   Time 38030
-67.614815 Framedifference 16   Time 38046
-67.40459 Framedifference 16   Time 38062
-66.97542 Framedifference 15   Time 38077
-66.71141 Framedifference 16   Time 38093
-65.56334 Framedifference 18   Time 38111
-65.187775 Framedifference 16   Time 38127
-64.71273 Framedifference 17   Time 38144
-64.54898 Framedifference 16   Time 38160
-63.797134 Framedifference 17   Time 38177
-63.307064 Framedifference 17   Time 38194
-62.964783 Framedifference 17   Time 38211
-61.60212 Framedifference 20   Time 38231
-61.27065 Framedifference 17   Time 38248
-61.11507 Framedifference 17   Time 38265
-60.651207 Framedifference 18   Time 38283
-60.31885 Framedifference 17   Time 38300
-60.114056 Framedifference 17   Time 38317
-60.065025 Framedifference 17   Time 38334
-59.608906 Framedifference 18   Time 38352
-59.613937 Framedifference 17   Time 38369
-61.414585 Framedifference 13   Time 38382
-63.21298 Framedifference 12   Time 38394
-64.91503 Framedifference 13   Time 38407
-66.31701 Framedifference 12   Time 38419
-67.479256 Framedifference 13   Time 38432
-68.51813 Framedifference 13   Time 38445
-69.861015 Framedifference 13   Time 38458
-69.696625 Framedifference 15   Time 38473
-69.40568 Framedifference 14   Time 38487
-70.132385 Framedifference 13   Time 38500
-70.78206 Framedifference 14   Time 38514
-71.02303 Framedifference 13   Time 38527
-70.582245 Framedifference 15   Time 38542
-70.98709 Framedifference 13   Time 38555
-71.93239 Framedifference 13   Time 38568
-71.99067 Framedifference 14   Time 38582
-(time 38582- lastadded -60)      true
-Circle added
-72.23775 Framedifference 13   Time 38595
-72.02107 Framedifference 14   Time 38609
-71.592415 Framedifference 15   Time 38624
-71.327484 Framedifference 15   Time 38639
-71.27332 Framedifference 14   Time 38653
-70.02589 Framedifference 17   Time 38670
-68.68625 Framedifference 18   Time 38688
-66.25634 Framedifference 22   Time 38710
-65.86544 Framedifference 16   Time 38726
-65.68689 Framedifference 16   Time 38742
-65.5794 Framedifference 15   Time 38757
-64.30739 Framedifference 19   Time 38776
-63.747704 Framedifference 17   Time 38793
-64.22336 Framedifference 15   Time 38808
-64.37986 Framedifference 14   Time 38822
-63.22373 Framedifference 19   Time 38841
-63.979305 Framedifference 14   Time 38855
-65.03833 Framedifference 14   Time 38869
-65.240845 Framedifference 15   Time 38884
-65.7338 Framedifference 14   Time 38898
-66.38966 Framedifference 14   Time 38912
-66.647446 Framedifference 14   Time 38926
-65.99759 Framedifference 17   Time 38943
-65.542816 Framedifference 17   Time 38960
-64.78716 Framedifference 17   Time 38977
-64.80133 Framedifference 15   Time 38992
-64.58161 Framedifference 16   Time 39008
-64.25927 Framedifference 17   Time 39025
-63.779648 Framedifference 16   Time 39041
-63.65278 Framedifference 16   Time 39057
-63.31743 Framedifference 17   Time 39074
-63.012264 Framedifference 16   Time 39090
-62.772312 Framedifference 17   Time 39107
-62.301643 Framedifference 17   Time 39124
-61.55886 Framedifference 18   Time 39142
-61.192154 Framedifference 18   Time 39160
-60.607044 Framedifference 18   Time 39178
-60.202076 Framedifference 17   Time 39195
-59.60292 Framedifference 19   Time 39214
-59.04606 Framedifference 18   Time 39232
-58.395317 Framedifference 19   Time 39251
-58.20661 Framedifference 18   Time 39269
-57.66188 Framedifference 19   Time 39288
-57.078663 Framedifference 19   Time 39307
-56.62346 Framedifference 19   Time 39326
-56.007034 Framedifference 20   Time 39346
-55.629356 Framedifference 19   Time 39365
-54.938995 Framedifference 21   Time 39386
-54.26322 Framedifference 21   Time 39407
-53.53411 Framedifference 21   Time 39428
-53.06705 Framedifference 20   Time 39448
-52.885582 Framedifference 20   Time 39468
-52.29271 Framedifference 21   Time 39489
-51.907436 Framedifference 20   Time 39509
-51.36168 Framedifference 22   Time 39531
-50.977463 Framedifference 21   Time 39552
-46.455574 Framedifference -2633   Time 36919
-46.28494 Framedifference 22   Time 36941
-46.401474 Framedifference 22   Time 36963
-45.992027 Framedifference 23   Time 36986
-45.717384 Framedifference 23   Time 37009
-45.279724 Framedifference 24   Time 37033
-45.0778 Framedifference 23   Time 37056
-44.81299 Framedifference 24   Time 37080
-44.4652 Framedifference 24   Time 37104
-44.23855 Framedifference 24   Time 37128
-43.707203 Framedifference 25   Time 37153
-43.424614 Framedifference 25   Time 37178
-43.07991 Framedifference 25   Time 37203
-42.91077 Framedifference 25   Time 37228
-42.521416 Framedifference 25   Time 37253
-42.250973 Framedifference 25   Time 37278
-42.144306 Framedifference 24   Time 37302
-41.94985 Framedifference 25   Time 37327
-41.47712 Framedifference 27   Time 37354
-44.285225 Framedifference 14   Time 37368
-47.57366 Framedifference 14   Time 37382
-50.57187 Framedifference 12   Time 37394
-52.80395 Framedifference 14   Time 37408
-54.691513 Framedifference 14   Time 37422
-56.894157 Framedifference 13   Time 37435
-58.760494 Framedifference 13   Time 37448
-60.668144 Framedifference 13   Time 37461
-61.898228 Framedifference 14   Time 37475
-63.41152 Framedifference 13   Time 37488
-64.307915 Framedifference 13   Time 37501
-65.49699 Framedifference 14   Time 37515
-66.57533 Framedifference 13   Time 37528
-67.623344 Framedifference 12   Time 37540
-68.49025 Framedifference 14   Time 37554
-68.206566 Framedifference 15   Time 37569
-68.98576 Framedifference 13   Time 37582
-69.70393 Framedifference 13   Time 37595
-70.12558 Framedifference 14   Time 37609
-71.08057 Framedifference 12   Time 37621
-71.22416 Framedifference 14   Time 37635
-71.49028 Framedifference 13   Time 37648
-72.04087 Framedifference 14   Time 37662
-72.10774 Framedifference 14   Time 37676
-72.48515 Framedifference 13   Time 37689
-72.84878 Framedifference 13   Time 37702
-72.80963 Framedifference 14   Time 37716
-72.66767 Framedifference 14   Time 37730
-72.78009 Framedifference 13   Time 37743
-73.21021 Framedifference 13   Time 37756
-73.121376 Framedifference 14   Time 37770
-73.341675 Framedifference 13   Time 37783
-73.70637 Framedifference 14   Time 37797
-73.274254 Framedifference 14   Time 37811
-73.41561 Framedifference 13   Time 37824
-72.8904 Framedifference 15   Time 37839
-(time 37839- lastadded -60)      true
-Circle added
-(time 37839- lastadded -60)      true
-Circle added
-(time 37839- lastadded -60)      true
-Circle added
-(time 37839- lastadded -60)      true
-Circle added
-(time 37839- lastadded -60)      true
-Circle added
-72.17787 Framedifference 15   Time 37854
-70.407745 Framedifference 18   Time 37872
-70.72531 Framedifference 14   Time 37886
-70.233055 Framedifference 15   Time 37901
-69.839836 Framedifference 15   Time 37916
-69.65666 Framedifference 15   Time 37931
-69.26474 Framedifference 15   Time 37946
-69.13695 Framedifference 15   Time 37961
-68.78308 Framedifference 15   Time 37976
-68.9164 Framedifference 14   Time 37990
-68.66555 Framedifference 15   Time 38005
-68.408775 Framedifference 16   Time 38021
-67.6078 Framedifference 16   Time 38037
-68.43492 Framedifference 13   Time 38050
-69.23231 Framedifference 14   Time 38064
-69.18156 Framedifference 14   Time 38078
-69.54846 Framedifference 14   Time 38092
-69.611916 Framedifference 14   Time 38106
-70.31334 Framedifference 13   Time 38119
-70.21302 Framedifference 15   Time 38134
-70.43947 Framedifference 13   Time 38147
-70.804665 Framedifference 14   Time 38161
-70.80407 Framedifference 14   Time 38175
-70.99137 Framedifference 14   Time 38189
-71.19186 Framedifference 13   Time 38202
-71.52706 Framedifference 14   Time 38216
-71.29186 Framedifference 14   Time 38230
-71.13127 Framedifference 14   Time 38244
-71.46146 Framedifference 14   Time 38258
-71.59819 Framedifference 14   Time 38272
-72.09813 Framedifference 12   Time 38284
-72.50982 Framedifference 14   Time 38298
-72.86002 Framedifference 13   Time 38311
-73.127 Framedifference 13   Time 38324
-72.90188 Framedifference 14   Time 38338
-72.837585 Framedifference 14   Time 38352
-72.12182 Framedifference 16   Time 38368
-71.88907 Framedifference 14   Time 38382
-71.99747 Framedifference 13   Time 38395
-72.08863 Framedifference 14   Time 38409
-72.10059 Framedifference 14   Time 38423
-72.05113 Framedifference 14   Time 38437
-71.78774 Framedifference 14   Time 38451
-72.21326 Framedifference 13   Time 38464
-71.877495 Framedifference 15   Time 38479
-72.081505 Framedifference 13   Time 38492
-71.85953 Framedifference 15   Time 38507
-71.8629 Framedifference 13   Time 38520
-71.45664 Framedifference 15   Time 38535
-71.45468 Framedifference 14   Time 38549
-71.52883 Framedifference 14   Time 38563
-71.16034 Framedifference 15   Time 38578
-70.82152 Framedifference 15   Time 38593
-(time 38593- lastadded -60)      true
-Circle added
-70.13739 Framedifference 16   Time 38609
-69.95168 Framedifference 14   Time 38623
-69.66828 Framedifference 15   Time 38638
-69.72165 Framedifference 14   Time 38652
-68.64971 Framedifference 17   Time 38669
-68.28508 Framedifference 15   Time 38684
-67.92152 Framedifference 16   Time 38700
-67.859985 Framedifference 15   Time 38715
-67.82729 Framedifference 15   Time 38730
-67.59889 Framedifference 15   Time 38745
-67.63011 Framedifference 15   Time 38760
-66.960144 Framedifference 16   Time 38776
-66.66792 Framedifference 16   Time 38792
-66.60633 Framedifference 15   Time 38807
-66.4099 Framedifference 15   Time 38822
-65.76413 Framedifference 17   Time 38839
-65.24805 Framedifference 16   Time 38855
-64.67 Framedifference 17   Time 38872
-64.20698 Framedifference 17   Time 38889
-63.955826 Framedifference 16   Time 38905
-63.57995 Framedifference 17   Time 38922
-63.117107 Framedifference 17   Time 38939
-62.88015 Framedifference 16   Time 38955
-62.4631 Framedifference 17   Time 38972
-61.99843 Framedifference 17   Time 38989
-61.563244 Framedifference 18   Time 39007
-61.083614 Framedifference 18   Time 39025
-60.377113 Framedifference 18   Time 39043
-60.282 Framedifference 17   Time 39060
-59.627277 Framedifference 18   Time 39078
-59.304527 Framedifference 18   Time 39096
-58.596542 Framedifference 19   Time 39115
-57.84443 Framedifference 20   Time 39135
-57.183205 Framedifference 19   Time 39154
-56.456062 Framedifference 20   Time 39174
-55.988274 Framedifference 20   Time 39194
-55.32744 Framedifference 20   Time 39214
-54.552437 Framedifference 21   Time 39235
-54.20995 Framedifference 19   Time 39254
-53.51292 Framedifference 22   Time 39276
-52.644203 Framedifference 22   Time 39298
-51.694218 Framedifference 23   Time 39321
-47.10238 Framedifference -2245   Time 37076
-46.7636 Framedifference 23   Time 37099
-46.43791 Framedifference 23   Time 37122
-46.186665 Framedifference 23   Time 37145
-45.936718 Framedifference 23   Time 37168
-45.686554 Framedifference 23   Time 37191
-45.083714 Framedifference 25   Time 37216
-44.539265 Framedifference 25   Time 37241
-43.85541 Framedifference 27   Time 37268
-43.652863 Framedifference 24   Time 37292
-43.280346 Framedifference 25   Time 37317
-43.196526 Framedifference 23   Time 37340
-42.882706 Framedifference 25   Time 37365
-42.661407 Framedifference 25   Time 37390
-42.34688 Framedifference 25   Time 37415
-42.03965 Framedifference 26   Time 37441
-41.82422 Framedifference 25   Time 37466
-41.530354 Framedifference 26   Time 37492
-41.24259 Framedifference 25   Time 37517
-41.15138 Framedifference 25   Time 37542
-40.936016 Framedifference 26   Time 37568
-40.840458 Framedifference 25   Time 37593
-40.64586 Framedifference 26   Time 37619
-40.514977 Framedifference 25   Time 37644
-40.160267 Framedifference 27   Time 37671
-39.74218 Framedifference 28   Time 37699
-39.425426 Framedifference 27   Time 37726
-39.110664 Framedifference 28   Time 37754
-38.799725 Framedifference 28   Time 37782
-41.24812 Framedifference 15   Time 37797
-43.74811 Framedifference 16   Time 37813
-44.29239 Framedifference 20   Time 37833
-(time 37833- lastadded -60)      true
-Circle added
-(time 37833- lastadded -60)      true
-Circle added
-(time 37833- lastadded -60)      true
-Circle added
-(time 37833- lastadded -60)      true
-Circle added
-(time 37833- lastadded -60)      true
-Circle added
-45.700863 Framedifference 17   Time 37850
-47.736423 Framedifference 15   Time 37865
-49.40289 Framedifference 15   Time 37880
-50.521336 Framedifference 17   Time 37897
-51.934254 Framedifference 16   Time 37913
-53.366753 Framedifference 14   Time 37927
-54.926334 Framedifference 15   Time 37942
-56.182575 Framedifference 15   Time 37957
-57.446484 Framedifference 14   Time 37971
-58.377243 Framedifference 15   Time 37986
-59.117577 Framedifference 15   Time 38001
-59.722317 Framedifference 16   Time 38017
-60.46243 Framedifference 15   Time 38032
-61.12922 Framedifference 15   Time 38047
-61.476322 Framedifference 15   Time 38062
-61.940598 Framedifference 15   Time 38077
-61.66752 Framedifference 17   Time 38094
-61.08176 Framedifference 19   Time 38113
-61.23942 Framedifference 16   Time 38129
-61.26734 Framedifference 16   Time 38145
-61.376335 Framedifference 16   Time 38161
-61.515717 Framedifference 15   Time 38176
-59.910522 Framedifference 23   Time 38199
-59.779865 Framedifference 17   Time 38216
-59.95529 Framedifference 16   Time 38232
-57.732967 Framedifference 27   Time 38259
-57.34515 Framedifference 18   Time 38277
-57.764244 Framedifference 16   Time 38293
-57.95958 Framedifference 17   Time 38310
-56.71774 Framedifference 22   Time 38332
-57.060665 Framedifference 17   Time 38349
-56.84839 Framedifference 17   Time 38366
-57.096397 Framedifference 17   Time 38383
-57.588135 Framedifference 16   Time 38399
-57.989914 Framedifference 17   Time 38416
-58.015495 Framedifference 17   Time 38433
-57.80244 Framedifference 18   Time 38451
-57.646984 Framedifference 18   Time 38469
-57.924995 Framedifference 16   Time 38485
-58.128918 Framedifference 17   Time 38502
-58.228226 Framedifference 17   Time 38519
-58.333843 Framedifference 16   Time 38535
-58.460922 Framedifference 17   Time 38552
-58.60509 Framedifference 17   Time 38569
-58.367184 Framedifference 17   Time 38586
-(time 38586- lastadded -60)      true
-Circle added
-58.327633 Framedifference 18   Time 38604
-57.90796 Framedifference 18   Time 38622
-57.982574 Framedifference 18   Time 38640
-58.07965 Framedifference 17   Time 38657
-58.191677 Framedifference 17   Time 38674
-58.79747 Framedifference 15   Time 38689
-59.55434 Framedifference 15   Time 38704
-59.75251 Framedifference 16   Time 38720
-59.75844 Framedifference 17   Time 38737
-59.654266 Framedifference 17   Time 38754
-60.07619 Framedifference 16   Time 38770
-60.434166 Framedifference 15   Time 38785
-59.62343 Framedifference 20   Time 38805
-59.86138 Framedifference 16   Time 38821
-60.261654 Framedifference 15   Time 38836
-60.465153 Framedifference 16   Time 38852
-60.510063 Framedifference 17   Time 38869
-59.99136 Framedifference 18   Time 38887
-60.099266 Framedifference 16   Time 38903
-59.747368 Framedifference 18   Time 38921
-59.57212 Framedifference 17   Time 38938
-59.617043 Framedifference 17   Time 38955
-59.62774 Framedifference 16   Time 38971
-59.207077 Framedifference 18   Time 38989
-59.02908 Framedifference 18   Time 39007
-58.27539 Framedifference 19   Time 39026
-58.078156 Framedifference 18   Time 39044
-57.004845 Framedifference 21   Time 39065
-56.621372 Framedifference 19   Time 39084
-56.67129 Framedifference 17   Time 39101
-56.59282 Framedifference 18   Time 39119
-56.496094 Framedifference 18   Time 39137
-55.466747 Framedifference 23   Time 39160
-54.623844 Framedifference 21   Time 39181
-53.11503 Framedifference 25   Time 39206
-53.06553 Framedifference 19   Time 39225
-53.21524 Framedifference 18   Time 39243
-53.08371 Framedifference 20   Time 39263
-52.4583 Framedifference 21   Time 39284
-51.867146 Framedifference 21   Time 39305
-51.780174 Framedifference 20   Time 39325
-51.497753 Framedifference 20   Time 39345
-50.971413 Framedifference 22   Time 39367
-46.47381 Framedifference -1980   Time 37387
-46.272015 Framedifference 23   Time 37410
-46.303818 Framedifference 22   Time 37432
-46.22167 Framedifference 21   Time 37453
-46.26825 Framedifference 22   Time 37475
-46.346725 Framedifference 21   Time 37496
-46.226692 Framedifference 22   Time 37518
-46.13658 Framedifference 23   Time 37541
-46.10853 Framedifference 22   Time 37563
-45.795403 Framedifference 23   Time 37586
-45.592957 Framedifference 22   Time 37608
-45.54773 Framedifference 23   Time 37631
-45.284027 Framedifference 23   Time 37654
-45.081577 Framedifference 23   Time 37677
-44.9718 Framedifference 23   Time 37700
-44.577866 Framedifference 24   Time 37724
-44.348812 Framedifference 24   Time 37748
-43.838505 Framedifference 25   Time 37773
-43.6758 Framedifference 24   Time 37797
-43.277016 Framedifference 25   Time 37822
-43.07431 Framedifference 24   Time 37846
-42.61601 Framedifference 26   Time 37872
-42.279972 Framedifference 26   Time 37898
-41.890137 Framedifference 26   Time 37924
-41.54722 Framedifference 26   Time 37950
-41.180775 Framedifference 26   Time 37976
-40.864212 Framedifference 27   Time 38003
-40.63178 Framedifference 25   Time 38028
-40.157154 Framedifference 28   Time 38056
-39.121964 Framedifference 34   Time 38090
-38.74701 Framedifference 28   Time 38118
-38.57421 Framedifference 28   Time 38146
-38.29991 Framedifference 27   Time 38173
-37.93866 Framedifference 29   Time 38202
-37.661022 Framedifference 28   Time 38230
-37.31243 Framedifference 30   Time 38260
-40.063835 Framedifference 15   Time 38275
-42.527107 Framedifference 15   Time 38290
-44.80451 Framedifference 16   Time 38306
-46.81791 Framedifference 15   Time 38321
-48.549793 Framedifference 16   Time 38337
-50.023796 Framedifference 15   Time 38352
-51.33771 Framedifference 17   Time 38369
-52.276897 Framedifference 16   Time 38385
-53.433113 Framedifference 16   Time 38401
-54.091015 Framedifference 16   Time 38417
-55.142685 Framedifference 16   Time 38433
-56.365883 Framedifference 15   Time 38448
-57.508152 Framedifference 15   Time 38463
-57.93674 Framedifference 16   Time 38479
-58.970024 Framedifference 14   Time 38493
-59.17606 Framedifference 17   Time 38510
-59.783115 Framedifference 15   Time 38525
-59.884663 Framedifference 17   Time 38542
-60.34641 Framedifference 15   Time 38557
-60.844395 Framedifference 15   Time 38572
-60.922394 Framedifference 17   Time 38589
-(time 38589- lastadded -60)      true
-Circle added
-60.61376 Framedifference 17   Time 38606
-60.587997 Framedifference 16   Time 38622
-60.881958 Framedifference 16   Time 38638
-61.04436 Framedifference 16   Time 38654
-61.049545 Framedifference 16   Time 38670
-61.150894 Framedifference 16   Time 38686
-60.981026 Framedifference 17   Time 38703
-61.07732 Framedifference 16   Time 38719
-61.069954 Framedifference 17   Time 38736
-60.99428 Framedifference 16   Time 38752
-60.958477 Framedifference 17   Time 38769
-60.868084 Framedifference 16   Time 38785
-60.5618 Framedifference 18   Time 38803
-60.722195 Framedifference 16   Time 38819
-60.557793 Framedifference 17   Time 38836
-60.280228 Framedifference 17   Time 38853
-60.133606 Framedifference 17   Time 38870
-60.223186 Framedifference 17   Time 38887
-60.344604 Framedifference 16   Time 38903
-60.27853 Framedifference 17   Time 38920
-60.18975 Framedifference 17   Time 38937
-60.55583 Framedifference 15   Time 38952
-60.21732 Framedifference 18   Time 38970
-60.358612 Framedifference 16   Time 38986
-61.053486 Framedifference 15   Time 39001
-61.738895 Framedifference 14   Time 39015
-62.58243 Framedifference 14   Time 39029
-63.29204 Framedifference 15   Time 39044
-63.683613 Framedifference 15   Time 39059
-64.002655 Framedifference 15   Time 39074
-64.56552 Framedifference 14   Time 39088
-63.66891 Framedifference 18   Time 39106
-63.634697 Framedifference 16   Time 39122
-63.90109 Framedifference 15   Time 39137
-64.06267 Framedifference 16   Time 39153
-64.40085 Framedifference 14   Time 39167
-65.21497 Framedifference 14   Time 39181
-65.94742 Framedifference 14   Time 39195
-66.23145 Framedifference 14   Time 39209
-66.68767 Framedifference 14   Time 39223
-66.98439 Framedifference 15   Time 39238
-67.30589 Framedifference 14   Time 39252
-67.46901 Framedifference 15   Time 39267
-67.66667 Framedifference 14   Time 39281
-68.12697 Framedifference 14   Time 39295
-68.217964 Framedifference 14   Time 39309
-68.334816 Framedifference 15   Time 39324
-68.4774 Framedifference 14   Time 39338
-68.428696 Framedifference 15   Time 39353
-68.38687 Framedifference 14   Time 39367
-68.2004 Framedifference 15   Time 39382
-68.27175 Framedifference 15   Time 39397
-68.02153 Framedifference 15   Time 39412
-67.83386 Framedifference 15   Time 39427
-68.14629 Framedifference 14   Time 39441
-68.57915 Framedifference 14   Time 39455
-68.346146 Framedifference 15   Time 39470
-68.40706 Framedifference 15   Time 39485
-68.1338 Framedifference 15   Time 39500
-67.96483 Framedifference 15   Time 39515
-67.76529 Framedifference 15   Time 39530
-67.71868 Framedifference 15   Time 39545
-68.175255 Framedifference 14   Time 39559
-68.21537 Framedifference 14   Time 39573
-67.87734 Framedifference 16   Time 39589
-66.8781 Framedifference 17   Time 39606
-66.653946 Framedifference 15   Time 39621
-66.577705 Framedifference 16   Time 39637
-66.19342 Framedifference 15   Time 39652
-66.19159 Framedifference 16   Time 39668
-65.98253 Framedifference 15   Time 39683
-66.324646 Framedifference 15   Time 39698
-66.1786 Framedifference 15   Time 39713
-66.262596 Framedifference 15   Time 39728
-66.5714 Framedifference 14   Time 39742
-66.7062 Framedifference 15   Time 39757
-66.012276 Framedifference 17   Time 39774
-65.863815 Framedifference 15   Time 39789
-65.50819 Framedifference 16   Time 39805
-65.701 Framedifference 15   Time 39820
-65.57909 Framedifference 16   Time 39836
-65.21862 Framedifference 16   Time 39852
-65.27127 Framedifference 15   Time 39867
-65.28081 Framedifference 15   Time 39882
-65.41606 Framedifference 15   Time 39897
-65.071014 Framedifference 17   Time 39914
-65.27418 Framedifference 14   Time 39928
-65.267715 Framedifference 16   Time 39944
-65.41818 Framedifference 15   Time 39959
-64.973015 Framedifference 16   Time 39975
-65.35545 Framedifference 15   Time 39990
-65.26321 Framedifference 16   Time 40006
-65.5081 Framedifference 14   Time 40020
-65.36413 Framedifference 16   Time 40036
-65.18047 Framedifference 16   Time 40052
-65.40641 Framedifference 14   Time 40066
-65.36189 Framedifference 16   Time 40082
-65.2869 Framedifference 15   Time 40097
-64.78163 Framedifference 17   Time 40114
-64.98059 Framedifference 14   Time 40128
-64.92987 Framedifference 17   Time 40145
-64.11556 Framedifference 17   Time 40162
-63.712696 Framedifference 17   Time 40179
-(time 40179- lastadded -60)      true
-Circle added
-(time 40179- lastadded -60)      true
-Circle added
-(time 40179- lastadded -60)      true
-Circle added
-(time 40179- lastadded -60)      true
-Circle added
-63.25291 Framedifference 17   Time 40196
-62.98354 Framedifference 16   Time 40212
-63.007713 Framedifference 16   Time 40228
-63.150238 Framedifference 15   Time 40243
-63.081013 Framedifference 16   Time 40259
-62.42562 Framedifference 18   Time 40277
-60.43823 Framedifference 24   Time 40301
-60.43609 Framedifference 16   Time 40317
-60.651894 Framedifference 16   Time 40333
-60.581654 Framedifference 17   Time 40350
-60.8304 Framedifference 16   Time 40366
-60.451824 Framedifference 18   Time 40384
-60.558987 Framedifference 15   Time 40399
-60.60374 Framedifference 17   Time 40416
-60.88746 Framedifference 15   Time 40431
-60.74982 Framedifference 18   Time 40449
-60.693527 Framedifference 16   Time 40465
-60.9465 Framedifference 15   Time 40480
-61.171616 Framedifference 16   Time 40496
-61.122883 Framedifference 17   Time 40513
-61.236385 Framedifference 16   Time 40529
-61.9675 Framedifference 14   Time 40543
-62.632603 Framedifference 15   Time 40558
-63.06351 Framedifference 15   Time 40573
-63.181805 Framedifference 16   Time 40589
-63.08773 Framedifference 15   Time 40604
-63.47657 Framedifference 15   Time 40619
-63.921204 Framedifference 16   Time 40635
-64.007645 Framedifference 15   Time 40650
-63.647255 Framedifference 17   Time 40667
-63.716698 Framedifference 15   Time 40682
-64.07286 Framedifference 15   Time 40697
-64.016266 Framedifference 16   Time 40713
-64.32999 Framedifference 14   Time 40727
-64.31383 Framedifference 16   Time 40743
-64.42876 Framedifference 15   Time 40758
-64.28343 Framedifference 16   Time 40774
-64.50991 Framedifference 15   Time 40789
-64.46838 Framedifference 16   Time 40805
-64.405136 Framedifference 15   Time 40820
-64.03692 Framedifference 17   Time 40837
-63.787125 Framedifference 16   Time 40853
-63.768204 Framedifference 16   Time 40869
-63.406822 Framedifference 17   Time 40886
-63.59964 Framedifference 15   Time 40901
-63.53865 Framedifference 16   Time 40917
-63.838814 Framedifference 15   Time 40932
-64.15036 Framedifference 14   Time 40946
-58.33689 Framedifference -2818   Time 38128
-58.835365 Framedifference 16   Time 38144
-59.27497 Framedifference 16   Time 38160
-59.692287 Framedifference 15   Time 38175
-59.896015 Framedifference 16   Time 38191
-60.336983 Framedifference 16   Time 38207
-60.522434 Framedifference 16   Time 38223
-60.44259 Framedifference 17   Time 38240
-60.81527 Framedifference 15   Time 38255
-60.858788 Framedifference 17   Time 38272
-60.660778 Framedifference 17   Time 38289
-60.573868 Framedifference 17   Time 38306
-60.97832 Framedifference 15   Time 38321
-61.205887 Framedifference 16   Time 38337
-61.008343 Framedifference 17   Time 38354
-61.375023 Framedifference 15   Time 38369
-60.989952 Framedifference 17   Time 38386
-61.429924 Framedifference 16   Time 38402
-61.445583 Framedifference 16   Time 38418
-61.639973 Framedifference 16   Time 38434
-62.1367 Framedifference 15   Time 38449
-61.99014 Framedifference 16   Time 38465
-61.38242 Framedifference 19   Time 38484
-60.480083 Framedifference 18   Time 38502
-60.34947 Framedifference 17   Time 38519
-60.591434 Framedifference 16   Time 38535
-60.608368 Framedifference 17   Time 38552
-60.57142 Framedifference 16   Time 38568
-60.56597 Framedifference 17   Time 38585
-(time 38585- lastadded -60)      true
-Circle added
-60.2917 Framedifference 17   Time 38602
-59.78685 Framedifference 18   Time 38620
-59.987762 Framedifference 16   Time 38636
-59.887344 Framedifference 17   Time 38653
-60.006992 Framedifference 16   Time 38669
-59.92835 Framedifference 17   Time 38686
-60.155457 Framedifference 16   Time 38702
-59.754673 Framedifference 18   Time 38720
-59.741577 Framedifference 17   Time 38737
-59.716534 Framedifference 17   Time 38754
-59.740475 Framedifference 16   Time 38770
-59.43365 Framedifference 18   Time 38788
-59.30039 Framedifference 18   Time 38806
-58.770348 Framedifference 18   Time 38824
-58.72937 Framedifference 17   Time 38841
-58.304325 Framedifference 18   Time 38859
-58.18804 Framedifference 18   Time 38877
-57.91332 Framedifference 18   Time 38895
-57.999138 Framedifference 17   Time 38912
-57.566204 Framedifference 19   Time 38931
-57.491894 Framedifference 17   Time 38948
-56.893074 Framedifference 20   Time 38968
-56.416546 Framedifference 19   Time 38987
-56.1652 Framedifference 18   Time 39005
-55.749798 Framedifference 19   Time 39024
-55.547924 Framedifference 19   Time 39043
-55.545643 Framedifference 18   Time 39061
-55.36204 Framedifference 19   Time 39080
-55.09224 Framedifference 19   Time 39099
-54.61658 Framedifference 20   Time 39119
-54.535133 Framedifference 19   Time 39138
-54.301365 Framedifference 19   Time 39157
-54.238724 Framedifference 18   Time 39175
-53.73778 Framedifference 21   Time 39196
-53.56353 Framedifference 19   Time 39215
-53.194534 Framedifference 20   Time 39235
-53.127674 Framedifference 19   Time 39254
-52.929607 Framedifference 19   Time 39273
-52.59753 Framedifference 20   Time 39293
-52.566746 Framedifference 19   Time 39312
-52.254753 Framedifference 21   Time 39333
-51.97847 Framedifference 20   Time 39353
-51.53987 Framedifference 21   Time 39374
-51.41323 Framedifference 20   Time 39394
-51.38741 Framedifference 19   Time 39413
-51.04992 Framedifference 21   Time 39434
-50.90518 Framedifference 21   Time 39455
-52.638283 Framedifference 14   Time 39469
-53.82435 Framedifference 16   Time 39485
-54.88808 Framedifference 15   Time 39500
-55.760933 Framedifference 16   Time 39516
-56.663616 Framedifference 16   Time 39532
-57.557198 Framedifference 15   Time 39547
-58.454372 Framedifference 15   Time 39562
-59.196087 Framedifference 15   Time 39577
-59.757084 Framedifference 15   Time 39592
-60.284096 Framedifference 16   Time 39608
-60.501484 Framedifference 16   Time 39624
-61.078613 Framedifference 15   Time 39639
-61.582546 Framedifference 15   Time 39654
-62.14079 Framedifference 15   Time 39669
-62.23515 Framedifference 16   Time 39685
-62.588253 Framedifference 15   Time 39700
-62.953667 Framedifference 15   Time 39715
-62.774715 Framedifference 16   Time 39731
-63.15808 Framedifference 15   Time 39746
-63.658627 Framedifference 15   Time 39761
-63.73234 Framedifference 15   Time 39776
-63.901142 Framedifference 16   Time 39792
-64.242226 Framedifference 14   Time 39806
-64.14197 Framedifference 16   Time 39822
-64.12936 Framedifference 16   Time 39838
-64.373856 Framedifference 15   Time 39853
-64.34037 Framedifference 16   Time 39869
-64.253105 Framedifference 15   Time 39884
-64.48477 Framedifference 15   Time 39899
-64.589195 Framedifference 16   Time 39915
-64.24066 Framedifference 16   Time 39931
-63.89721 Framedifference 17   Time 39948
-63.199738 Framedifference 17   Time 39965
-63.519653 Framedifference 15   Time 39980
-63.706654 Framedifference 15   Time 39995
-64.09748 Framedifference 15   Time 40010
-63.798313 Framedifference 16   Time 40026
-64.04002 Framedifference 16   Time 40042
-63.808495 Framedifference 16   Time 40058
-58.03362 Framedifference -2038   Time 38020
-58.318073 Framedifference 16   Time 38036
-58.826958 Framedifference 16   Time 38052
-58.951378 Framedifference 17   Time 38069
-58.730957 Framedifference 17   Time 38086
-59.539665 Framedifference 15   Time 38101
-59.72924 Framedifference 16   Time 38117
-60.133133 Framedifference 16   Time 38133
-60.37793 Framedifference 16   Time 38149
-60.419235 Framedifference 17   Time 38166
-60.608963 Framedifference 16   Time 38182
-61.12203 Framedifference 15   Time 38197
-61.593426 Framedifference 15   Time 38212
-61.51432 Framedifference 17   Time 38229
-61.54542 Framedifference 16   Time 38245
-61.438637 Framedifference 16   Time 38261
-61.63938 Framedifference 16   Time 38277
-61.537 Framedifference 17   Time 38294
-61.818634 Framedifference 15   Time 38309
-61.51445 Framedifference 17   Time 38326
-61.97491 Framedifference 15   Time 38341
-62.256626 Framedifference 16   Time 38357
-62.42626 Framedifference 15   Time 38372
-62.327854 Framedifference 17   Time 38389
-61.280926 Framedifference 19   Time 38408
-61.437824 Framedifference 16   Time 38424
-61.64319 Framedifference 15   Time 38439
-61.88991 Framedifference 16   Time 38455
-62.08629 Framedifference 16   Time 38471
-62.05052 Framedifference 16   Time 38487
-62.229164 Framedifference 15   Time 38502
-62.305527 Framedifference 16   Time 38518
-62.554287 Framedifference 16   Time 38534
-62.564598 Framedifference 16   Time 38550
-62.66555 Framedifference 16   Time 38566
-62.52654 Framedifference 16   Time 38582
-(time 38582- lastadded -60)      true
-Circle added
-62.525482 Framedifference 16   Time 38598
-62.09603 Framedifference 17   Time 38615
-62.72043 Framedifference 15   Time 38630
-63.335403 Framedifference 15   Time 38645
-63.854088 Framedifference 14   Time 38659
-63.75003 Framedifference 16   Time 38675
-64.16 Framedifference 15   Time 38690
-64.65454 Framedifference 14   Time 38704
-64.68586 Framedifference 15   Time 38719
-65.26343 Framedifference 14   Time 38733
-65.0673 Framedifference 16   Time 38749
-65.36908 Framedifference 15   Time 38764
-65.67803 Framedifference 15   Time 38779
-65.84734 Framedifference 14   Time 38793
-66.167404 Framedifference 15   Time 38808
-66.29173 Framedifference 15   Time 38823
-66.66276 Framedifference 14   Time 38837
-66.55202 Framedifference 15   Time 38852
-66.76796 Framedifference 15   Time 38867
-66.57553 Framedifference 15   Time 38882
-66.721985 Framedifference 15   Time 38897
-66.44393 Framedifference 16   Time 38913
-66.199974 Framedifference 15   Time 38928
-66.4214 Framedifference 15   Time 38943
-66.96409 Framedifference 14   Time 38957
-66.894165 Framedifference 15   Time 38972
-66.86059 Framedifference 15   Time 38987
-67.367165 Framedifference 14   Time 39001
-67.23353 Framedifference 15   Time 39016
-67.429276 Framedifference 14   Time 39030
-67.83345 Framedifference 15   Time 39045
-67.871574 Framedifference 14   Time 39059
-68.21534 Framedifference 14   Time 39073
-68.17019 Framedifference 15   Time 39088
-68.05285 Framedifference 15   Time 39103
-67.99994 Framedifference 15   Time 39118
-68.2829 Framedifference 14   Time 39132
-68.441025 Framedifference 14   Time 39146
-68.15136 Framedifference 16   Time 39162
-67.99774 Framedifference 14   Time 39176
-67.98094 Framedifference 15   Time 39191
-68.07838 Framedifference 15   Time 39206
-68.21091 Framedifference 14   Time 39220
-68.39227 Framedifference 14   Time 39234
-68.22959 Framedifference 15   Time 39249
-68.13342 Framedifference 15   Time 39264
-68.18013 Framedifference 15   Time 39279
-68.17004 Framedifference 14   Time 39293
-68.287735 Framedifference 15   Time 39308
-68.01846 Framedifference 15   Time 39323
-68.260994 Framedifference 14   Time 39337
-68.16888 Framedifference 15   Time 39352
-68.21047 Framedifference 15   Time 39367
-67.94112 Framedifference 15   Time 39382
-67.53592 Framedifference 16   Time 39398
-67.359276 Framedifference 15   Time 39413
-67.397736 Framedifference 14   Time 39427
-67.521866 Framedifference 15   Time 39442
-67.52789 Framedifference 15   Time 39457
-67.56999 Framedifference 14   Time 39471
-67.570274 Framedifference 15   Time 39486
-67.80454 Framedifference 14   Time 39500
-67.41897 Framedifference 16   Time 39516
-67.73634 Framedifference 15   Time 39531
-67.89827 Framedifference 14   Time 39545
-67.93993 Framedifference 15   Time 39560
-68.111305 Framedifference 14   Time 39574
-67.97741 Framedifference 15   Time 39589
-68.19836 Framedifference 14   Time 39603
-68.31655 Framedifference 14   Time 39617
-68.27967 Framedifference 15   Time 39632
-67.71915 Framedifference 16   Time 39648
-67.476364 Framedifference 16   Time 39664
-67.42313 Framedifference 15   Time 39679
-67.24186 Framedifference 15   Time 39694
-67.24574 Framedifference 14   Time 39708
-67.18815 Framedifference 15   Time 39723
-67.454254 Framedifference 15   Time 39738
-67.15085 Framedifference 15   Time 39753
-67.275986 Framedifference 15   Time 39768
-67.11815 Framedifference 15   Time 39783
-67.19804 Framedifference 15   Time 39798
-67.37571 Framedifference 15   Time 39813
-67.41558 Framedifference 15   Time 39828
-67.66107 Framedifference 14   Time 39842
-67.50117 Framedifference 15   Time 39857
-67.56515 Framedifference 14   Time 39871
-67.63261 Framedifference 15   Time 39886
-67.89118 Framedifference 14   Time 39900
-67.22711 Framedifference 17   Time 39917
-67.59597 Framedifference 14   Time 39931
-67.84033 Framedifference 14   Time 39945
-67.503426 Framedifference 16   Time 39961
-67.53594 Framedifference 14   Time 39975
-67.13242 Framedifference 16   Time 39991
-67.24053 Framedifference 15   Time 40006
-66.81078 Framedifference 16   Time 40022
-67.04844 Framedifference 14   Time 40036
-67.378334 Framedifference 14   Time 40050
-67.17641 Framedifference 15   Time 40065
-61.05819 Framedifference -2043   Time 38022
-61.501755 Framedifference 16   Time 38038
-61.961918 Framedifference 15   Time 38053
-62.736565 Framedifference 14   Time 38067
-63.38483 Framedifference 14   Time 38081
-63.96962 Framedifference 15   Time 38096
-64.28938 Framedifference 15   Time 38111
-64.51958 Framedifference 15   Time 38126
-64.61261 Framedifference 15   Time 38141
-64.57504 Framedifference 16   Time 38157
-64.69715 Framedifference 15   Time 38172
-64.89988 Framedifference 15   Time 38187
-65.00561 Framedifference 15   Time 38202
-64.84883 Framedifference 16   Time 38218
-65.01016 Framedifference 15   Time 38233
-65.195526 Framedifference 15   Time 38248
-65.628944 Framedifference 14   Time 38262
-65.54999 Framedifference 16   Time 38278
-65.89539 Framedifference 14   Time 38292
-66.11543 Framedifference 15   Time 38307
-66.42937 Framedifference 14   Time 38321
-66.83055 Framedifference 15   Time 38336
-66.518906 Framedifference 15   Time 38351
-66.8289 Framedifference 15   Time 38366
-67.60624 Framedifference 13   Time 38379
-68.201324 Framedifference 14   Time 38393
-68.39345 Framedifference 14   Time 38407
-68.96437 Framedifference 13   Time 38420
-69.70612 Framedifference 13   Time 38433
-70.33595 Framedifference 14   Time 38447
-70.7495 Framedifference 13   Time 38460
-71.38526 Framedifference 13   Time 38473
-72.276024 Framedifference 13   Time 38486
-72.70893 Framedifference 13   Time 38499
-72.86719 Framedifference 13   Time 38512
-73.11872 Framedifference 13   Time 38525
-73.10743 Framedifference 14   Time 38539
-73.26975 Framedifference 13   Time 38552
-73.648926 Framedifference 13   Time 38565
-73.882706 Framedifference 13   Time 38578
-73.82268 Framedifference 14   Time 38592
-(time 38592- lastadded -60)      true
-Circle added
-72.983536 Framedifference 15   Time 38607
-73.01521 Framedifference 14   Time 38621
-73.24555 Framedifference 14   Time 38635
-73.20755 Framedifference 13   Time 38648
-73.28401 Framedifference 14   Time 38662
-72.84883 Framedifference 14   Time 38676
-72.95361 Framedifference 14   Time 38690
-72.59222 Framedifference 15   Time 38705
-72.375595 Framedifference 13   Time 38718
-72.51666 Framedifference 14   Time 38732
-72.47382 Framedifference 14   Time 38746
-72.14677 Framedifference 14   Time 38760
-72.06966 Framedifference 14   Time 38774
-72.11758 Framedifference 14   Time 38788
-72.31679 Framedifference 14   Time 38802
-70.88133 Framedifference 17   Time 38819
-71.06321 Framedifference 13   Time 38832
-70.88937 Framedifference 15   Time 38847
-71.454796 Framedifference 13   Time 38860
-71.523865 Framedifference 14   Time 38874
-71.76183 Framedifference 13   Time 38887
-71.76916 Framedifference 14   Time 38901
-71.38583 Framedifference 15   Time 38916
-71.74484 Framedifference 13   Time 38929
-72.22442 Framedifference 13   Time 38942
-72.241264 Framedifference 14   Time 38956
-72.27755 Framedifference 14   Time 38970
-72.06318 Framedifference 14   Time 38984
-72.41247 Framedifference 13   Time 38997
-72.47535 Framedifference 14   Time 39011
-72.62391 Framedifference 14   Time 39025
-72.70713 Framedifference 13   Time 39038
-72.737274 Framedifference 14   Time 39052
-72.5278 Framedifference 14   Time 39066
-72.73012 Framedifference 13   Time 39079
-72.669266 Framedifference 14   Time 39093
-72.58479 Framedifference 14   Time 39107
-72.56305 Framedifference 14   Time 39121
-72.968 Framedifference 13   Time 39134
-72.87325 Framedifference 14   Time 39148
-72.847015 Framedifference 13   Time 39161
-73.10945 Framedifference 14   Time 39175
-72.6088 Framedifference 15   Time 39190
-71.91293 Framedifference 15   Time 39205
-71.96268 Framedifference 14   Time 39219
-71.95243 Framedifference 13   Time 39232
-71.91044 Framedifference 14   Time 39246
-72.08953 Framedifference 14   Time 39260
-72.10527 Framedifference 14   Time 39274
-72.171394 Framedifference 14   Time 39288
-72.39657 Framedifference 14   Time 39302
-72.57125 Framedifference 13   Time 39315
-72.27837 Framedifference 14   Time 39329
-72.045715 Framedifference 14   Time 39343
-72.12172 Framedifference 14   Time 39357
-71.75997 Framedifference 15   Time 39372
-72.160095 Framedifference 13   Time 39385
-72.51213 Framedifference 13   Time 39398
-72.48174 Framedifference 14   Time 39412
-72.85507 Framedifference 13   Time 39425
-72.81342 Framedifference 14   Time 39439
-72.9032 Framedifference 14   Time 39453
-72.88885 Framedifference 13   Time 39466
-72.7877 Framedifference 14   Time 39480
-72.94119 Framedifference 13   Time 39493
-72.73954 Framedifference 15   Time 39508
-73.12354 Framedifference 13   Time 39521
-73.60405 Framedifference 12   Time 39533
-73.6117 Framedifference 14   Time 39547
-73.766594 Framedifference 13   Time 39560
-73.61636 Framedifference 14   Time 39574
-73.58545 Framedifference 14   Time 39588
-73.70141 Framedifference 13   Time 39601
-73.25774 Framedifference 15   Time 39616
-73.400604 Framedifference 13   Time 39629
-73.338 Framedifference 14   Time 39643
-73.053276 Framedifference 14   Time 39657
-72.5419 Framedifference 15   Time 39672
-72.12866 Framedifference 15   Time 39687
-71.6557 Framedifference 14   Time 39701
-70.781494 Framedifference 16   Time 39717
-64.30667 Framedifference -1696   Time 38021
-65.13399 Framedifference 14   Time 38035
-65.47546 Framedifference 14   Time 38049
-65.93237 Framedifference 15   Time 38064
-66.10402 Framedifference 14   Time 38078
-66.72072 Framedifference 14   Time 38092
-67.28754 Framedifference 14   Time 38106
-67.67308 Framedifference 14   Time 38120
-68.05942 Framedifference 14   Time 38134
-68.07555 Framedifference 15   Time 38149
-68.46699 Framedifference 14   Time 38163
-68.188286 Framedifference 15   Time 38178
-68.295555 Framedifference 14   Time 38192
-68.790535 Framedifference 14   Time 38206
-69.222855 Framedifference 13   Time 38219
-69.665565 Framedifference 14   Time 38233
-69.97674 Framedifference 14   Time 38247
-70.11468 Framedifference 14   Time 38261
-70.58716 Framedifference 13   Time 38274
-70.88623 Framedifference 14   Time 38288
-70.55512 Framedifference 15   Time 38303
-70.53878 Framedifference 14   Time 38317
-70.654175 Framedifference 14   Time 38331
-70.465836 Framedifference 14   Time 38345
-70.55382 Framedifference 14   Time 38359
-71.13081 Framedifference 13   Time 38372
-71.03011 Framedifference 14   Time 38386
-71.1613 Framedifference 15   Time 38401
-71.21207 Framedifference 13   Time 38414
-71.44948 Framedifference 14   Time 38428
-71.109604 Framedifference 15   Time 38443
-71.41285 Framedifference 13   Time 38456
-71.791824 Framedifference 14   Time 38470
-71.47028 Framedifference 14   Time 38484
-71.670105 Framedifference 14   Time 38498
-71.49739 Framedifference 14   Time 38512
-71.733955 Framedifference 13   Time 38525
-71.69174 Framedifference 15   Time 38540
-71.333336 Framedifference 14   Time 38554
-71.79291 Framedifference 13   Time 38567
-71.91652 Framedifference 14   Time 38581
-(time 38581- lastadded -60)      true
-Circle added
-71.7643 Framedifference 14   Time 38595
-71.18871 Framedifference 16   Time 38611
-71.92175 Framedifference 12   Time 38623
-72.78968 Framedifference 12   Time 38635
-73.20912 Framedifference 14   Time 38649
-73.74549 Framedifference 12   Time 38661
-74.40188 Framedifference 13   Time 38674
-74.77028 Framedifference 12   Time 38686
-75.216194 Framedifference 13   Time 38699
-75.57516 Framedifference 13   Time 38712
-76.01308 Framedifference 12   Time 38724
-76.38712 Framedifference 13   Time 38737
-76.38361 Framedifference 13   Time 38750
-76.48806 Framedifference 13   Time 38763
-76.553925 Framedifference 13   Time 38776
-76.76673 Framedifference 13   Time 38789
-76.676926 Framedifference 13   Time 38802
-76.78085 Framedifference 13   Time 38815
-77.27655 Framedifference 12   Time 38827
-77.086136 Framedifference 13   Time 38840
-77.03638 Framedifference 13   Time 38853
-77.00981 Framedifference 13   Time 38866
-76.81868 Framedifference 14   Time 38880
-77.198746 Framedifference 12   Time 38892
-77.18563 Framedifference 13   Time 38905
-77.3913 Framedifference 13   Time 38918
-77.60042 Framedifference 12   Time 38930
-76.90386 Framedifference 14   Time 38944
-77.39958 Framedifference 13   Time 38957
-77.583206 Framedifference 12   Time 38969
-77.72715 Framedifference 13   Time 38982
-77.89574 Framedifference 13   Time 38995
-77.84345 Framedifference 13   Time 39008
-77.38735 Framedifference 13   Time 39021
-78.02537 Framedifference 12   Time 39033
-78.193794 Framedifference 12   Time 39045
-78.32526 Framedifference 13   Time 39058
-78.55982 Framedifference 12   Time 39070
-79.21121 Framedifference 12   Time 39082
-79.36787 Framedifference 12   Time 39094
-79.942535 Framedifference 12   Time 39106
-80.02021 Framedifference 12   Time 39118
-79.80437 Framedifference 13   Time 39131
-79.459885 Framedifference 13   Time 39144
-78.85164 Framedifference 15   Time 39159
-79.0746 Framedifference 12   Time 39171
-79.01006 Framedifference 13   Time 39184
-78.82053 Framedifference 12   Time 39196
-78.35818 Framedifference 14   Time 39210
-78.71242 Framedifference 12   Time 39222
-78.95131 Framedifference 12   Time 39234
-78.719246 Framedifference 13   Time 39247
-78.6975 Framedifference 13   Time 39260
-78.84007 Framedifference 13   Time 39273
-78.532776 Framedifference 13   Time 39286
-78.95405 Framedifference 12   Time 39298
-78.56027 Framedifference 13   Time 39311
-78.786026 Framedifference 13   Time 39324
-78.62942 Framedifference 12   Time 39336
-78.68508 Framedifference 13   Time 39349
-78.62033 Framedifference 13   Time 39362
-78.044304 Framedifference 14   Time 39376
-78.04238 Framedifference 13   Time 39389
-78.09527 Framedifference 12   Time 39401
-78.10355 Framedifference 13   Time 39414
-78.201546 Framedifference 13   Time 39427
-78.016 Framedifference 13   Time 39440
-77.985085 Framedifference 13   Time 39453
-77.75829 Framedifference 13   Time 39466
-77.85733 Framedifference 12   Time 39478
-77.667015 Framedifference 14   Time 39492
-77.93555 Framedifference 12   Time 39504
-77.98099 Framedifference 13   Time 39517
-78.04602 Framedifference 12   Time 39529
-77.52295 Framedifference 14   Time 39543
-77.50044 Framedifference 13   Time 39556
-77.506584 Framedifference 13   Time 39569
-77.33219 Framedifference 13   Time 39582
-77.60079 Framedifference 13   Time 39595
-76.81143 Framedifference 14   Time 39609
-77.11412 Framedifference 13   Time 39622
-77.10963 Framedifference 13   Time 39635
-77.19121 Framedifference 13   Time 39648
-77.088234 Framedifference 13   Time 39661
-77.08328 Framedifference 13   Time 39674
-76.76042 Framedifference 13   Time 39687
-76.891884 Framedifference 13   Time 39700
-76.067924 Framedifference 15   Time 39715
-76.23012 Framedifference 12   Time 39727
-76.422104 Framedifference 14   Time 39741
-76.02536 Framedifference 13   Time 39754
-76.2549 Framedifference 13   Time 39767
-69.22459 Framedifference -1744   Time 38023
-69.59249 Framedifference 14   Time 38037
-70.24005 Framedifference 13   Time 38050
-69.2825 Framedifference 16   Time 38066
-69.83806 Framedifference 14   Time 38080
-70.67582 Framedifference 13   Time 38093
-71.02498 Framedifference 13   Time 38106
-71.34951 Framedifference 13   Time 38119
-71.66397 Framedifference 14   Time 38133
-72.56867 Framedifference 12   Time 38145
-73.05078 Framedifference 13   Time 38158
-73.74376 Framedifference 12   Time 38170
-73.47217 Framedifference 14   Time 38184
-73.0217 Framedifference 15   Time 38199
-73.90547 Framedifference 12   Time 38211
-74.07477 Framedifference 14   Time 38225
-74.09842 Framedifference 13   Time 38238
-74.23615 Framedifference 13   Time 38251
-73.79871 Framedifference 14   Time 38265
-73.83741 Framedifference 14   Time 38279
-73.81298 Framedifference 13   Time 38292
-73.887634 Framedifference 14   Time 38306
-73.2681 Framedifference 15   Time 38321
-73.4145 Framedifference 13   Time 38334
-72.971375 Framedifference 15   Time 38349
-73.145874 Framedifference 14   Time 38363
-73.160904 Framedifference 13   Time 38376
-73.20163 Framedifference 13   Time 38389
-73.12787 Framedifference 14   Time 38403
-72.959564 Framedifference 14   Time 38417
-72.28481 Framedifference 15   Time 38432
-72.17063 Framedifference 14   Time 38446
-72.82352 Framedifference 13   Time 38459
-73.75412 Framedifference 12   Time 38471
-74.45765 Framedifference 12   Time 38483
-75.66015 Framedifference 12   Time 38495
-76.22419 Framedifference 12   Time 38507
-76.689575 Framedifference 13   Time 38520
-76.918884 Framedifference 12   Time 38532
-77.6984 Framedifference 12   Time 38544
-77.926285 Framedifference 12   Time 38556
-78.71297 Framedifference 12   Time 38568
-78.94071 Framedifference 13   Time 38581
-(time 38581- lastadded -60)      true
-Circle added
-79.25908 Framedifference 12   Time 38593
-(time 38593- lastadded 38581)      false
-79.457306 Framedifference 12   Time 38605
-79.70301 Framedifference 13   Time 38618
-78.930374 Framedifference 14   Time 38632
-79.555664 Framedifference 11   Time 38643
-79.46481 Framedifference 13   Time 38656
-79.53 Framedifference 12   Time 38668
-79.75934 Framedifference 13   Time 38681
-80.07886 Framedifference 12   Time 38693
-80.32436 Framedifference 12   Time 38705
-80.37387 Framedifference 12   Time 38717
-80.26505 Framedifference 13   Time 38730
-79.71405 Framedifference 13   Time 38743
-80.0186 Framedifference 12   Time 38755
-79.74913 Framedifference 13   Time 38768
-79.8699 Framedifference 13   Time 38781
-80.70162 Framedifference 11   Time 38792
-80.70923 Framedifference 12   Time 38804
-81.23329 Framedifference 12   Time 38816
-81.35743 Framedifference 12   Time 38828
-81.51503 Framedifference 12   Time 38840
-81.67788 Framedifference 12   Time 38852
-80.77982 Framedifference 14   Time 38866
-80.82378 Framedifference 12   Time 38878
-80.780594 Framedifference 13   Time 38891
-80.69797 Framedifference 12   Time 38903
-81.47604 Framedifference 11   Time 38914
-81.81862 Framedifference 12   Time 38926
-81.56517 Framedifference 13   Time 38939
-82.07246 Framedifference 11   Time 38950
-82.183105 Framedifference 12   Time 38962
-81.63207 Framedifference 14   Time 38976
-81.74078 Framedifference 11   Time 38987
-81.90306 Framedifference 12   Time 38999
-82.351265 Framedifference 12   Time 39011
-82.52716 Framedifference 12   Time 39023
-82.4573 Framedifference 12   Time 39035
-82.36283 Framedifference 12   Time 39047
-82.85287 Framedifference 12   Time 39059
-81.39299 Framedifference 14   Time 39073
-81.9767 Framedifference 12   Time 39085
-81.71066 Framedifference 13   Time 39098
-81.71765 Framedifference 12   Time 39110
-81.84152 Framedifference 12   Time 39122
-81.75205 Framedifference 12   Time 39134
-82.01804 Framedifference 12   Time 39146
-82.369255 Framedifference 11   Time 39157
-82.31449 Framedifference 13   Time 39170
-82.65689 Framedifference 11   Time 39181
-82.99053 Framedifference 12   Time 39193
-83.25218 Framedifference 12   Time 39205
-83.32768 Framedifference 11   Time 39216
-83.61969 Framedifference 13   Time 39229
-83.58768 Framedifference 11   Time 39240
-83.482994 Framedifference 12   Time 39252
-83.07471 Framedifference 13   Time 39265
-83.12338 Framedifference 12   Time 39277
-82.78445 Framedifference 12   Time 39289
-82.59631 Framedifference 13   Time 39302
-82.154335 Framedifference 12   Time 39314
-82.30883 Framedifference 12   Time 39326
-82.1982 Framedifference 13   Time 39339
-81.50211 Framedifference 13   Time 39352
-81.19263 Framedifference 13   Time 39365
-81.284775 Framedifference 12   Time 39377
-81.56533 Framedifference 12   Time 39389
-80.26343 Framedifference 14   Time 39403
-79.83768 Framedifference 14   Time 39417
-78.09741 Framedifference 16   Time 39433
-77.90441 Framedifference 13   Time 39446
-78.6429 Framedifference 12   Time 39458
-79.39787 Framedifference 11   Time 39469
-80.08267 Framedifference 12   Time 39481
-80.433945 Framedifference 12   Time 39493
-80.591095 Framedifference 12   Time 39505
-81.05273 Framedifference 12   Time 39517
-81.59763 Framedifference 12   Time 39529
-82.15406 Framedifference 11   Time 39540
-82.31343 Framedifference 12   Time 39552
-81.87324 Framedifference 13   Time 39565
-81.994255 Framedifference 12   Time 39577
-82.50403 Framedifference 11   Time 39588
-82.283905 Framedifference 13   Time 39601
-82.467445 Framedifference 12   Time 39613
-83.03364 Framedifference 11   Time 39624
-83.41333 Framedifference 11   Time 39635
-83.34935 Framedifference 12   Time 39647
-83.751854 Framedifference 12   Time 39659
-83.48697 Framedifference 12   Time 39671
-83.62937 Framedifference 12   Time 39683
-84.16166 Framedifference 11   Time 39694
-83.96398 Framedifference 12   Time 39706
-83.958916 Framedifference 12   Time 39718
-83.5192 Framedifference 13   Time 39731
-83.2894 Framedifference 12   Time 39743
-75.57907 Framedifference -1726   Time 38017
-76.73755 Framedifference 11   Time 38028
-77.75439 Framedifference 12   Time 38040
-78.2165 Framedifference 12   Time 38052
-76.89475 Framedifference 16   Time 38068
-76.67035 Framedifference 13   Time 38081
-76.52429 Framedifference 13   Time 38094
-77.371284 Framedifference 12   Time 38106
-77.1319 Framedifference 13   Time 38119
-77.77718 Framedifference 12   Time 38131
-77.62231 Framedifference 13   Time 38144
-78.54372 Framedifference 12   Time 38156
-79.09838 Framedifference 12   Time 38168
-79.202835 Framedifference 12   Time 38180
-78.79298 Framedifference 13   Time 38193
-79.35743 Framedifference 12   Time 38205
-79.19826 Framedifference 13   Time 38218
-79.05469 Framedifference 13   Time 38231
-78.61814 Framedifference 13   Time 38244
-79.42378 Framedifference 12   Time 38256
-79.52756 Framedifference 12   Time 38268
-79.53618 Framedifference 13   Time 38281
-79.03738 Framedifference 13   Time 38294
-79.435265 Framedifference 13   Time 38307
-79.181206 Framedifference 12   Time 38319
-79.281166 Framedifference 13   Time 38332
-78.75784 Framedifference 13   Time 38345
-78.564415 Framedifference 13   Time 38358
-78.27119 Framedifference 14   Time 38372
-78.805046 Framedifference 11   Time 38383
-79.997444 Framedifference 11   Time 38394
-81.28039 Framedifference 11   Time 38405
-82.28421 Framedifference 11   Time 38416
-83.17252 Framedifference 11   Time 38427
-83.32814 Framedifference 12   Time 38439
-84.25952 Framedifference 11   Time 38450
-85.259155 Framedifference 10   Time 38460
-85.93806 Framedifference 11   Time 38471
-86.32289 Framedifference 11   Time 38482
-86.41068 Framedifference 12   Time 38494
-87.04393 Framedifference 11   Time 38505
-86.904 Framedifference 11   Time 38516
-86.89454 Framedifference 12   Time 38528
-86.90187 Framedifference 11   Time 38539
-86.86627 Framedifference 12   Time 38551
-87.435715 Framedifference 10   Time 38561
-87.682144 Framedifference 12   Time 38573
-87.622925 Framedifference 11   Time 38584
-(time 38584- lastadded -60)      true
-Circle added
-87.54775 Framedifference 12   Time 38596
-87.40293 Framedifference 11   Time 38607
-86.08008 Framedifference 14   Time 38621
-86.32476 Framedifference 11   Time 38632
-85.91458 Framedifference 12   Time 38644
-86.728745 Framedifference 11   Time 38655
-87.170265 Framedifference 11   Time 38666
-86.34162 Framedifference 12   Time 38678
-87.283005 Framedifference 11   Time 38689
-87.85175 Framedifference 11   Time 38700
-87.3137 Framedifference 12   Time 38712
-88.0479 Framedifference 11   Time 38723
-88.84431 Framedifference 10   Time 38733
-88.29054 Framedifference 12   Time 38745
-89.39246 Framedifference 10   Time 38755
-89.60113 Framedifference 11   Time 38766
-89.36831 Framedifference 12   Time 38778
-89.72388 Framedifference 10   Time 38788
-89.84848 Framedifference 11   Time 38799
-88.984566 Framedifference 13   Time 38812
-89.63987 Framedifference 10   Time 38822
-89.99756 Framedifference 11   Time 38833
-89.51799 Framedifference 12   Time 38845
-89.783394 Framedifference 10   Time 38855
-90.30215 Framedifference 11   Time 38866
-89.797874 Framedifference 12   Time 38878
-90.57444 Framedifference 10   Time 38888
-90.55442 Framedifference 11   Time 38899
-89.74993 Framedifference 12   Time 38911
-90.65466 Framedifference 10   Time 38921
-91.448235 Framedifference 10   Time 38931
-90.8495 Framedifference 12   Time 38943
-91.00705 Framedifference 11   Time 38954
-91.43773 Framedifference 10   Time 38964
-91.21987 Framedifference 12   Time 38976
-91.415115 Framedifference 10   Time 38986
-92.121956 Framedifference 10   Time 38996
-92.71165 Framedifference 11   Time 39007
-92.83615 Framedifference 10   Time 39017
-92.87755 Framedifference 11   Time 39028
-93.46728 Framedifference 10   Time 39038
-92.88327 Framedifference 11   Time 39049
-92.72873 Framedifference 11   Time 39060
-93.21782 Framedifference 10   Time 39070
-93.29894 Framedifference 11   Time 39081
-92.603745 Framedifference 12   Time 39093
-93.06645 Framedifference 10   Time 39103
-92.55667 Framedifference 11   Time 39114
-92.72387 Framedifference 11   Time 39125
-92.20242 Framedifference 12   Time 39137
-91.705185 Framedifference 11   Time 39148
-91.64524 Framedifference 11   Time 39159
-92.4132 Framedifference 10   Time 39169
-92.1499 Framedifference 11   Time 39180
-89.71624 Framedifference 15   Time 39195
-88.18565 Framedifference 14   Time 39209
-88.70481 Framedifference 10   Time 39219
-88.86006 Framedifference 11   Time 39230
-89.29862 Framedifference 11   Time 39241
-88.953545 Framedifference 11   Time 39252
-89.124146 Framedifference 11   Time 39263
-88.51884 Framedifference 13   Time 39276
-88.54419 Framedifference 11   Time 39287
-88.39372 Framedifference 11   Time 39298
-88.64182 Framedifference 12   Time 39310
-88.9202 Framedifference 10   Time 39320
-89.28359 Framedifference 11   Time 39331
-89.14992 Framedifference 12   Time 39343
-89.53419 Framedifference 11   Time 39354
-89.38298 Framedifference 11   Time 39365
-88.73363 Framedifference 12   Time 39377
-89.57706 Framedifference 10   Time 39387
-89.68173 Framedifference 11   Time 39398
-89.2957 Framedifference 12   Time 39410
-89.57377 Framedifference 10   Time 39420
-89.759155 Framedifference 11   Time 39431
-88.70522 Framedifference 13   Time 39444
-89.019394 Framedifference 11   Time 39455
-89.36915 Framedifference 11   Time 39466
-88.641045 Framedifference 12   Time 39478
-89.04004 Framedifference 11   Time 39489
-89.03186 Framedifference 11   Time 39500
-88.51694 Framedifference 12   Time 39512
-89.16973 Framedifference 11   Time 39523
-88.49431 Framedifference 11   Time 39534
-88.63281 Framedifference 12   Time 39546
-88.84539 Framedifference 11   Time 39557
-88.98721 Framedifference 11   Time 39568
-88.86382 Framedifference 11   Time 39579
-88.94248 Framedifference 11   Time 39590
-89.36391 Framedifference 11   Time 39601
-89.229935 Framedifference 11   Time 39612
-89.321846 Framedifference 11   Time 39623
-89.12358 Framedifference 12   Time 39635
-88.28398 Framedifference 12   Time 39647
-88.3868 Framedifference 12   Time 39659
-80.16066 Framedifference -1641   Time 38018
-80.943245 Framedifference 11   Time 38029
-81.11978 Framedifference 12   Time 38041
-81.690674 Framedifference 12   Time 38053
-82.09226 Framedifference 12   Time 38065
-82.86333 Framedifference 11   Time 38076
-83.718056 Framedifference 11   Time 38087
-84.52425 Framedifference 10   Time 38097
-84.77811 Framedifference 12   Time 38109
-84.91556 Framedifference 12   Time 38121
-85.985016 Framedifference 10   Time 38131
-86.138245 Framedifference 11   Time 38142
-86.64223 Framedifference 12   Time 38154
-86.33684 Framedifference 11   Time 38165
-86.859 Framedifference 11   Time 38176
-86.9123 Framedifference 12   Time 38188
-86.256966 Framedifference 12   Time 38200
-86.90536 Framedifference 11   Time 38211
-87.58143 Framedifference 11   Time 38222
-87.57384 Framedifference 11   Time 38233
-87.35769 Framedifference 12   Time 38245
-87.48384 Framedifference 11   Time 38256
-88.167656 Framedifference 11   Time 38267
-88.68103 Framedifference 10   Time 38277
-88.27901 Framedifference 12   Time 38289
-88.6805 Framedifference 11   Time 38300
-88.77605 Framedifference 11   Time 38311
-88.92731 Framedifference 11   Time 38322
-90.15623 Framedifference 10   Time 38332
-91.354355 Framedifference 10   Time 38342
-91.47302 Framedifference 11   Time 38353
-91.68649 Framedifference 10   Time 38363
-92.29373 Framedifference 10   Time 38373
-93.55825 Framedifference 10   Time 38383
-94.24884 Framedifference 10   Time 38393
-94.37515 Framedifference 11   Time 38404
-95.22319 Framedifference 9   Time 38413
-95.694855 Framedifference 10   Time 38423
-97.10538 Framedifference 9   Time 38432
-97.74169 Framedifference 10   Time 38442
-99.06072 Framedifference 9   Time 38451
-98.96663 Framedifference 10   Time 38461
-98.73459 Framedifference 11   Time 38472
-99.341515 Framedifference 9   Time 38481
-100.09039 Framedifference 9   Time 38490
-99.86949 Framedifference 11   Time 38501
-99.55674 Framedifference 10   Time 38511
-99.83274 Framedifference 10   Time 38521
-100.60663 Framedifference 9   Time 38530
-99.52089 Framedifference 12   Time 38542
-99.31663 Framedifference 10   Time 38552
-99.67107 Framedifference 9   Time 38561
-99.071686 Framedifference 11   Time 38572
-99.59787 Framedifference 10   Time 38582
-(time 38582- lastadded -60)      true
-Circle added
-99.95733 Framedifference 9   Time 38591
-(time 38591- lastadded 38582)      false
-99.722824 Framedifference 11   Time 38602
-100.13315 Framedifference 9   Time 38611
-99.7981 Framedifference 11   Time 38622
-100.27875 Framedifference 9   Time 38631
-100.36675 Framedifference 10   Time 38641
-100.37882 Framedifference 10   Time 38651
-100.22892 Framedifference 10   Time 38661
-99.88598 Framedifference 11   Time 38672
-99.84403 Framedifference 9   Time 38681
-100.20292 Framedifference 10   Time 38691
-100.5954 Framedifference 10   Time 38701
-100.339714 Framedifference 10   Time 38711
-99.48849 Framedifference 11   Time 38722
-99.352356 Framedifference 10   Time 38732
-99.37569 Framedifference 10   Time 38742
-99.36304 Framedifference 10   Time 38752
-99.62076 Framedifference 10   Time 38762
-98.49414 Framedifference 11   Time 38773
-99.42683 Framedifference 9   Time 38782
-99.17466 Framedifference 11   Time 38793
-99.16876 Framedifference 10   Time 38803
-99.396935 Framedifference 10   Time 38813
-99.65712 Framedifference 10   Time 38823
-100.18643 Framedifference 9   Time 38832
-100.812386 Framedifference 9   Time 38841
-101.42324 Framedifference 10   Time 38851
-101.751465 Framedifference 9   Time 38860
-101.77407 Framedifference 10   Time 38870
-102.26306 Framedifference 9   Time 38879
-102.650696 Framedifference 10   Time 38889
-103.32167 Framedifference 9   Time 38898
-102.46103 Framedifference 11   Time 38909
-102.51757 Framedifference 9   Time 38918
-102.683304 Framedifference 10   Time 38928
-102.18011 Framedifference 11   Time 38939
-102.20531 Framedifference 9   Time 38948
-101.84182 Framedifference 10   Time 38958
-102.53613 Framedifference 9   Time 38967
-102.95445 Framedifference 9   Time 38976
-102.466064 Framedifference 11   Time 38987
-102.65225 Framedifference 9   Time 38996
-103.01425 Framedifference 10   Time 39006
-103.60132 Framedifference 9   Time 39015
-102.903175 Framedifference 10   Time 39025
-103.0187 Framedifference 10   Time 39035
-103.78112 Framedifference 9   Time 39044
-103.913284 Framedifference 9   Time 39053
-103.686005 Framedifference 10   Time 39063
-103.52554 Framedifference 10   Time 39073
-104.18799 Framedifference 9   Time 39082
-104.177246 Framedifference 10   Time 39092
-104.745094 Framedifference 9   Time 39101
-104.81604 Framedifference 9   Time 39110
-105.02828 Framedifference 10   Time 39120
-105.14372 Framedifference 9   Time 39129
-103.96283 Framedifference 11   Time 39140
-104.89886 Framedifference 9   Time 39149
-104.92972 Framedifference 9   Time 39158
-105.55615 Framedifference 9   Time 39167
-106.40864 Framedifference 9   Time 39176
-106.75025 Framedifference 9   Time 39185
-105.87736 Framedifference 10   Time 39195
-104.446106 Framedifference 11   Time 39206
-104.64146 Framedifference 10   Time 39216
-104.67487 Framedifference 9   Time 39225
-104.36272 Framedifference 10   Time 39235
-103.61144 Framedifference 10   Time 39245
-103.60731 Framedifference 10   Time 39255
-104.13355 Framedifference 9   Time 39264
-103.94143 Framedifference 10   Time 39274
-103.33028 Framedifference 10   Time 39284
-103.049095 Framedifference 10   Time 39294
-103.512024 Framedifference 9   Time 39303
-103.50686 Framedifference 10   Time 39313
-103.58368 Framedifference 9   Time 39322
-103.87427 Framedifference 10   Time 39332
-104.05998 Framedifference 9   Time 39341
-104.539444 Framedifference 9   Time 39350
-104.23529 Framedifference 10   Time 39360
-103.28812 Framedifference 11   Time 39371
-102.373764 Framedifference 11   Time 39382
-102.344795 Framedifference 10   Time 39392
-102.67374 Framedifference 9   Time 39401
-102.58551 Framedifference 10   Time 39411
-102.1318 Framedifference 10   Time 39421
-102.37292 Framedifference 10   Time 39431
-101.63895 Framedifference 10   Time 39441
-101.854904 Framedifference 10   Time 39451
-101.84379 Framedifference 10   Time 39461
-102.0622 Framedifference 10   Time 39471
-101.5132 Framedifference 10   Time 39481
-102.209854 Framedifference 9   Time 39490
-102.221886 Framedifference 10   Time 39500
-102.202774 Framedifference 9   Time 39509
-102.59096 Framedifference 10   Time 39519
-102.750465 Framedifference 9   Time 39528
-102.775894 Framedifference 11   Time 39539
-102.974464 Framedifference 9   Time 39548
-103.44011 Framedifference 9   Time 39557
-103.60043 Framedifference 9   Time 39566
-103.51647 Framedifference 10   Time 39576
-103.888916 Framedifference 10   Time 39586
-103.778275 Framedifference 9   Time 39595
-99.64335 Framedifference 16   Time 39611
-90.29561 Framedifference -1594   Time 38017
-91.7439 Framedifference 10   Time 38027
-92.944664 Framedifference 9   Time 38036
-92.56043 Framedifference 12   Time 38048
-92.765366 Framedifference 10   Time 38058
-93.32181 Framedifference 10   Time 38068
-94.91375 Framedifference 9   Time 38077
-94.84319 Framedifference 11   Time 38088
-94.800186 Framedifference 11   Time 38099
-95.57898 Framedifference 9   Time 38108
-95.888336 Framedifference 10   Time 38118
-96.63021 Framedifference 10   Time 38128
-96.50602 Framedifference 11   Time 38139
-95.50062 Framedifference 12   Time 38151
-94.86364 Framedifference 11   Time 38162
-95.11393 Framedifference 10   Time 38172
-93.998375 Framedifference 12   Time 38184
-94.102325 Framedifference 11   Time 38195
-94.12178 Framedifference 10   Time 38205
-96.05278 Framedifference 9   Time 38214
-97.145744 Framedifference 9   Time 38223
-97.69402 Framedifference 10   Time 38233
-100.00742 Framedifference 8   Time 38241
-100.12597 Framedifference 10   Time 38251
-101.56059 Framedifference 9   Time 38260
-103.24309 Framedifference 8   Time 38268
-104.605034 Framedifference 9   Time 38277
-104.677765 Framedifference 9   Time 38286
-105.12648 Framedifference 10   Time 38296
-103.48542 Framedifference 11   Time 38307
-104.252495 Framedifference 9   Time 38316
-105.31486 Framedifference 9   Time 38325
-106.01952 Framedifference 8   Time 38333
-107.4646 Framedifference 9   Time 38342
-106.300735 Framedifference 10   Time 38352
-108.14391 Framedifference 8   Time 38360
-109.13338 Framedifference 8   Time 38368
-110.57064 Framedifference 8   Time 38376
-110.96348 Framedifference 9   Time 38385
-111.51749 Framedifference 9   Time 38394
-111.56164 Framedifference 9   Time 38403
-111.62936 Framedifference 9   Time 38412
-112.2301 Framedifference 8   Time 38420
-112.34368 Framedifference 9   Time 38429
-112.27385 Framedifference 9   Time 38438
-112.882866 Framedifference 9   Time 38447
-112.94467 Framedifference 8   Time 38455
-114.0794 Framedifference 9   Time 38464
-114.14625 Framedifference 8   Time 38472
-112.55767 Framedifference 11   Time 38483
-113.05497 Framedifference 8   Time 38491
-113.55975 Framedifference 8   Time 38499
-113.897026 Framedifference 9   Time 38508
-113.40342 Framedifference 9   Time 38517
-113.41581 Framedifference 9   Time 38526
-114.4346 Framedifference 8   Time 38534
-115.14688 Framedifference 8   Time 38542
-114.6899 Framedifference 9   Time 38551
-115.19189 Framedifference 9   Time 38560
-115.66609 Framedifference 8   Time 38568
-115.74498 Framedifference 8   Time 38576
-116.045746 Framedifference 9   Time 38585
-(time 38585- lastadded -60)      true
-Circle added
-116.66118 Framedifference 8   Time 38593
-(time 38593- lastadded 38585)      false
-116.427536 Framedifference 9   Time 38602
-117.349915 Framedifference 8   Time 38610
-117.13744 Framedifference 9   Time 38619
-116.86623 Framedifference 8   Time 38627
-116.723915 Framedifference 9   Time 38636
-113.55316 Framedifference 12   Time 38648
-113.83051 Framedifference 8   Time 38656
-113.55927 Framedifference 9   Time 38665
-110.694824 Framedifference 12   Time 38677
-109.97055 Framedifference 10   Time 38687
-107.17267 Framedifference 12   Time 38699
-108.24678 Framedifference 8   Time 38707
-107.24 Framedifference 10   Time 38717
-108.00835 Framedifference 9   Time 38726
-109.43134 Framedifference 8   Time 38734
-111.21836 Framedifference 8   Time 38742
-110.755936 Framedifference 9   Time 38751
-112.25194 Framedifference 8   Time 38759
-112.32007 Framedifference 10   Time 38769
-112.57635 Framedifference 8   Time 38777
-112.30088 Framedifference 9   Time 38786
-112.8437 Framedifference 9   Time 38795
-113.735535 Framedifference 8   Time 38803
-114.48077 Framedifference 8   Time 38811
-113.97364 Framedifference 10   Time 38821
-114.083176 Framedifference 8   Time 38829
-114.86969 Framedifference 8   Time 38837
-115.00708 Framedifference 9   Time 38846
-112.44679 Framedifference 11   Time 38857
-112.06306 Framedifference 9   Time 38866
-113.17387 Framedifference 8   Time 38874
-112.54447 Framedifference 10   Time 38884
-113.03814 Framedifference 9   Time 38893
-112.27352 Framedifference 9   Time 38902
-113.37416 Framedifference 8   Time 38910
-113.92321 Framedifference 8   Time 38918
-115.29349 Framedifference 8   Time 38926
-116.048325 Framedifference 8   Time 38934
-116.88179 Framedifference 9   Time 38943
-114.38219 Framedifference 10   Time 38953
-115.62906 Framedifference 8   Time 38961
-114.91835 Framedifference 9   Time 38970
-114.786514 Framedifference 9   Time 38979
-114.74737 Framedifference 9   Time 38988
-113.739815 Framedifference 9   Time 38997
-114.56104 Framedifference 8   Time 39005
-115.60133 Framedifference 9   Time 39014
-115.68392 Framedifference 8   Time 39022
-115.465294 Framedifference 9   Time 39031
-116.006424 Framedifference 8   Time 39039
-116.85359 Framedifference 8   Time 39047
-116.88674 Framedifference 9   Time 39056
-116.752625 Framedifference 8   Time 39064
-117.52954 Framedifference 8   Time 39072
-116.56196 Framedifference 10   Time 39082
-116.15033 Framedifference 8   Time 39090
-116.03745 Framedifference 9   Time 39099
-116.91214 Framedifference 8   Time 39107
-115.773224 Framedifference 10   Time 39117
-116.51806 Framedifference 8   Time 39125
-116.36164 Framedifference 8   Time 39133
-117.34093 Framedifference 8   Time 39141
-115.90297 Framedifference 10   Time 39151
-115.72311 Framedifference 9   Time 39160
-115.71253 Framedifference 9   Time 39169
-115.48643 Framedifference 8   Time 39177
-114.856415 Framedifference 9   Time 39186
-115.51405 Framedifference 9   Time 39195
-117.35168 Framedifference 7   Time 39202
-117.05066 Framedifference 9   Time 39211
-118.24857 Framedifference 8   Time 39219
-118.22186 Framedifference 8   Time 39227
-118.8594 Framedifference 8   Time 39235
-117.07078 Framedifference 10   Time 39245
-117.04018 Framedifference 9   Time 39254
-117.69888 Framedifference 8   Time 39262
-117.816185 Framedifference 8   Time 39270
-118.167274 Framedifference 8   Time 39278
-118.62624 Framedifference 8   Time 39286
-119.067924 Framedifference 8   Time 39294
-119.56507 Framedifference 9   Time 39303
-119.61117 Framedifference 8   Time 39311
-120.32815 Framedifference 8   Time 39319
-121.23122 Framedifference 7   Time 39326
-121.02174 Framedifference 9   Time 39335
-121.79236 Framedifference 8   Time 39343
-119.80156 Framedifference 10   Time 39353
-120.5441 Framedifference 8   Time 39361
-120.73076 Framedifference 8   Time 39369
-120.96393 Framedifference 8   Time 39377
-120.15727 Framedifference 9   Time 39386
-120.21762 Framedifference 8   Time 39394
-120.25888 Framedifference 8   Time 39402
-120.38533 Framedifference 8   Time 39410
-119.07265 Framedifference 10   Time 39420
-118.03994 Framedifference 9   Time 39429
-117.613815 Framedifference 9   Time 39438
-118.10656 Framedifference 8   Time 39446
-117.41594 Framedifference 9   Time 39455
-117.03302 Framedifference 9   Time 39464
-116.37742 Framedifference 9   Time 39473
-114.87367 Framedifference 10   Time 39483
-114.43557 Framedifference 9   Time 39492
-114.06289 Framedifference 9   Time 39501
-113.21974 Framedifference 10   Time 39511
-111.93283 Framedifference 10   Time 39521
-111.08586 Framedifference 9   Time 39530
-110.81472 Framedifference 10   Time 39540
-108.91427 Framedifference 10   Time 39550
-109.33088 Framedifference 9   Time 39559
-110.17175 Framedifference 9   Time 39568
-109.93251 Framedifference 9   Time 39577
-110.10763 Framedifference 9   Time 39586
-110.54039 Framedifference 9   Time 39595
-110.55284 Framedifference 8   Time 39603
-111.419205 Framedifference 9   Time 39612
-110.57287 Framedifference 10   Time 39622
-109.44579 Framedifference 10   Time 39632
-109.27707 Framedifference 9   Time 39641
-108.01853 Framedifference 11   Time 39652
-108.1225 Framedifference 8   Time 39660
-107.18398 Framedifference 10   Time 39670
-107.46012 Framedifference 10   Time 39680
-109.22932 Framedifference 7   Time 39687
-111.16307 Framedifference 8   Time 39695
-113.21685 Framedifference 8   Time 39703
-115.71428 Framedifference 7   Time 39710
-115.90617 Framedifference 9   Time 39719
-117.0744 Framedifference 8   Time 39727
-116.76774 Framedifference 9   Time 39736
-117.51186 Framedifference 8   Time 39744
-118.41372 Framedifference 7   Time 39751
-119.37216 Framedifference 8   Time 39759
-119.33082 Framedifference 9   Time 39768
-115.797005 Framedifference 12   Time 39780
-117.123695 Framedifference 7   Time 39787
-118.48663 Framedifference 8   Time 39795
-120.04354 Framedifference 7   Time 39802
-120.99265 Framedifference 8   Time 39810
-121.86967 Framedifference 8   Time 39818
-122.81869 Framedifference 7   Time 39825
-123.10195 Framedifference 8   Time 39833
-123.19334 Framedifference 9   Time 39842
-121.92046 Framedifference 9   Time 39851
-122.48019 Framedifference 7   Time 39858
-122.50555 Framedifference 9   Time 39867
-123.54065 Framedifference 7   Time 39874
-122.42306 Framedifference 9   Time 39883
-123.89266 Framedifference 7   Time 39890
-123.916794 Framedifference 8   Time 39898
-124.5312 Framedifference 8   Time 39906
-124.97722 Framedifference 8   Time 39914
-125.26298 Framedifference 7   Time 39921
-125.836105 Framedifference 8   Time 39929
-125.36414 Framedifference 8   Time 39937
-125.427315 Framedifference 8   Time 39945
+102.73414 Framedifference 10Time 8796 TimeDifference 4.920158863067627
+102.40611 Framedifference 10Time 8806 TimeDifference 4.9295125007629395
+97.08459 Framedifference 2264Time 11070 TimeDifference 5.090088844299316
+97.10236 Framedifference 11Time 11081 TimeDifference 5.0895233154296875
+96.86389 Framedifference 10Time 11091 TimeDifference 5.0971293449401855
+96.441696 Framedifference 11Time 11102 TimeDifference 5.110687732696533
+95.72038 Framedifference 11Time 11113 TimeDifference 5.134128570556641
+95.85018 Framedifference 10Time 11123 TimeDifference 5.129884719848633
+96.28427 Framedifference 10Time 11133 TimeDifference 5.115773677825928
+96.65289 Framedifference 11Time 11144 TimeDifference 5.103890419006348
+96.65391 Framedifference 10Time 11154 TimeDifference 5.10385799407959
+96.157684 Framedifference 11Time 11165 TimeDifference 5.119875431060791
+95.9263 Framedifference 10Time 11175 TimeDifference 5.127400875091553
+95.81003 Framedifference 11Time 11186 TimeDifference 5.131196022033691
+95.89175 Framedifference 10Time 11196 TimeDifference 5.128528118133545
+96.42684 Framedifference 10Time 11206 TimeDifference 5.111166954040527
+97.043785 Framedifference 10Time 11216 TimeDifference 5.091387748718262
+97.34081 Framedifference 10Time 11226 TimeDifference 5.0819549560546875
+97.47299 Framedifference 10Time 11236 TimeDifference 5.077775478363037
+97.75896 Framedifference 10Time 11246 TimeDifference 5.068772315979004
+97.871544 Framedifference 10Time 11256 TimeDifference 5.065242767333984
+97.869095 Framedifference 10Time 11266 TimeDifference 5.065319061279297
+97.828804 Framedifference 11Time 11277 TimeDifference 5.066581726074219
+97.501175 Framedifference 10Time 11287 TimeDifference 5.076886177062988
+97.57909 Framedifference 10Time 11297 TimeDifference 5.074429512023926
+97.67822 Framedifference 10Time 11307 TimeDifference 5.0713090896606445
+97.50477 Framedifference 11Time 11318 TimeDifference 5.076772689819336
+96.73211 Framedifference 11Time 11329 TimeDifference 5.101348876953125
+96.15166 Framedifference 11Time 11340 TimeDifference 5.120070934295654
+95.989 Framedifference 11Time 11351 TimeDifference 5.1253581047058105
+94.598404 Framedifference 12Time 11363 TimeDifference 5.171300888061523
+94.56894 Framedifference 11Time 11374 TimeDifference 5.17228889465332
+94.4773 Framedifference 10Time 11384 TimeDifference 5.175365924835205
+94.283676 Framedifference 11Time 11395 TimeDifference 5.181886672973633
+93.82262 Framedifference 11Time 11406 TimeDifference 5.19752311706543
+93.46985 Framedifference 11Time 11417 TimeDifference 5.209590911865234
+93.48274 Framedifference 11Time 11428 TimeDifference 5.209148406982422
+93.557335 Framedifference 10Time 11438 TimeDifference 5.206589698791504
+93.46756 Framedifference 11Time 11449 TimeDifference 5.209670066833496
+93.4563 Framedifference 11Time 11460 TimeDifference 5.210056304931641
+92.94374 Framedifference 11Time 11471 TimeDifference 5.227758884429932
+92.76547 Framedifference 12Time 11483 TimeDifference 5.233962059020996
+92.52635 Framedifference 11Time 11494 TimeDifference 5.242319583892822
+92.23794 Framedifference 10Time 11504 TimeDifference 5.252457618713379
+91.509315 Framedifference 12Time 11516 TimeDifference 5.278354644775391
+91.549126 Framedifference 11Time 11527 TimeDifference 5.2769293785095215
+91.5856 Framedifference 11Time 11538 TimeDifference 5.275623798370361
+91.38078 Framedifference 11Time 11549 TimeDifference 5.282966136932373
+91.68859 Framedifference 11Time 11560 TimeDifference 5.271944999694824
+91.60129 Framedifference 11Time 11571 TimeDifference 5.2750630378723145
+91.31053 Framedifference 11Time 11582 TimeDifference 5.285491943359375
+91.11887 Framedifference 11Time 11593 TimeDifference 5.292402267456055
+90.76716 Framedifference 12Time 11605 TimeDifference 5.305160045623779
+90.566055 Framedifference 11Time 11616 TimeDifference 5.312499046325684
+90.54291 Framedifference 11Time 11627 TimeDifference 5.313345909118652
+90.48588 Framedifference 11Time 11638 TimeDifference 5.315434455871582
+90.30203 Framedifference 12Time 11650 TimeDifference 5.3221845626831055
+88.37203 Framedifference 13Time 11663 TimeDifference 5.394739151000977
+88.86252 Framedifference 11Time 11674 TimeDifference 5.376001358032227
+89.02815 Framedifference 11Time 11685 TimeDifference 5.369720458984375
+89.25379 Framedifference 11Time 11696 TimeDifference 5.361201763153076
+88.96998 Framedifference 12Time 11708 TimeDifference 5.371923923492432

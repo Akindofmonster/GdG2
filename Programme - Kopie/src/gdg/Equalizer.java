@@ -9,6 +9,7 @@ import processing.core.PApplet;
 import processing.core.PConstants;
 import processing.core.PShape;
 import processing.core.PVector;
+import processing.opengl.PShader;
 
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
@@ -23,12 +24,22 @@ import com.sun.prism.paint.Color;
  */
 public class Equalizer extends PApplet {
 
+  private static boolean _verblassen = true;
+  private static boolean _vergrößerm = true;
+  private static boolean _verschieben = true;
+  private static boolean _wiederhohlen = true;
+  private static boolean _rand = false;
+  // TODO FARBE
+
   private static final int Duration = 100000;
   private static final float AlphaScale = 1.2f;
   private static int Height = 900;
   private static int Wide = 1820;
+  protected static boolean SONGPLAYING;
   private static final int AddScale = (Height + Wide) / 700;
   private static final float PosFactor = AddScale;
+  private static final int _60FPS = 60;
+  private static final int _10_60 = 10;
   // A list of circles to hold the elements to display.
   private ArrayList<Circle> circles;
   private ArrayList<Note> notes;
@@ -67,35 +78,6 @@ public class Equalizer extends PApplet {
     notes = new ArrayList<>();
     createNotes();
 
-    // float random = random(50, 100);
-    // // Creates random circles to see what an animation could look like
-    //
-    // PVector position = new PVector(this.width / 2, this.height / 2);
-    // for (int i = 0; i < 10; i++) {
-    // float radius = random * i * random(1f, 2);//
-    // random(i*50,i*120);//this.width*i/10/5,
-    // // this.width*i/8);
-    // float weight = 40;// random(25, 35);
-    // float alpha = random(50, 100);
-    // int color = color(random(0, 50f), random(155f, 255f), random(0, 50f),
-    // alpha);
-    // circles.add(new Circle(this, position, radius, weight, color));
-    // }
-
-    // song = minim.loadFile("./data/Kontinuum - First Rain.mp3");
-    // fft = new FFT(song.bufferSize(), song.sampleRate());
-
-    // spectra = new ArrayList<>();
-    // for (int i = 1; i < 7; i++) {
-    // float radius = i * 50;
-    // float weight = 4;
-    // int color = color(255, 255, random(0, 100), 150);
-    // int side = i % 2 == 0 ? 1 : -1;
-    // PVector orientation = new PVector(side * PConstants.HALF_PI, side);
-    // spectra.add(new Spectrum(this, position, radius, weight, color,
-    // fft.specSize(), orientation));
-    // }
-
     // Start the song right away
 
     Minim minim = new Minim(this);
@@ -107,6 +89,7 @@ public class Equalizer extends PApplet {
       e.printStackTrace();
     }
     song.play();
+    SONGPLAYING = true;
     time = System.currentTimeMillis();
 
   }
@@ -223,14 +206,17 @@ public class Equalizer extends PApplet {
     // if (frameCount % 1000 == 0) {
     timer += (System.currentTimeMillis() - this.time);
     this.time = System.currentTimeMillis();
-    println(frameRate + " Framedifference " + (timer - lastMilliseconds) + "   Time "
-        + timer/* / (millis() / 1000f) */);
+
+    double timeDifference = (((_60FPS / frameRate) * _10_60) + 4) / 2;
+    println(frameRate + " Framedifference " + (timer - lastMilliseconds) + "Time " + timer + " TimeDifference "
+        + timeDifference/* / (millis() / 1000f) */);
     lastMilliseconds = timer;
     // }
     for (Note n : notes) {
       // println("Note with timestamp " + n.timestamp + " lastadded " +
       // n.getLastadded());
-      if (n.getTimeStamp() >= timer - 10 && n.getTimeStamp() <= timer + 5 && n.notAdded(timer)) {
+      if (n.getTimeStamp() >= timer - timeDifference && n.getTimeStamp() <= timer + timeDifference
+          && n.notAdded(timer)) {
         // println("ZeitAbstand: " + n.getTimeStamp() + ":" + timer);
         float randomX = random(Wide / 5, Wide - Wide / 5);
         float randomY = random(Height / 5, Height - Height / 5);
@@ -238,62 +224,49 @@ public class Equalizer extends PApplet {
         int color = 255;
         circles.add(new Circle(this, new PVector(randomX, randomY), n.GetSize() * 5, 10, color, alpha, n));
         System.out.println("Circle added");
-        n.setLastadded(timer);
+        n.setLastadded(timer);// TODO change to bool, change apperence in
+                              // mousePressed Methode
       }
     }
-    // fft.forward(song.mix);
-    // // Add a jitter variable from fft of the song to the objects
-    // float jitter = fft.getBand(1);
+
+    // TODO Blrue effect einf�gen
+
+    // fill(0, 20);
+
     // // Display every circle available
     for (Circle c : circles) {
       if (c.draw) {
         transformCircle(timer, c);
         // c.update(jitter);
         c.display();
+      } else {
+        circles.remove(c);
       }
     }
 
-    // // update every spectral arc
-    // float val;
-    // for (int i = 0; i < fft.specSize(); i++) {
-    // // update the left spectral arcs
-    // val = song.left.get(i);
-    // for (int j = 1; j < spectra.size(); j += 2) {
-    // spectra.get(j).update(i, val * 40);
-    // }
+    stroke(255, 255, 255);
+    float position = map(song.position(), 0, song.length(), 0, width);
+    line(position, height - height / 70, position, height);
     //
-    // // update the right spectral arcs
-    //
-    // for (int j = 0; j < spectra.size(); j += 2) {
-    // spectra.get(j).update(i, val * 40);
-    // }
-    // }
-    //
-    // // display every spectrum available
-    // for (Spectrum s : spectra) {
-    // s.display();
-    // }
-    // } else {
-    // counter--;
-    // for (Circle c : circles) {
-    // c.display();
-    // }
-    // }
+    // text("Click anywhere to jump to a position in the song.", 10, 20, 255);
+    if (!song.isPlaying()) {
+      Thread s = new Thread(new Runnable() {
 
-    // stroke(255);
-    //
-    // for (int i = 0; i < song.bufferSize() - 1; i++) {
-    // line(i, 50 + song.left.get(i) * 50, i + 1, 50 + song.left.get(i + 1) *
-    // 50);
-    // line(i, 150 + song.right.get(i) * 50, i + 1, 150 + song.right.get(i + 1)
-    // * 50);
-    // }
-    //
-    // stroke(255, 0, 0);
-    // float position = map(song.position(), 0, song.length(), 0, width);
-    // line(position, 0, position, height);
-    //
-    // text("Click anywhere to jump to a position in the song.", 10, 20);
+        @Override
+        public void run() {
+          try {
+            Thread.sleep(1000);
+          } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+          }
+          Equalizer.SONGPLAYING = true;
+
+        }
+      });
+      if (SONGPLAYING)
+        restartSong();
+    }
   }
 
   @Override
@@ -340,6 +313,16 @@ public class Equalizer extends PApplet {
     // System.out.println("Circle" + c.radius);
     // fill(c.getColor());
     noStroke();
+
+  }
+
+  private void restartSong() {
+    {
+
+      this.song.play(0);
+      this.timer = 0;
+      this.time = System.currentTimeMillis();
+    }
   }
 
   /**

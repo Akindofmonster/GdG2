@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/Ani.jar"/>
-	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/core.jar"/>
-	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/jl1.0.1.jar"/>
-	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/jsminim.jar"/>
-	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/minim.jar"/>
-	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/mp3spi1.9.5.jar"/>
-	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/tritonus_aos.jar"/>
-	<classpathentry kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/tritonus_share.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/Ani.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/core.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/jl1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/jsminim.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/minim.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/mp3spi1.9.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/tritonus_aos.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/OneDrive/Studium/4. Semester/GDG2/GdG2 Programm/Data/tritonus_share.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
