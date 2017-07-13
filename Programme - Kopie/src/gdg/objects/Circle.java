@@ -1,5 +1,6 @@
 package gdg.objects;
 
+import gdg.Equalizer;
 import processing.core.*;
 import processing.opengl.PShader;
 
@@ -76,7 +77,9 @@ public class Circle {
       canvas.pushMatrix();
       canvas.translate(position.x, position.y);
       canvas.shape(shape);
-      shape.scale(scale);
+      if (Equalizer._vergroesserm) {
+        shape.scale(scale);
+      }
       // shape.setStroke(draw);
       // shape.setStroke(canvas.color(getColorWithoutAlpha(), alpha / 4));
       // shape.setStrokeWeight(shape.getStrokeWeight(0) * scale / 4);
