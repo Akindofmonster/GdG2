@@ -21,9 +21,10 @@ import com.sun.prism.paint.Color;
 /**
  * The Equalizer class is the main controller for the Animation.
  *
- * @author Oliver Haerer, Niklas "Lappen" Schmid
+ * @author Oliver Haerer, Niklas Schmid
  */
 public class Equalizer extends PApplet {
+
 
   private static int Height = 900;
   private static int Wide = 1820;
