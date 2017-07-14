@@ -127,12 +127,17 @@ public class Equalizer extends PApplet {
     if (state == GAMESTATE.PAUSED) {
       song.pause();
       this.time = System.currentTimeMillis();
+      fill(255, 255, 255);
+      textSize(32 / (height / 1080));
+      textAlign(CENTER, CENTER);
+      text("Paused", 0, 0, width, height);
+
     } else if (state == GAMESTATE.MENUE) {
       background(0);
       fill(255, 255, 255);
       textSize(32 / (height / 1080));
-      text("Press ENTER to start", (width / 2) - (width / 10), (height / 2) - (height / 20), (width / 2) + (width / 10),
-          (height / 2) + (height / 20));
+      textAlign(CENTER, CENTER);
+      text("Press ENTER to start", 0, 0, width, height);
 
     } else if (state == GAMESTATE.RUNNING) {
       if (song.isPlaying() && song.position() < song.length()) {
