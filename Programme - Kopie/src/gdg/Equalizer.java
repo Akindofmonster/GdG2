@@ -5,6 +5,7 @@ import ddf.minim.Minim;
 import ddf.minim.analysis.FFT;
 import gdg.objects.Circle;
 import gdg.objects.Note;
+import gdg.objects.Enums.GAMESTATE;
 import processing.core.PApplet;
 import processing.core.PConstants;
 import processing.core.PShape;
@@ -25,14 +26,13 @@ import com.sun.prism.paint.Color;
  */
 public class Equalizer extends PApplet {
 
-
   private static int Height = 900;
   private static int Wide = 1820;
 
-  private static boolean _verblassen = false;
-  public static boolean _vergroesserm = false;
+  private static boolean _verblassen = true;
+  public static boolean _vergroesserm = true;
   private static boolean _verschieben = false;
-  private static boolean _wiederhohlen = false;
+  private static boolean _wiederhohlen = true;
 
   private static final int AddScale = (Height + Wide) / 700;
   private static final float PosFactor = AddScale;
@@ -40,6 +40,7 @@ public class Equalizer extends PApplet {
   private static final float AlphaScale = 1.2f;
   // TODO FARBE
 
+  private GAMESTATE state = GAMESTATE.MENUE;
   protected static boolean SONGPLAYING;
   private static final int _60FPS = 60;
   private static final int _10_60 = 10;
@@ -52,6 +53,7 @@ public class Equalizer extends PApplet {
   long lastMilliseconds = 0;
   long timer = 0;
   long time;
+  boolean startSong = true;
 
   private AudioPlayer song;
   private FFT fft;
@@ -108,16 +110,12 @@ public class Equalizer extends PApplet {
         + "03_m___e.s.t___seven_days_of_falling___evening_in_atlantis.mp3";
     System.out.println(path);
     song = minim.loadFile(path);
-    try {
-      Thread.sleep(2000);
-    } catch (InterruptedException e) {
-      // TODO Auto-generated catch block
-      e.printStackTrace();
-    }
-    song.play();
-    SONGPLAYING = true;
-    time = System.currentTimeMillis();
-
+    // try {
+    // Thread.sleep(2000);
+    // } catch (InterruptedException e) {
+    // // TODO Auto-generated catch block
+    // e.printStackTrace();
+    // }
   }
   // TODO Processing demo library demo particals
 
@@ -126,64 +124,84 @@ public class Equalizer extends PApplet {
    */
   @Override
   public void draw() {
+    if (state == GAMESTATE.PAUSED) {
+      song.pause();
+      this.time = System.currentTimeMillis();
+    } else if (state == GAMESTATE.MENUE) {
+      background(0);
+      fill(255, 255, 255);
+      textSize(32 / (height / 1080));
+      text("Press ENTER to start", (width / 2) - (width / 10), (height / 2) - (height / 20), (width / 2) + (width / 10),
+          (height / 2) + (height / 20));
 
-    background(0);
-    noStroke();
-    // if (counter <= 0) {
-    // counter = 10;
-    // count++;
-    // System.out.println(count);
-    // fill(color(255, 255, 255, 50));
-    // PShape shape = createShape(PConstants.RECT, 0, 0, Wide, Height);
-    // int time = song.position();
-    // if (frameCount % 1000 == 0) {
-    timer += (System.currentTimeMillis() - this.time);
-    this.time = System.currentTimeMillis();
-
-    double timeDifference = (((_60FPS / frameRate) * _10_60) + 6) / 2;
-    println(frameRate + " Framedifference " + (timer - lastMilliseconds) + "Time " + timer + " TimeDifference "
-        + timeDifference/* / (millis() / 1000f) */);
-    lastMilliseconds = timer;
-    // }
-    for (Note n : notes) {
-      // println("Note with timestamp " + n.timestamp + " lastadded " +
-      // n.getLastadded());
-      if (n.getTimeStamp() >= timer - timeDifference && n.getTimeStamp() <= timer + timeDifference
-          && n.notAdded(timer)) {
-        // println("ZeitAbstand: " + n.getTimeStamp() + ":" + timer);
-        float randomX = random(Wide / 5, Wide - Wide / 5);
-        float randomY = random(Height / 5, Height - Height / 5);
-        int alpha = 150;
-        int color = 255;
-
-        circles.add(new Circle(this, new PVector(randomX, randomY), n.GetSize() * 5, 10, color, alpha, n));
-        System.out.println("Circle added");
-        n.setLastadded(timer);// TODO change to bool, change apperence in
-                              // mousePressed Methode
+    } else if (state == GAMESTATE.RUNNING) {
+      if (song.isPlaying() && song.position() < song.length()) {
+        song.play(song.position());
       }
-    }
-
-    ArrayList toRemove = new ArrayList<>();
-    // Display every circle available
-    for (Circle c : circles) {
-      if (c.draw) {
-        transformCircle(timer, c);
-        // c.update(jitter);
-        c.display();
-      } else {
-        // toRemove.add(c);
+      if (startSong) {
+        song.play();
+        SONGPLAYING = true;
+        time = System.currentTimeMillis();
+        startSong = false;
       }
-    }
-    // circles.removeAll(toRemove);
+      background(0);
+      noStroke();
+      // if (counter <= 0) {
+      // counter = 10;
+      // count++;
+      // System.out.println(count);
+      // fill(color(255, 255, 255, 50));
+      // PShape shape = createShape(PConstants.RECT, 0, 0, Wide, Height);
+      // int time = song.position();
+      // if (frameCount % 1000 == 0) {
+      timer += (System.currentTimeMillis() - this.time);
+      this.time = System.currentTimeMillis();
 
-    if ((System.currentTimeMillis() - lastMove) <= 1000) {
-      stroke(255, 255, 255);
-      float position = map(song.position(), 0, song.length(), 0, width);
-      line(position, height - height / 70, position, height);
+      double timeDifference = (((_60FPS / frameRate) * _10_60) + 6) / 2;
+      println(frameRate + " Framedifference " + (timer - lastMilliseconds) + "Time " + timer + " TimeDifference "
+          + timeDifference/* / (millis() / 1000f) */);
+      lastMilliseconds = timer;
+      // }
+      for (Note n : notes) {
+        // println("Note with timestamp " + n.timestamp + " lastadded " +
+        // n.getLastadded());
+        if (n.getTimeStamp() >= timer - timeDifference && n.getTimeStamp() <= timer + timeDifference
+            && n.notAdded(timer)) {
+          // println("ZeitAbstand: " + n.getTimeStamp() + ":" + timer);
+          float randomX = random(Wide / 5, Wide - Wide / 5);
+          float randomY = random(Height / 5, Height - Height / 5);
+          int alpha = 150;
+          int color = 255;
+
+          circles.add(new Circle(this, new PVector(randomX, randomY), n.GetSize() * 5, 10, color, alpha, n));
+          System.out.println("Circle added");
+          n.setLastadded(timer);// TODO change to bool, change apperence in
+                                // mousePressed Methode
+        }
+      }
+
+      ArrayList toRemove = new ArrayList<>();
+      // Display every circle available
+      for (Circle c : circles) {
+        if (c.draw) {
+          transformCircle(timer, c);
+          // c.update(jitter);
+          c.display();
+        } else {
+          // toRemove.add(c);
+        }
+      }
+      // circles.removeAll(toRemove);
+
+      if ((System.currentTimeMillis() - lastMove) <= 1000) {
+        stroke(255, 255, 255);
+        float position = map(song.position(), 0, song.length(), 0, width);
+        line(position, height - height / 70, position, height);
+      }
+      //
+      // text("Click anywhere to jump to a position in the song.", 10, 20, 255);
+      checkRestartSong();
     }
-    //
-    // text("Click anywhere to jump to a position in the song.", 10, 20, 255);
-    checkRestartSong();
   }
 
   private void transformCircle(long time2, Circle c) {
@@ -235,6 +253,27 @@ public class Equalizer extends PApplet {
     if (mouseY >= height - height / 10)
       lastMove = System.currentTimeMillis();
     super.mouseMoved();
+  }
+
+  @Override
+  public void keyPressed() {
+    if (state == GAMESTATE.PAUSED) {
+      if (key == ' ') {
+        state = GAMESTATE.RUNNING;
+      }
+    } else if (state == GAMESTATE.MENUE) {
+      if (key == ENTER) {
+        state = GAMESTATE.RUNNING;
+      }
+    } else if (state == GAMESTATE.RUNNING) {
+      if (key == ' ') {
+        state = GAMESTATE.PAUSED;
+      } else if (key == BACKSPACE || key == ENTER) {
+        state = GAMESTATE.MENUE;
+        startSong = true;
+      }
+    }
+    super.keyPressed();
   }
 
   @Override
