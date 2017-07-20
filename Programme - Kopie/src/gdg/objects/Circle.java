@@ -9,26 +9,8 @@ public class Circle {
   private static PApplet canvas;
   private PShape shape;
   public PVector position;
-  private int color;
+  public Color color;
 
-  public float getAlpha() {
-    return alpha;
-  }
-
-  public void setAlpha(int alpha) {
-    this.alpha = alpha;
-  }
-
-  public int getColorWithoutAlpha() {
-    return colorWithoutAlpha;
-  }
-
-  public void setColorWithoutAlpha(int colorWithoutAlpha) {
-    this.colorWithoutAlpha = colorWithoutAlpha;
-  }
-
-  private float alpha;
-  private int colorWithoutAlpha;
   public Note node;
   public float radius;
   public float scale;
@@ -46,18 +28,18 @@ public class Circle {
    * @param color
    *          The color of the circles stroke
    */
-  public Circle(PApplet papa, PVector position, float radius, float weight, int color, int alpha, Note node) {
+  public Circle(PApplet papa, PVector position, float radius, float weight, Color color, Note node) {
     this.canvas = papa;
-    this.color = papa.color(color, alpha);
-    this.alpha = alpha;
-    this.colorWithoutAlpha = color;
+    this.color = color;
     this.scale = 1;
     this.node = node;
     this.radius = radius;
     this.position = position;
 
     // Shapes bring the advantage of being easily modifiable and adjustable
-    papa.fill(this.color);
+    int colortest = papa.color(color.r, color.g, color.b, color.alpha);
+    // System.out.println(colortest + " alpha:" + color.alpha);
+    papa.fill(colortest);
     shape = canvas.createShape(PConstants.ELLIPSE, 0, 0, radius, radius);
     // shape.beginShape();
     // shape.fill(color);
@@ -71,7 +53,10 @@ public class Circle {
    * Displays the shape on the stored static canvas object.
    */
   public void display() {
-
+    // System.out.println("draw:" + draw + " alpha:" + color.alpha);
+    if (color.alpha < 0) {
+      draw = false;
+    }
     if (draw) {
       // canvas.filter(new PShader());
       canvas.pushMatrix();
@@ -88,14 +73,8 @@ public class Circle {
     }
   }
 
-  public int getColor() {
-    return color;
-  }
-
-  public void setColor(int color, float alpha) {
-    this.color = canvas.color(color, alpha);
-    this.colorWithoutAlpha = color;
-    this.alpha = alpha;
-    shape.setFill(getColor());
+  public void setColor(Color color) {
+    this.color = color;
+    shape.setFill(canvas.color(color.r, color.g, color.b, color.alpha));
   }
 }

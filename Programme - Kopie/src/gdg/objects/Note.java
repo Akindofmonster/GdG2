@@ -33,8 +33,8 @@ public class Note {
 
   public boolean notAdded(long time) {
     System.out.println(String.format("(time %s- lastadded %d)      ", time, lastadded)
-        + ((time - lastadded) >= 15 || (time - lastadded) <= -15));
-    return (time - lastadded) >= 15 || (time - lastadded) <= -15;
+        + ((time - lastadded) >= 100 || (time - lastadded) <= -100));
+    return (time - lastadded) >= 100 || (time - lastadded) <= -100;
   }
 
   public int getTimeStamp() {

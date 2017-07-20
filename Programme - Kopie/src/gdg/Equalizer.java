@@ -4,6 +4,8 @@ import ddf.minim.AudioPlayer;
 import ddf.minim.Minim;
 import ddf.minim.analysis.FFT;
 import gdg.objects.Circle;
+import gdg.objects.Color;
+import gdg.objects.ColorField;
 import gdg.objects.Note;
 import gdg.objects.Enums.GAMESTATE;
 import processing.core.PApplet;
@@ -17,8 +19,6 @@ import java.io.PrintStream;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-import com.sun.prism.paint.Color;
-
 /**
  * The Equalizer class is the main controller for the Animation.
  *
@@ -26,19 +26,32 @@ import com.sun.prism.paint.Color;
  */
 public class Equalizer extends PApplet {
 
+  private static final int _120 = 120;
   private static int Height = 900;
   private static int Wide = 1820;
 
-  private static boolean _verblassen = true;
-  public static boolean _vergroesserm = true;
+  private static boolean _verblassen = false;
+  public static boolean _vergroesserm = false;
   private static boolean _verschieben = false;
-  private static boolean _wiederhohlen = true;
+  private static boolean _wiederhohlen = false;
+  private static ColorField colorField = new ColorField(200, 0, 0, 100, 255, 150, 0, 150);
 
-  private static final int AddScale = (Height + Wide) / 700;
+  private static final float AddScale = (Height + Wide) / 700;
   private static final float PosFactor = AddScale;
   private static final int Duration = 10000;
-  private static final float AlphaScale = 1.2f;
-  // TODO FARBE
+  private static final float AlphaScale = 0.8f;
+
+  public float getAddscale() {
+    return AddScale * (_120 / frameRate);
+  }
+
+  public float getPosfactor() {
+    return PosFactor * (_120 / frameRate);
+  }
+
+  public float getAlphascale() {
+    return AlphaScale * (_120 / frameRate);
+  }
 
   private GAMESTATE state = GAMESTATE.MENUE;
   protected static boolean SONGPLAYING;
@@ -51,8 +64,8 @@ public class Equalizer extends PApplet {
   int counter = 0;
   int count = 0;
   long lastMilliseconds = 0;
-  long timer = 0;
-  long time;
+  long actualTime = 0;
+  long lastTime;
   boolean startSong = true;
 
   private AudioPlayer song;
@@ -126,7 +139,7 @@ public class Equalizer extends PApplet {
   public void draw() {
     if (state == GAMESTATE.PAUSED) {
       song.pause();
-      this.time = System.currentTimeMillis();
+      this.lastTime = System.currentTimeMillis();
       fill(255, 255, 255);
       textSize(32 / (height / 1080));
       textAlign(CENTER, CENTER);
@@ -140,14 +153,17 @@ public class Equalizer extends PApplet {
       text("Press ENTER to start", 0, 0, width, height);
 
     } else if (state == GAMESTATE.RUNNING) {
-      if (song.isPlaying() && song.position() < song.length()) {
-        song.play(song.position());
-      }
       if (startSong) {
         song.play();
         SONGPLAYING = true;
-        time = System.currentTimeMillis();
+        lastTime = System.currentTimeMillis();
         startSong = false;
+      }
+      actualTime += (System.currentTimeMillis() - this.lastTime);
+      this.lastTime = System.currentTimeMillis();
+      if (!song.isPlaying() && song.position() < song.length()) {
+        song.play(song.position());
+        song.cue((int) actualTime);
       }
       background(0);
       noStroke();
@@ -159,29 +175,27 @@ public class Equalizer extends PApplet {
       // PShape shape = createShape(PConstants.RECT, 0, 0, Wide, Height);
       // int time = song.position();
       // if (frameCount % 1000 == 0) {
-      timer += (System.currentTimeMillis() - this.time);
-      this.time = System.currentTimeMillis();
-
-      double timeDifference = (((_60FPS / frameRate) * _10_60) + 6) / 2;
-      println(frameRate + " Framedifference " + (timer - lastMilliseconds) + "Time " + timer + " TimeDifference "
-          + timeDifference/* / (millis() / 1000f) */);
-      lastMilliseconds = timer;
+      double timeDifference = (((_60FPS / frameRate) * _10_60) + 0);/// 2;
+      System.out.println(frameRate + " Framedifference " + (actualTime - lastMilliseconds) + "Time " + actualTime
+          + " TimeDifference " + timeDifference/* / (millis() / 1000f) */);
+      lastMilliseconds = actualTime;
       // }
       for (Note n : notes) {
         // println("Note with timestamp " + n.timestamp + " lastadded " +
         // n.getLastadded());
-        if (n.getTimeStamp() >= timer - timeDifference && n.getTimeStamp() <= timer + timeDifference
-            && n.notAdded(timer)) {
+        if (n.getTimeStamp() >= actualTime - timeDifference && n.getTimeStamp() <= actualTime + timeDifference
+            && n.notAdded(actualTime)) {
           // println("ZeitAbstand: " + n.getTimeStamp() + ":" + timer);
           float randomX = random(Wide / 5, Wide - Wide / 5);
           float randomY = random(Height / 5, Height - Height / 5);
-          int alpha = 150;
-          int color = 255;
+          Color color = colorField.getColor((int) n.frequentcy);
+          // System.out.println("Alpha:" + color.alpha + " freq:" + (int)
+          // n.frequentcy);
 
-          circles.add(new Circle(this, new PVector(randomX, randomY), n.GetSize() * 5, 10, color, alpha, n));
+          circles.add(new Circle(this, new PVector(randomX, randomY), n.GetSize() * 5, 10, color, n));
           System.out.println("Circle added");
-          n.setLastadded(timer);// TODO change to bool, change apperence in
-                                // mousePressed Methode
+          n.setLastadded(actualTime);// TODO change to bool, change apperence in
+          // mousePressed Methode
         }
       }
 
@@ -189,7 +203,7 @@ public class Equalizer extends PApplet {
       // Display every circle available
       for (Circle c : circles) {
         if (c.draw) {
-          transformCircle(timer, c);
+          transformCircle(actualTime, c);
           // c.update(jitter);
           c.display();
         } else {
@@ -211,11 +225,11 @@ public class Equalizer extends PApplet {
 
   private void transformCircle(long time2, Circle c) {
     if (_verblassen) {
-      float alpha = c.getAlpha() - AlphaScale;
-      c.setColor(c.getColorWithoutAlpha(), alpha);
+      c.color.alpha -= getAlphascale();
+      c.setColor(c.color);
     }
     // if (_vergroesserm) {
-    int tempRadius = (int) (c.radius + AddScale);
+    int tempRadius = (int) (c.radius + getAddscale());
     c.scale = tempRadius / c.radius;
     // }
     if (_verschieben) {
@@ -224,14 +238,14 @@ public class Equalizer extends PApplet {
       float x2 = c.position.x;
       float y2 = c.position.y;
       // if (c.position.x >= Wide / 2) {
-      x += ((x * (c.scale - 1)) / PosFactor);
+      x += ((x * (c.scale - 1)) / getPosfactor());
       // System.out.println("x increased");
       // } else {
       // x -= ((x * (c.scale - 1)) / PosFactor);
       // // System.out.println("x decreased");
       // }
       // if (c.position.y >= Height / 2) {
-      y += ((y * (c.scale - 1)) / PosFactor);
+      y += ((y * (c.scale - 1)) / getPosfactor());
       // System.out.println("y increased");
       // } else {
       // y -= ((y * (c.scale - 1)) / PosFactor);
@@ -240,7 +254,7 @@ public class Equalizer extends PApplet {
       // System.out.println(x + ":" + x2 + " " + y + ":" + y2);
       c.position = new PVector(x, y);
     }
-    if (timer - c.node.getTimeStamp() >= Duration && (_verblassen || _vergroesserm || _verschieben)) {
+    if (actualTime - c.node.getTimeStamp() >= Duration && (_verblassen || _vergroesserm || _verschieben)) {
       // System.out
       // .println("Timer " + timer + " c.node.getTimeStamp() " +
       // c.node.getTimeStamp() + " Duration " + Duration);
@@ -291,7 +305,7 @@ public class Equalizer extends PApplet {
       for (Note n : notes) {
         n.setLastadded(-60);
       }
-      timer = position;
+      actualTime = position;
       song.cue(position);
       circles = new ArrayList<Circle>();
     }
@@ -321,9 +335,12 @@ public class Equalizer extends PApplet {
 
   private void restartSong() {
     {
+      for (Note n : notes) {
+        n.setLastadded(-60);
+      }
       this.song.play(0);
-      this.timer = 0;
-      this.time = System.currentTimeMillis();
+      this.actualTime = 0;
+      this.lastTime = System.currentTimeMillis();
       circles = new ArrayList<Circle>();
     }
   }
@@ -363,7 +380,7 @@ public class Equalizer extends PApplet {
     notes.add(new Note(14.037913832, 69, 0.600816327));
     notes.add(new Note(14.037913832, 59, 0.600816327));
     notes.add(new Note(14.037913832, 66, 0.600816327));
-    notes.add(new Note(14.037913832, 62, 0.600816327));
+    // notes.add(new Note(14.037913832, 62, 0.600816327));
     notes.add(new Note(14.037913832, 57, 0.600816327));
     notes.add(new Note(14.037913832, 54, 0.600816327));
 
