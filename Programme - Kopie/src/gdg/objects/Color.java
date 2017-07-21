@@ -2,12 +2,12 @@ package gdg.objects;
 
 public class Color {
 
-  public int r;
-  public int g;
-  public int b;
-  public int alpha;
+  public float r;
+  public float g;
+  public float b;
+  public float alpha;
 
-  public Color(int r, int g, int b, int alpha) {
+  public Color(float r, float g, float b, float alpha) {
     this.r = r;
     this.g = g;
     this.b = b;
