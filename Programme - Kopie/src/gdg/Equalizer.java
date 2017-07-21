@@ -31,8 +31,8 @@ public class Equalizer extends PApplet {
   private static int Height = 900;
   private static int Wide = 1820;
 
-  private static boolean _verblassen = false;
-  public static boolean _vergroesserm = false;
+  private static boolean _verblassen = true;
+  public static boolean _vergroesserm = true;
   private static boolean _verschieben = false;
   private static boolean _wiederhohlen = false;
   private static ColorField colorField = new ColorField(200, 0, 0, 100, 255, 150, 0, 150);
