@@ -75,6 +75,6 @@ public class Circle {
 
   public void setColor(Color color) {
     this.color = color;
-    shape.setFill(canvas.color(color.r, color.g, color.b, color.alpha));
+    shape.setFill(canvas.color(color.r, color.g, color.b, (int) color.alpha));
   }
 }

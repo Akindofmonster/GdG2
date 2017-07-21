@@ -1,6 +1,7 @@
 package gdg;
 
 import ddf.minim.AudioPlayer;
+import processing.opengl.*;
 import ddf.minim.Minim;
 import ddf.minim.analysis.FFT;
 import gdg.objects.Circle;
@@ -61,6 +62,9 @@ public class Equalizer extends PApplet {
   // A list of circles to hold the elements to display.
   private ArrayList<Circle> circles;
   private ArrayList<Note> notes;
+  PShader blurH, blurV;
+
+  PShader blur;
   int counter = 0;
   int count = 0;
   long lastMilliseconds = 0;
@@ -93,7 +97,7 @@ public class Equalizer extends PApplet {
    */
   @Override
   public void settings() {
-    fullScreen();
+    fullScreen(P2D);
     Height = displayHeight;
     Wide = displayWidth;
     // setSize(Wide, Height);
@@ -107,12 +111,16 @@ public class Equalizer extends PApplet {
   @Override
   public void setup() {
 
-    frameRate(1000);
+    frameRate(200);
     background(0);
     lastMove = System.currentTimeMillis();
     circles = new ArrayList<Circle>();
     notes = new ArrayList<Note>();
     createNotes();
+
+    blur = loadShader("blur.glsl");
+    initBlurH();
+    initBlurV();
 
     // Start the song right away
 
@@ -154,6 +162,7 @@ public class Equalizer extends PApplet {
 
     } else if (state == GAMESTATE.RUNNING) {
       if (startSong) {
+        background(0);
         song.play();
         SONGPLAYING = true;
         lastTime = System.currentTimeMillis();
@@ -162,11 +171,18 @@ public class Equalizer extends PApplet {
       actualTime += (System.currentTimeMillis() - this.lastTime);
       this.lastTime = System.currentTimeMillis();
       if (!song.isPlaying() && song.position() < song.length()) {
+        background(0);
         song.play(song.position());
         song.cue((int) actualTime);
       }
-      background(0);
+      // background(0);
       noStroke();
+
+      // filter(blur);
+
+      // filter(blurH);
+      // filter(blurV);
+
       // if (counter <= 0) {
       // counter = 10;
       // count++;
@@ -175,7 +191,7 @@ public class Equalizer extends PApplet {
       // PShape shape = createShape(PConstants.RECT, 0, 0, Wide, Height);
       // int time = song.position();
       // if (frameCount % 1000 == 0) {
-      double timeDifference = (((_60FPS / frameRate) * _10_60) + 0);/// 2;
+      double timeDifference = (((_60FPS / frameRate) * _10_60) + 2);/// 2;
       System.out.println(frameRate + " Framedifference " + (actualTime - lastMilliseconds) + "Time " + actualTime
           + " TimeDifference " + timeDifference/* / (millis() / 1000f) */);
       lastMilliseconds = actualTime;
@@ -298,6 +314,7 @@ public class Equalizer extends PApplet {
   @Override
   public void mousePressed() {
     if (mouseY >= height - height / 40) {
+      background(0);
       restartSong();
       // choose a position to cue to based on where the user clicked.
       // the length() method returns the length of recording in milliseconds.
@@ -343,6 +360,44 @@ public class Equalizer extends PApplet {
       this.lastTime = System.currentTimeMillis();
       circles = new ArrayList<Circle>();
     }
+  }
+
+  void initBlurH() {
+    String[] vertSource = { "uniform mat4 transform;",
+
+        "attribute vec4 vertex;", "attribute vec2 texCoord;",
+
+        "varying vec2 vertTexCoord;",
+
+        "void main() {", "vertTexCoord = texCoord;", "gl_Position = transform * vertex;", "}" };
+    String[] fragSource = { "uniform sampler2D texture;", "uniform vec2 texOffset;",
+
+        "varying vec2 vertTexCoord;",
+
+        "void main() {",
+        "gl_FragColor  = 0.27901 * texture2D(texture, vec2(vertTexCoord.x - texOffset.x, vertTexCoord.y));",
+        "gl_FragColor += 0.44198 * texture2D(texture, vertTexCoord);",
+        "gl_FragColor += 0.27901 * texture2D(texture, vec2(vertTexCoord.x + texOffset.x, vertTexCoord.y));", "}" };
+    blurH = new PShader(this, vertSource, fragSource);
+  }
+
+  void initBlurV() {
+    String[] vertSource = { "uniform mat4 transform;",
+
+        "attribute vec4 vertex;", "attribute vec2 texCoord;",
+
+        "varying vec2 vertTexCoord;",
+
+        "void main() {", "vertTexCoord = texCoord;", "gl_Position = transform * vertex;", "}" };
+    String[] fragSource = { "uniform sampler2D texture;", "uniform vec2 texOffset;",
+
+        "varying vec2 vertTexCoord;",
+
+        "void main() {",
+        "gl_FragColor  = 0.27901 * texture2D(texture, vec2(vertTexCoord.x, vertTexCoord.y - texOffset.y));",
+        "gl_FragColor += 0.44198 * texture2D(texture, vertTexCoord);",
+        "gl_FragColor += 0.27901 * texture2D(texture, vec2(vertTexCoord.x, vertTexCoord.y + texOffset.y));", "}" };
+    blurV = new PShader(this, vertSource, fragSource);
   }
 
   private void createNotes() {
