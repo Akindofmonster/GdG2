@@ -14,6 +14,8 @@ public class Circle {
   public Note node;
   public float radius;
   public float scale;
+  public boolean spawn = true;
+  public float spawnCount = 1;
   public boolean draw = true;
 
   /**
@@ -60,11 +62,38 @@ public class Circle {
     if (draw) {
       // canvas.filter(new PShader());
       canvas.pushMatrix();
-      canvas.translate(position.x, position.y);
-      canvas.shape(shape);
+
+      // if (spawn) {
+      // if (spawnCount == 1) {
+      // shape.scale(0.5f);
+      // } else {
+      // float f = 1.08f;// + initScale * spawnCount;
+      // shape.scale(f);
+      // }
+      //
+      // spawnCount++;
+      // if (spawnCount > 10) {
+      // System.out.println("eteteref");
+      // spawn = false;
+      // scale = 1;
+      // }
+      // } else
       if (Equalizer._vergroesserm) {
         shape.scale(scale);
+        System.out.println(scale);
       }
+      canvas.translate(position.x, position.y);
+      if (spawn) {
+        shape.setFill(
+            canvas.color(color.r, color.g, color.b, ((int) color.alpha / (canvas.frameRate / 5)) * spawnCount));
+
+        spawnCount++;
+        if (spawnCount > canvas.frameRate / 5) {
+          System.out.println("eteteref");
+          spawn = false;
+        }
+      }
+      canvas.shape(shape);
       // shape.setStroke(draw);
       // shape.setStroke(canvas.color(getColorWithoutAlpha(), alpha / 4));
       // shape.setStrokeWeight(shape.getStrokeWeight(0) * scale / 4);

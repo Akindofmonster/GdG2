@@ -31,16 +31,21 @@ public class Equalizer extends PApplet {
   private static int Height = 900;
   private static int Wide = 1820;
 
-  private static boolean _verblassen = true;
-  public static boolean _vergroesserm = true;
+  private static boolean _verblassen = false;
+  public static boolean _vergroesserm = false;
   private static boolean _verschieben = false;
   private static boolean _wiederhohlen = false;
-  private static ColorField colorField = new ColorField(200, 0, 0, 100, 255, 150, 0, 150);
+  private static boolean _blur = true;
+  private static ColorField colorField = new ColorField(100, 0, 0, 100, 255, 100, 0, 150);
 
-  private static final float AddScale = (Height + Wide) / 700;
-  private static final float PosFactor = AddScale;
-  private static final int Duration = 10000;
-  private static final float AlphaScale = 0.8f;
+  private static float Scale = 0.8f;
+  private static float Pos = 0.25f;
+  private static float AlphaScale = 0.8f;
+  private static int Duration = 10000;
+  private static int _distance = 10;
+
+  private static float AddScale = Scale * ((Height + Wide) / 700);
+  private static float PosFactor = AddScale * (1 / Pos);
 
   public float getAddscale() {
     return AddScale * (_120 / frameRate);
@@ -175,13 +180,15 @@ public class Equalizer extends PApplet {
         song.play(song.position());
         song.cue((int) actualTime);
       }
-      // background(0);
       noStroke();
+      if (_blur && !(_verblassen || _vergroesserm || _verschieben)) {
+        // filter(blur);
 
-      // filter(blur);
-
-      // filter(blurH);
-      // filter(blurV);
+        filter(blurH);
+        filter(blurV);
+      } else {
+        background(0);
+      }
 
       // if (counter <= 0) {
       // counter = 10;
@@ -191,19 +198,23 @@ public class Equalizer extends PApplet {
       // PShape shape = createShape(PConstants.RECT, 0, 0, Wide, Height);
       // int time = song.position();
       // if (frameCount % 1000 == 0) {
-      double timeDifference = (((_60FPS / frameRate) * _10_60) + 2);/// 2;
-      System.out.println(frameRate + " Framedifference " + (actualTime - lastMilliseconds) + "Time " + actualTime
-          + " TimeDifference " + timeDifference/* / (millis() / 1000f) */);
+      double timeDifference = actualTime - lastMilliseconds;// (((_60FPS / frameRate) * _10_60) + 2);/// 2;
+
+      // System.out.println(frameRate + " Framedifference " + (actualTime -
+      // lastMilliseconds) + "Time " + actualTime
+      // + " TimeDifference " + timeDifference/* / (millis() / 1000f) */);
+
       lastMilliseconds = actualTime;
       // }
       for (Note n : notes) {
-        // println("Note with timestamp " + n.timestamp + " lastadded " +
-        // n.getLastadded());
+        // System.out.println("ZeitAbstand: " + n.getTimeStamp() + ":" + actualTime +
+        // "+-" + timeDifference);
         if (n.getTimeStamp() >= actualTime - timeDifference && n.getTimeStamp() <= actualTime + timeDifference
             && n.notAdded(actualTime)) {
-          // println("ZeitAbstand: " + n.getTimeStamp() + ":" + timer);
-          float randomX = random(Wide / 5, Wide - Wide / 5);
-          float randomY = random(Height / 5, Height - Height / 5);
+          // System.out.println("ZeitAbstand: " + n.getTimeStamp() + ":" + actualTime +
+          // "+-" + timeDifference);
+          float randomX = random(Wide / _distance, Wide - Wide / _distance);
+          float randomY = random(Height / _distance, Height - Height / _distance);
           Color color = colorField.getColor((int) n.frequentcy);
           // System.out.println("Alpha:" + color.alpha + " freq:" + (int)
           // n.frequentcy);
@@ -253,20 +264,20 @@ public class Equalizer extends PApplet {
       float y = c.position.y;
       float x2 = c.position.x;
       float y2 = c.position.y;
-      // if (c.position.x >= Wide / 2) {
-      x += ((x * (c.scale - 1)) / getPosfactor());
-      // System.out.println("x increased");
-      // } else {
-      // x -= ((x * (c.scale - 1)) / PosFactor);
-      // // System.out.println("x decreased");
-      // }
-      // if (c.position.y >= Height / 2) {
-      y += ((y * (c.scale - 1)) / getPosfactor());
-      // System.out.println("y increased");
-      // } else {
-      // y -= ((y * (c.scale - 1)) / PosFactor);
-      // // System.out.println("y increased");
-      // }
+      if (c.position.x >= Wide / 2) {
+        x += ((x * (c.scale - 1)) / getPosfactor());
+        // System.out.println("x increased");
+      } else {
+        x -= (((x + Wide) * (c.scale - 1)) / PosFactor);
+        // // System.out.println("x decreased");
+      }
+      if (c.position.y >= Height / 2) {
+        y += ((y * (c.scale - 1)) / getPosfactor());
+        // System.out.println("y increased");
+      } else {
+        y -= (((y + Height) * (c.scale - 1)) / PosFactor);
+        // System.out.println("y increased");
+      }
       // System.out.println(x + ":" + x2 + " " + y + ":" + y2);
       c.position = new PVector(x, y);
     }
@@ -285,7 +296,7 @@ public class Equalizer extends PApplet {
 
   @Override
   public void mouseMoved() {
-    if (mouseY >= height - height / 10)
+    if (mouseY >= height - height / 10 && !_blur)
       lastMove = System.currentTimeMillis();
     super.mouseMoved();
   }
