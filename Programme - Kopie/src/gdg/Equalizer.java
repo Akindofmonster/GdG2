@@ -35,11 +35,11 @@ public class Equalizer extends PApplet {
   private static int Height = 900;
   private static int Wide = 1820;
 
-  private static boolean _verblassen = false;
-  public static boolean _vergroesserm = false;
+  private static boolean _verblassen = true;
+  public static boolean _vergroesserm = true;
   private static boolean _verschieben = false;
   private static boolean _wiederhohlen = false;
-  private static boolean _blur = true;
+  private static boolean _blur = false;
   private static ColorField colorField = new ColorField(100, 0, 0, 100, 255, 100, 0, 150);
 
   private static float Scale = 0.8f;
@@ -83,8 +83,18 @@ public class Equalizer extends PApplet {
 
   private AudioPlayer song;
   private FFT fft;
-  
+
   ControlP5 cp5;
+  ArrayList main = new ArrayList<>();
+  ArrayList farben = new ArrayList<>();
+  ArrayList gesch = new ArrayList<>();
+  ArrayList vorlagen = new ArrayList<>();
+  ArrayList info = new ArrayList<>();
+  boolean firstm = true;
+  boolean firstf = true;
+  boolean firstg = true;
+  boolean firstv = true;
+  boolean firsti = true;
 
   /**
    * Main method to instantiate the PApplet.
@@ -132,6 +142,7 @@ public class Equalizer extends PApplet {
     blur = loadShader("blur.glsl");
     initBlurH();
     initBlurV();
+    cp5 = new ControlP5(this);
 
     // Start the song right away
 
@@ -167,16 +178,18 @@ public class Equalizer extends PApplet {
     } else if (state == GAMESTATE.MENUE) {
       background(0);
       fill(255, 255, 255);
-      size(1920,1080);
-	  noStroke();
-	  
-	  buildMain();
-	  	  	  
-      //textSize(32 / (height / 1080));
-      //textAlign(CENTER, CENTER);
-      //text("Press ENTER to start", 0, 0, width, height);
+      size(1920, 1080);
+      noStroke();
+
+      buildMain();
+
+      // textSize(32 / (height / 1080));
+      // textAlign(CENTER, CENTER);
+      // text("Press ENTER to start", 0, 0, width, height);
 
     } else if (state == GAMESTATE.RUNNING) {
+      System.out.println(cp5.isVisible());
+
       if (startSong) {
         background(0);
         song.play();
@@ -262,320 +275,196 @@ public class Equalizer extends PApplet {
   }
 
   private void buildMain() {
-	  cp5 = new ControlP5(this);  
-	  //Play
-	  cp5.addButton("Play")
-	  	 .setPosition(100, 300)
-	     .setSize(480, 480)
-	     ;	  
-	  //Farben
-	  cp5.addButton("Farben")
-	     .setPosition(1300,200)
-	     .setSize(400,100)
-	     ;
-	  //Geschwindigkeit
-	  cp5.addButton("Geschwindigkeit")
-	     .setPosition(1300,350)
-	     .setSize(400,100)
-	     ;
-	//Vorlagen
-	  cp5.addButton("Vorlagen")
-	     .setPosition(1300,500)
-	     .setSize(400,100)
-	     ;
-	//Informationen
-	  cp5.addButton("Informationen")
-	     .setPosition(1350,700)
-	     .setSize(350,100)
-	     ;
-	//Beenden
-	  cp5.addButton("Beenden")
-	     .setPosition(1350,850)
-	     .setSize(350,100)
-	     ;
+    if (firstm) {
+      // Play
+      cp5.addButton("Play").setPosition(100, 300).setSize(480, 480);
+      // Farben
+      cp5.addButton("Farben").setPosition(1300, 200).setSize(400, 100);
+      // Geschwindigkeit
+      cp5.addButton("Geschwindigkeit").setPosition(1300, 350).setSize(400, 100);
+      // Vorlagen
+      cp5.addButton("Vorlagen").setPosition(1300, 500).setSize(400, 100);
+      // Informationen
+      cp5.addButton("Informationen").setPosition(1350, 700).setSize(350, 100);
+      // Beenden
+      cp5.addButton("Beenden").setPosition(1350, 850).setSize(350, 100);
+      firstm = false;
+    }
   }
-  
-  private void buildFarben(){
-	  cp5.addButton("FZurueck")
-	  	 .setLabel("Zurück")
-	  	 .setPosition(1200,200)
-	     .setSize(100,50)
-	     ;
-	  cp5.addTextlabel("FarbenT")
-   	 	 .setText("Farben")
-   	 	 .setPosition(1350,200)
-   	 	 .setFont(createFont("Arial",30))
-   	 	 ;
-	  
-	  cp5.addTextlabel("Farbe1")
-      	 .setText("Farbe 1")
-      	 .setPosition(1200,300)
-      	 .setFont(createFont("Arial",20))
-      	 ;
 
-	  cp5.addTextlabel("Farbe2")
-   	 	 .setText("Farbe 2")
-   	 	 .setPosition(1500,300)
-   	 	 .setFont(createFont("Arial",20))
-   	 	 ;
-	  //ColorPicker
-	  cp5.addColorPicker("C1")
-	          .setPosition(1200, 350)
-	          .setColorValue(color(255, 255, 255, 255))
-	          ;
-	  
-	  cp5.addColorPicker("C2")
-	          .setPosition(1500, 350)
-	          .setColorValue(color(255, 255, 255, 255))
-	          ;
-	  cp5.addButton("FUebernehmen")
-	  	 .setLabel("Übernehmen")
-	  	 .setPosition(1400,600)
-	     .setSize(350,100)
-	     ;
+  private void buildFarben() {
+    cp5.addButton("FZurueck").setLabel("Zurück").setPosition(1200, 200).setSize(100, 50);
+    cp5.addTextlabel("FarbenT").setText("Farben").setPosition(1350, 200).setFont(createFont("Arial", 30));
+
+    cp5.addTextlabel("Farbe1").setText("Farbe 1").setPosition(1200, 300).setFont(createFont("Arial", 20));
+
+    cp5.addTextlabel("Farbe2").setText("Farbe 2").setPosition(1500, 300).setFont(createFont("Arial", 20));
+    // ColorPicker
+    cp5.addColorPicker("C1").setPosition(1200, 350).setColorValue(color(255, 255, 255, 255));
+
+    cp5.addColorPicker("C2").setPosition(1500, 350).setColorValue(color(255, 255, 255, 255));
+    cp5.addButton("FUebernehmen").setLabel("Übernehmen").setPosition(1400, 600).setSize(350, 100);
   }
-  private void buildGeschw(){
-	  cp5.addButton("GZurueck")
-	  	 .setLabel("Zurück")
-	  	 .setPosition(1200,200)
-	     .setSize(100,50)
-	     ;
-	  cp5.addTextlabel("GeschwindigkeitT")
-	 	 .setText("Geschwindigkeit")
-	 	 .setPosition(1350,200)
-	 	 .setFont(createFont("Arial",30))
-	 	 ;
-	  
-	  cp5.addSlider("vergroessern")
-	  	 .setLabel("vergrößern")
-      	 .setPosition(1200,300)
-      	 .setSize(450,20)
-      	 .setRange(0,100)
-      	 .setArrayValue(new float[] {0, 0})
-      	 ;
-	  
-	  cp5.addSlider("verblassen")
-   	 	 .setPosition(1200,375)
-   	 	 .setSize(450,20)
-   	 	 .setRange(0,100)
-   	 	 .setArrayValue(new float[] {0, 0})
-   	 	 ;
-	  
-	  cp5.addSlider("verschwimmen")
-	 	 .setPosition(1200,450)
-	 	 .setSize(450,20)
-	 	 .setRange(0,100)
-	 	 .setArrayValue(new float[] {0, 0})
-	 	 ;
-	  
-	  cp5.addButton("GUebernehmen")
-	  	 .setLabel("Übernehmen")
-	  	 .setPosition(1400,600)
-	     .setSize(450,100)
-	     ;
+
+  private void buildGeschw() {
+    cp5.addButton("GZurueck").setLabel("Zurück").setPosition(1200, 200).setSize(100, 50);
+    cp5.addTextlabel("GeschwindigkeitT").setText("Geschwindigkeit").setPosition(1350, 200)
+        .setFont(createFont("Arial", 30));
+
+    cp5.addSlider("vergroessern").setLabel("vergrößern").setPosition(1200, 300).setSize(450, 20).setRange(0, 100)
+        .setArrayValue(new float[] { 0, 0 });
+
+    cp5.addSlider("verblassen").setPosition(1200, 375).setSize(450, 20).setRange(0, 100)
+        .setArrayValue(new float[] { 0, 0 });
+
+    cp5.addSlider("verschwimmen").setPosition(1200, 450).setSize(450, 20).setRange(0, 100)
+        .setArrayValue(new float[] { 0, 0 });
+
+    cp5.addButton("GUebernehmen").setLabel("Übernehmen").setPosition(1400, 600).setSize(450, 100);
   }
-  
-  private void buildVorlagen(){
-	  cp5.addButton("VZurueck")
-	  	 .setLabel("Zurück")
-	  	 .setPosition(1200,200)
-	     .setSize(100,50)
-	     ;
-	  cp5.addTextlabel("VorlagenT")
-	 	 .setText("Vorlagen")
-	 	 .setPosition(1350,200)
-	 	 .setFont(createFont("Arial",30))
-	 	 ;
-	  cp5.addButton("Vorlage1")
-	  	 .setLabel("Vorlage 1")
-	  	 .setPosition(1200,300)
-	     .setSize(550,100)
-	     ;
-	  cp5.addTextlabel("Vorlag1T")
-	 	 .setText("Sonnenuntergang: Rote unbewegliche Kreise mit Blur")
-	 	 .setPosition(1200,420)
-	 	 .setFont(createFont("Arial",12))
-	 	 ;
-	  cp5.addButton("Vorlage2")
-	  	 .setLabel("Vorlage 2")
-	  	 .setPosition(1200,500)
-	     .setSize(550,100)
-	     ;
-	  cp5.addTextlabel("Vorlag2T")
-	 	 .setText("Schnesturm: Wei?e schnelle Kreise")
-	 	 .setPosition(1200,620)
-	 	 .setFont(createFont("Arial",12))
-	 	 ;
-	  cp5.addButton("Vorlage3")
-	  	 .setLabel("Vorlage 3")
-	  	 .setPosition(1200,700)
-	     .setSize(550,100)
-	     ;
-	  cp5.addTextlabel("Vorlag3T")
-	 	 .setText("Frühling: Grüne langsam größer werdende Kreise")
-	 	 .setPosition(1200,820)
-	 	 .setFont(createFont("Arial",12))
-	 	 ;
+
+  private void buildVorlagen() {
+    cp5.addButton("VZurueck").setLabel("Zurück").setPosition(1200, 200).setSize(100, 50);
+    cp5.addTextlabel("VorlagenT").setText("Vorlagen").setPosition(1350, 200).setFont(createFont("Arial", 30));
+    cp5.addButton("Vorlage1").setLabel("Vorlage 1").setPosition(1200, 300).setSize(550, 100);
+    cp5.addTextlabel("Vorlag1T").setText("Sonnenuntergang: Rote unbewegliche Kreise mit Blur").setPosition(1200, 420)
+        .setFont(createFont("Arial", 12));
+    cp5.addButton("Vorlage2").setLabel("Vorlage 2").setPosition(1200, 500).setSize(550, 100);
+    cp5.addTextlabel("Vorlag2T").setText("Schnesturm: Wei?e schnelle Kreise").setPosition(1200, 620)
+        .setFont(createFont("Arial", 12));
+    cp5.addButton("Vorlage3").setLabel("Vorlage 3").setPosition(1200, 700).setSize(550, 100);
+    cp5.addTextlabel("Vorlag3T").setText("Frühling: Grüne langsam größer werdende Kreise").setPosition(1200, 820)
+        .setFont(createFont("Arial", 12));
   }
-  
-  private void buildInfo(){
-	  cp5.addButton("IZurueck")
-	  	 .setLabel("Zurück")
-	  	 .setPosition(1200,200)
-	     .setSize(100,50)
-	     ;
-	  cp5.addTextlabel("InformationenT")
-	 	 .setText("Informationen")
-	 	 .setPosition(1350,200)
-	 	 .setFont(createFont("Arial",30))
-	 	 ;
-	  cp5.addTextlabel("TitelT")
-	 	 .setText("Titel")
-	 	 .setPosition(1200,300)
-	 	 .setFont(createFont("Arial",30))
-	 	 ;
-	  cp5.addTextlabel("Titel")
-	 	 .setText("Evening in Atlantis")
-	 	 .setPosition(1250,340)
-	 	 .setFont(createFont("Arial",20))
-	 	 ;
-	  cp5.addTextlabel("AlbumT")
-	 	 .setText("Album")
-	 	 .setPosition(1200,400)
-	 	 .setFont(createFont("Arial",30))
-	 	 ;
-	  cp5.addTextlabel("Album")
-	 	 .setText("Seven Days of Falling")
-	 	 .setPosition(1250,440)
-	 	 .setFont(createFont("Arial",20))
-	 	 ;
-	  cp5.addTextlabel("KuenstlerT")
-	 	 .setText("Künstler")
-	 	 .setPosition(1200,500)
-	 	 .setFont(createFont("Arial",30))
-	 	 ;
-	  cp5.addTextlabel("Kuenstler")
-	 	 .setText("EST (Esbjörn Svensson Trio")
-	 	 .setPosition(1250,540)
-	 	 .setFont(createFont("Arial",20))
-	 	 ;
-	  cp5.addTextlabel("VeroeffentlichtT")
-	 	 .setText("Veröffentlicht")
-	 	 .setPosition(1200,600)
-	 	 .setFont(createFont("Arial",30))
-	 	 ;
-	  cp5.addTextlabel("Veroeffentlicht")
-	 	 .setText("2003")
-	 	 .setPosition(1250,640)
-	 	 .setFont(createFont("Arial",20))
-	 	 ;
-	  cp5.addTextlabel("GruppeT")
-	 	 .setText("Gruppe")
-	 	 .setPosition(1200,800)
-	 	 .setFont(createFont("Arial",30))
-	 	 ;
-	  cp5.addTextlabel("Gruppe")
-	 	 .setText("Oliver Härer, Niklas Schmid")
-	 	 .setPosition(1250,840)
-	 	 .setFont(createFont("Arial",20))
-	 	 ;
+
+  private void buildInfo() {
+    cp5.addButton("IZurueck").setLabel("Zurück").setPosition(1200, 200).setSize(100, 50);
+    cp5.addTextlabel("InformationenT").setText("Informationen").setPosition(1350, 200).setFont(createFont("Arial", 30));
+    cp5.addTextlabel("TitelT").setText("Titel").setPosition(1200, 300).setFont(createFont("Arial", 30));
+    cp5.addTextlabel("Titel").setText("Evening in Atlantis").setPosition(1250, 340).setFont(createFont("Arial", 20));
+    cp5.addTextlabel("AlbumT").setText("Album").setPosition(1200, 400).setFont(createFont("Arial", 30));
+    cp5.addTextlabel("Album").setText("Seven Days of Falling").setPosition(1250, 440).setFont(createFont("Arial", 20));
+    cp5.addTextlabel("KuenstlerT").setText("Künstler").setPosition(1200, 500).setFont(createFont("Arial", 30));
+    cp5.addTextlabel("Kuenstler").setText("EST (Esbjörn Svensson Trio").setPosition(1250, 540)
+        .setFont(createFont("Arial", 20));
+    cp5.addTextlabel("VeroeffentlichtT").setText("Veröffentlicht").setPosition(1200, 600)
+        .setFont(createFont("Arial", 30));
+    cp5.addTextlabel("Veroeffentlicht").setText("2003").setPosition(1250, 640).setFont(createFont("Arial", 20));
+    cp5.addTextlabel("GruppeT").setText("Gruppe").setPosition(1200, 800).setFont(createFont("Arial", 30));
+    cp5.addTextlabel("Gruppe").setText("Oliver Härer, Niklas Schmid").setPosition(1250, 840)
+        .setFont(createFont("Arial", 20));
   }
-  
 
   public void Play(int i) {
-	  //removeMain();
-	  state = GAMESTATE.RUNNING;
+    removeMain();
+    state = GAMESTATE.RUNNING;
   }
-  public void Farben(int i){
-	  //removeMain();
-	  buildFarben();  
-  }
-  public void Geschwindigkeit(int i){
-	  //removeMain();
-	  buildGeschw();
-  }
-  public void Vorlagen(int i){
-	  //removeMain();
-	  buildVorlagen();
-  }
-  public void Informationen(int i){
-	  //removeMain();
-	  buildInfo();
-	  
-  }
-  public void Beenden(int i){
-	  exit();
-  }
-  public void FZurueck(int i){
-	  //removeFarben();
-	  buildMain();  
-  }
-  public void GZurueck(int i){
-	  //removeGeschw();
-	  buildMain();  
-  }
-  public void VZurueck(int i){
-	  //removeVorlagen();
-	  buildMain();  
-  }
-  public void IZurueck(int i){
-	  //removeInfo();
-	  buildMain();  
-  }
-  
-  private void removeMain(){
-	  cp5.get("Play").remove();
-	  cp5.get("Farben").remove();
-	  cp5.get("Geschwindigkeit").remove();
-	  cp5.get("Vorlagen").remove();
-	  cp5.get("Informationen").remove();
-	  cp5.get("Beenden").remove();
-  }  
-  private void removeFarben(){
-	  cp5.get("FZurueck").remove();
-	  cp5.get("FarbenT").remove();
-	  cp5.get("Farbe1").remove();
-	  cp5.get("Farbe2").remove();
-	  cp5.get("C1").remove();
-	  cp5.get("C2").remove();
-	  cp5.get("Uebernehmen").remove();
-  }  
-  private void removeGeschw(){
-	  cp5.get("GZurueck").remove();
-	  cp5.get("GeschwindigkeitT").remove();
-	  cp5.get("vergroessern").remove();
-	  cp5.get("verblassen").remove();
-	  cp5.get("verschwimmen").remove();
-	  cp5.get("GUebernehmen").remove();
-  }
-  private void removeVorlagen(){
-	  cp5.get("VZurueck").remove();
-	  cp5.get("VorlagenT").remove();
-	  cp5.get("Vorlage1T").remove();
-	  cp5.get("Vorlage1").remove();
-	  cp5.get("Vorlage2T").remove();
-	  cp5.get("Vorlage2").remove();
-	  cp5.get("Vorlage3T").remove();
-	  cp5.get("Vorlage3T").remove();
-  }
-  private void removeInfo(){
-	  cp5.get("IZurueck").remove();
-	  cp5.get("InformationenT").remove();
-	  cp5.get("TitelT").remove();
-	  cp5.get("Titel").remove();
-	  cp5.get("AlbumT").remove();
-	  cp5.get("Album").remove();
-	  cp5.get("KuenstlerT").remove();
-	  cp5.get("Kuenstler").remove();
-	  cp5.get("VeroeffentlichtT").remove();
-	  cp5.get("Veroeffentlicht").remove();
-	  cp5.get("GruppeT").remove();
-	  cp5.get("Gruppe").remove();
-  }	  
 
-	
+  public void Farben(int i) {
+    // removeMain();
+    buildFarben();
+  }
 
-private void transformCircle(long time2, Circle c) {
+  public void Geschwindigkeit(int i) {
+    // removeMain();
+    buildGeschw();
+  }
+
+  public void Vorlagen(int i) {
+    // removeMain();
+    buildVorlagen();
+  }
+
+  public void Informationen(int i) {
+    // removeMain();
+    buildInfo();
+
+  }
+
+  public void Beenden(int i) {
+    exit();
+  }
+
+  public void FZurueck(int i) {
+    // removeFarben();
+    buildMain();
+  }
+
+  public void GZurueck(int i) {
+    // removeGeschw();
+    buildMain();
+  }
+
+  public void VZurueck(int i) {
+    // removeVorlagen();
+    buildMain();
+  }
+
+  public void IZurueck(int i) {
+    // removeInfo();
+    buildMain();
+  }
+
+  private void removeMain() {
+
+    // System.out.println(cp5.isVisible());
+    cp5.get("Play").hide();
+    cp5.get("Farben").hide();
+    cp5.get("Geschwindigkeit").hide();
+    cp5.get("Vorlagen").hide();
+    cp5.get("Informationen").hide();
+    cp5.get("Beenden").hide();
+    cp5.hide();
+    System.out.println("hide");
+    // System.out.println(cp5.isVisible());
+  }
+
+  private void removeFarben() {
+    cp5.get("FZurueck").remove();
+    cp5.get("FarbenT").remove();
+    cp5.get("Farbe1").remove();
+    cp5.get("Farbe2").remove();
+    cp5.get("C1").remove();
+    cp5.get("C2").remove();
+    cp5.get("Uebernehmen").remove();
+  }
+
+  private void removeGeschw() {
+    cp5.get("GZurueck").remove();
+    cp5.get("GeschwindigkeitT").remove();
+    cp5.get("vergroessern").remove();
+    cp5.get("verblassen").remove();
+    cp5.get("verschwimmen").remove();
+    cp5.get("GUebernehmen").remove();
+  }
+
+  private void removeVorlagen() {
+    cp5.get("VZurueck").remove();
+    cp5.get("VorlagenT").remove();
+    cp5.get("Vorlage1T").remove();
+    cp5.get("Vorlage1").remove();
+    cp5.get("Vorlage2T").remove();
+    cp5.get("Vorlage2").remove();
+    cp5.get("Vorlage3T").remove();
+    cp5.get("Vorlage3T").remove();
+  }
+
+  private void removeInfo() {
+    cp5.get("IZurueck").remove();
+    cp5.get("InformationenT").remove();
+    cp5.get("TitelT").remove();
+    cp5.get("Titel").remove();
+    cp5.get("AlbumT").remove();
+    cp5.get("Album").remove();
+    cp5.get("KuenstlerT").remove();
+    cp5.get("Kuenstler").remove();
+    cp5.get("VeroeffentlichtT").remove();
+    cp5.get("Veroeffentlicht").remove();
+    cp5.get("GruppeT").remove();
+    cp5.get("Gruppe").remove();
+  }
+
+  private void transformCircle(long time2, Circle c) {
     if (_verblassen) {
       c.color.alpha -= getAlphascale();
       c.setColor(c.color);
@@ -649,10 +538,9 @@ private void transformCircle(long time2, Circle c) {
 
   @Override
   public void mousePressed() {
-	if(state == GAMESTATE.MENUE){
-		
-	}
-	else if (mouseY >= height - height / 40) {
+    if (state == GAMESTATE.MENUE) {
+
+    } else if (mouseY >= height - height / 40) {
       background(0);
       restartSong();
       // choose a position to cue to based on where the user clicked.

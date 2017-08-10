@@ -80,7 +80,7 @@ public class Circle {
       // } else
       if (Equalizer._vergroesserm) {
         shape.scale(scale);
-        System.out.println(scale);
+        // System.out.println(scale);
       }
       canvas.translate(position.x, position.y);
       if (spawn) {
@@ -89,7 +89,7 @@ public class Circle {
 
         spawnCount++;
         if (spawnCount > canvas.frameRate / 5) {
-          System.out.println("eteteref");
+          // System.out.println("eteteref");
           spawn = false;
         }
       }
