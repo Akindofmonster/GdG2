@@ -29,6 +29,7 @@ import controlP5.Controller;
 import controlP5.Label;
 import controlP5.Slider;
 import controlP5.Textlabel;
+import controlP5.Toggle;
 
 /**
  * The Equalizer class is the main controller for the Animation.
@@ -100,6 +101,7 @@ public class Equalizer extends PApplet {
 
 	ArrayList<Textlabel> geschl = new ArrayList<Textlabel>();
 	ArrayList<Slider> geschs = new ArrayList<Slider>();
+	ArrayList<Toggle> gescht = new ArrayList<Toggle>();
 	ArrayList<Button> geschb = new ArrayList<Button>();
 
 	ArrayList<Button> vorlagenb = new ArrayList<Button>();
@@ -168,6 +170,12 @@ public class Equalizer extends PApplet {
 		buildInfo();
 		buildVorlagen();
 		
+		showMain();
+		removeFarben();
+		removeGeschw();
+		removeInfo();
+		removeVorlagen();
+		
 
 		// Start the song right away
 
@@ -207,11 +215,11 @@ public class Equalizer extends PApplet {
 			noStroke();
 
 			//buildMain();
-			showMain();
-			removeFarben();
-			removeGeschw();
-			removeInfo();
-			removeVorlagen();
+			//showMain();
+			//removeFarben();
+			//removeGeschw();
+			//removeInfo();
+			//removeVorlagen();
 
 			// textSize(32 / (height / 1080));
 			// textAlign(CENTER, CENTER);
@@ -315,94 +323,94 @@ public class Equalizer extends PApplet {
 	}
 
 	private void buildMain() {
-		if (firstm) {
+		
 			// Play
-			main.add(cp5.addButton("Play").setPosition(100, 300).setSize(480, 480));
+			main.add(cp5.addButton("Play").setPosition((float)(width/19.2), (float)(height/3.6)).setSize((int)(width/3), (int)(height/2)));
 			// Farben
-			main.add(cp5.addButton("Farben").setPosition(1300, 200).setSize(400, 100));
+			main.add(cp5.addButton("Farben").setPosition((float)(width/1.5), (float)(height/5.4)).setSize((int)(width/4.8), (int)(height/10.88)));
 			// Geschwindigkeit
-			main.add(cp5.addButton("Geschwindigkeit").setPosition(1300, 350).setSize(400, 100));
+			main.add(cp5.addButton("Geschwindigkeit").setPosition((float)(width/1.5), (float)(height/3.08571)).setSize((int)(width/4.8), (int)(height/10.8)));
 			// Vorlagen
-			main.add(cp5.addButton("Vorlagen").setPosition(1300, 500).setSize(400, 100));
+			main.add(cp5.addButton("Vorlagen").setPosition((float)(width/1.5), (float)(height/2.16)).setSize((int)(width/4.8), (int)(height/10.8)));
 			// Informationen
-			main.add(cp5.addButton("Informationen").setPosition(1350, 700).setSize(350, 100));
+			main.add(cp5.addButton("Informationen").setPosition((float)(width/1.5), (float)(height/1.54286)).setSize((int)(width/4.8), (int)(height/10.8)));
 			// Beenden
-			main.add(cp5.addButton("Beenden").setPosition(1350, 850).setSize(350, 100));
-			firstm = false;
-		}
+			main.add(cp5.addButton("Beenden").setPosition((float)(width/1.5), (float)(height/1.27059)).setSize((int)(width/4.8), (int)(height/10.8)));
+			
+		
 	}
 
 	private void buildFarben() {
-		farbenb.add(cp5.addButton("FZurueck").setLabel("Zurück").setPosition(1200, 200).setSize(100, 50));
+		farbenb.add(cp5.addButton("FZurueck").setLabel("zurueck").setPosition((float)(width/1.6), (float)(height/5.4)).setSize((int)(width/19.2), (int)(height/21.6)));
 		farbenl.add(
-				cp5.addTextlabel("FarbenT").setText("Farben").setPosition(1350, 200).setFont(createFont("Arial", 30)));
+				cp5.addTextlabel("FarbenT").setText("Farben").setPosition((float)(width/1.42222), (float)(height/5.4)).setFont(createFont("Arial", (float)(height/21.6))));
 
 		farbenl.add(
-				cp5.addTextlabel("Farbe1").setText("Farbe 1").setPosition(1200, 300).setFont(createFont("Arial", 20)));
+				cp5.addTextlabel("Farbe1").setText("Farbe 1").setPosition((float)(width/1.6), (float)(height/3.6)).setFont(createFont("Arial", (float)(height/54))));
 
 		farbenl.add(
-				cp5.addTextlabel("Farbe2").setText("Farbe 2").setPosition(1500, 300).setFont(createFont("Arial", 20)));
+				cp5.addTextlabel("Farbe2").setText("Farbe 2").setPosition((float)(width/1.28), (float)(height/3.6)).setFont(createFont("Arial", (float)(height/54))));
 		// ColorPicker
-		farbenc.add(cp5.addColorPicker("C1").setPosition(1200, 350).setColorValue(color(255, 255, 255, 255)));
-
-		farbenc.add(cp5.addColorPicker("C2").setPosition(1500, 350).setColorValue(color(255, 255, 255, 255)));
-		farbenb.add(cp5.addButton("FUebernehmen").setLabel("Übernehmen").setPosition(1400, 600).setSize(350, 100));
+		farbenc.add(cp5.addColorPicker("C1").setPosition((float)(width/1.6), (float)(height/3.08571)).setColorValue(color(255, 255, 255, 255)));
+		farbenc.add(cp5.addColorPicker("C2").setPosition((float)(width/1.28), (float)(height/3.08571)).setColorValue(color(255, 255, 255, 255)));
+		farbenb.add(cp5.addButton("FUebernehmen").setLabel("uebernehmen").setPosition((float)(width/1.37143), (float)(height/1.8)).setSize((int)(width/5.48571), (int)(height/10.8)));
 	}
 
 	private void buildGeschw() {
-		geschb.add(cp5.addButton("GZurueck").setLabel("Zurück").setPosition(1200, 200).setSize(100, 50));
-		geschl.add(cp5.addTextlabel("GeschwindigkeitT").setText("Geschwindigkeit").setPosition(1350, 200)
-				.setFont(createFont("Arial", 30)));
+		geschb.add(cp5.addButton("GZurueck").setLabel("zurueck").setPosition((float)(width/1.6), (float)(height/5.4)).setSize((int)(width/19.2), (int)(height/21.6)));
+		geschl.add(cp5.addTextlabel("GeschwindigkeitT").setText("Geschwindigkeit").setPosition((float)(width/1.42222), (float)(height/5.4))
+				.setFont(createFont("Arial", (float)(height/21.6))));
 
-		geschs.add(cp5.addSlider("vergroessern").setLabel("vergrößern").setPosition(1200, 300).setSize(450, 20)
-				.setRange(0, 100).setArrayValue(new float[] { 0, 0 }));
+		geschs.add(cp5.addSlider("vergroessern").setPosition((float)(width/1.6), (float)(height/3.6)).setSize((int)(width/4.26667), (int)(height/54))
+				.setRange(0, 10).setArrayValue(new float[] { 0, 0 }));
 
-		geschs.add(cp5.addSlider("verblassen").setPosition(1200, 375).setSize(450, 20).setRange(0, 100)
+		geschs.add(cp5.addSlider("verblassen").setPosition((float)(width/1.6), (float)(height/2.88)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
 				.setArrayValue(new float[] { 0, 0 }));
 
-		geschs.add(cp5.addSlider("verschwimmen").setPosition(1200, 450).setSize(450, 20).setRange(0, 100)
-				.setArrayValue(new float[] { 0, 0 }));
-
-		geschb.add(cp5.addButton("GUebernehmen").setLabel("Übernehmen").setPosition(1400, 600).setSize(450, 100));
+		//geschs.add(cp5.addSlider("verschwimmen").setPosition((float)(width/1.6), (float)(height/2.4)).setSize(450, 20).setRange(0, 1)
+		//		.setArrayValue(new float[] { 0, 0 }));
+		gescht.add(cp5.addToggle("verschwimmen").setPosition((float)(width/1.6), (float)(height/2.4)).setSize((int)(width/4.26667),(int)(height/54)).setValue(true).setLabelVisible(false));
+		geschl.add(cp5.addTextlabel("blur").setText("VERSCHWIMMEN").setPosition((float)(width/1.16364), (float)(height/2.37363)));
+		geschb.add(cp5.addButton("GUebernehmen").setLabel("uebernehmen").setPosition((float)(width/1.37143), (float)(height/1.8)).setSize((int)(width/5.48571), (int)(height/10.8)));
 	}
 
 	private void buildVorlagen() {
-		vorlagenb.add(cp5.addButton("VZurueck").setLabel("Zurück").setPosition(1200, 200).setSize(100, 50));
-		vorlagenl.add(cp5.addTextlabel("VorlagenT").setText("Vorlagen").setPosition(1350, 200)
-				.setFont(createFont("Arial", 30)));
-		vorlagenb.add(cp5.addButton("Vorlage1").setLabel("Vorlage 1").setPosition(1200, 300).setSize(550, 100));
+		vorlagenb.add(cp5.addButton("VZurueck").setLabel("zurueck").setPosition((float)(width/1.6), (float)(height/5.4)).setSize((int)(width/19.2), (int)(height/21.6)));
+		vorlagenl.add(cp5.addTextlabel("VorlagenT").setText("Vorlagen").setPosition((float)(width/1.42222), (float)(height/5.4))
+				.setFont(createFont("Arial", (float)(height/21.6))));
+		vorlagenb.add(cp5.addButton("Vorlage1").setLabel("Vorlage 1").setPosition((float)(width/1.6), (float)(height/3.6)).setSize((int)(width/3.49091), (int)(height/10.8)));
 		vorlagenl.add(cp5.addTextlabel("Vorlag1T").setText("Sonnenuntergang: Rote unbewegliche Kreise mit Blur")
-				.setPosition(1200, 420).setFont(createFont("Arial", 12)));
-		vorlagenb.add(cp5.addButton("Vorlage2").setLabel("Vorlage 2").setPosition(1200, 500).setSize(550, 100));
-		vorlagenl.add(cp5.addTextlabel("Vorlag2T").setText("Schnesturm: Wei?e schnelle Kreise").setPosition(1200, 620)
-				.setFont(createFont("Arial", 12)));
-		vorlagenb.add(cp5.addButton("Vorlage3").setLabel("Vorlage 3").setPosition(1200, 700).setSize(550, 100));
-		vorlagenl.add(cp5.addTextlabel("Vorlag3T").setText("Frühling: Grüne langsam größer werdende Kreise")
-				.setPosition(1200, 820).setFont(createFont("Arial", 12)));
+				.setPosition((float)(width/1.6), (float)(height/2.57143)).setFont(createFont("Arial", (float)(height/90))));
+		vorlagenb.add(cp5.addButton("Vorlage2").setLabel("Vorlage 2").setPosition((float)(width/1.6), (float)(height/2.16)).setSize((int)(width/3.49091), (int)(height/10.8)));
+		vorlagenl.add(cp5.addTextlabel("Vorlag2T").setText("Schneesturm: Weisse schnelle Kreise").setPosition((float)(width/1.6), (int)(height/1.74194))
+				.setFont(createFont("Arial", (float)(height/90))));
+		vorlagenb.add(cp5.addButton("Vorlage3").setLabel("Vorlage 3").setPosition((float)(width/1.6), (float)(height/1.54286)).setSize((int)(width/3.49091), (int)(height/10.8)));
+		vorlagenl.add(cp5.addTextlabel("Vorlag3T").setText("Wald: Gruene langsam groesser werdende Kreise")
+				.setPosition((float)(width/1.6), (float)(height/1.31707)).setFont(createFont("Arial", (float)(height/90))));
 	}
 
 	private void buildInfo() {
-		info.add(cp5.addButton("IZurueck").setLabel("Zurück").setPosition(1200, 200).setSize(100, 50));
-		infol.add(cp5.addTextlabel("InformationenT").setText("Informationen").setPosition(1350, 200)
-				.setFont(createFont("Arial", 30)));
-		infol.add(cp5.addTextlabel("TitelT").setText("Titel").setPosition(1200, 300).setFont(createFont("Arial", 30)));
-		infol.add(cp5.addTextlabel("Titel").setText("Evening in Atlantis").setPosition(1250, 340)
-				.setFont(createFont("Arial", 20)));
-		infol.add(cp5.addTextlabel("AlbumT").setText("Album").setPosition(1200, 400).setFont(createFont("Arial", 30)));
-		infol.add(cp5.addTextlabel("Album").setText("Seven Days of Falling").setPosition(1250, 440)
-				.setFont(createFont("Arial", 20)));
-		infol.add(cp5.addTextlabel("KuenstlerT").setText("Künstler").setPosition(1200, 500)
-				.setFont(createFont("Arial", 30)));
-		infol.add(cp5.addTextlabel("Kuenstler").setText("EST (Esbjörn Svensson Trio").setPosition(1250, 540)
-				.setFont(createFont("Arial", 20)));
-		infol.add(cp5.addTextlabel("VeroeffentlichtT").setText("Veröffentlicht").setPosition(1200, 600)
-				.setFont(createFont("Arial", 30)));
-		infol.add(cp5.addTextlabel("Veroeffentlicht").setText("2003").setPosition(1250, 640)
-				.setFont(createFont("Arial", 20)));
+		info.add(cp5.addButton("IZurueck").setLabel("zurueck").setPosition((float)(width/1.6), (float)(height/5.4)).setSize((int)(width/19.2), (int)(height/21.6)));
+		infol.add(cp5.addTextlabel("InformationenT").setText("Informationen").setPosition((float)(width/1.42222), (float)(height/5.4))
+				.setFont(createFont("Arial", (float)(height/21.6))));
+		infol.add(cp5.addTextlabel("TitelT").setText("Titel").setPosition((float)(width/1.6), (float)(height/3.6)).setFont(createFont("Arial", (float)(height/36))));
+		infol.add(cp5.addTextlabel("Titel").setText("Evening in Atlantis").setPosition((float)(width/1.32414), (float)(height/3.49515))
+				.setFont(createFont("Arial", (float)(height/54))));
+		infol.add(cp5.addTextlabel("AlbumT").setText("Album").setPosition((float)(width/1.6), (float)(height/2.7)).setFont(createFont("Arial", (float)(height/36))));
+		infol.add(cp5.addTextlabel("Album").setText("Seven Days of Falling").setPosition((float)(width/1.32414), (float)(height/2.64059))
+				.setFont(createFont("Arial", (float)(height/54))));
+		infol.add(cp5.addTextlabel("KuenstlerT").setText("Kuenstler").setPosition((float)(width/1.6), (float)(height/2.16))
+				.setFont(createFont("Arial", (float)(height/36))));
+		infol.add(cp5.addTextlabel("Kuenstler").setText("EST (Esbjoern Svensson Trio").setPosition((float)(width/1.32414), (float)(height/2.12181))
+				.setFont(createFont("Arial", (float)(height/54))));
+		infol.add(cp5.addTextlabel("VeroeffentlichtT").setText("Veroeffentlicht").setPosition((float)(width/1.6), (float)(height/1.8))
+				.setFont(createFont("Arial", (float)(height/36))));
+		infol.add(cp5.addTextlabel("Veroeffentlicht").setText("2003").setPosition((float)(width/1.32414), (float)(height/1.77340))
+				.setFont(createFont("Arial", (float)(height/54))));
 		infol.add(
-				cp5.addTextlabel("GruppeT").setText("Gruppe").setPosition(1200, 800).setFont(createFont("Arial", 30)));
-		infol.add(cp5.addTextlabel("Gruppe").setText("Oliver Härer, Niklas Schmid").setPosition(1250, 840)
-				.setFont(createFont("Arial", 20)));
+				cp5.addTextlabel("GruppeT").setText("Gruppe").setPosition((float)(width/1.6), (float)(height/1.35)).setFont(createFont("Arial", (float)(height/36))));
+		infol.add(cp5.addTextlabel("Gruppe").setText("Oliver Haerer, Niklas Schmid").setPosition((float)(width/1.32414), (float)(height/1.33498))
+				.setFont(createFont("Arial", (float)(height/54))));
 	}
 
 	public void showMain() {
@@ -421,11 +429,11 @@ public class Equalizer extends PApplet {
 		for (Button b : farbenb) {
 			b.show();
 		}
-		for (Textlabel b : farbenl) {
-			b.show();
+		for (Textlabel l : farbenl) {
+			l.show();
 		}
-		for (ColorPicker b : farbenc) {
-			b.show();
+		for (ColorPicker c : farbenc) {
+			c.show();
 		}
 	}
 
@@ -434,22 +442,35 @@ public class Equalizer extends PApplet {
 		for (Button b : geschb) {
 			b.show();
 		}
-		for (Textlabel b : geschl) {
-			b.show();
+		for (Textlabel l : geschl) {
+			l.show();
 		}
-		for (Slider b : geschs) {
-			b.show();
+		for (Slider s : geschs) {
+			s.show();
+		}
+		for (Toggle t : gescht) {
+			t.show();
 		}
 	}
 
 	public void Vorlagen(int i) {
 		removeMain();
-		buildVorlagen();
+		for (Button b : vorlagenb) {
+			b.show();
+		}
+		for (Textlabel l : vorlagenl) {
+			l.show();
+		}
 	}
 
 	public void Informationen(int i) {
 		removeMain();
-		buildInfo();
+		for (Button b : info) {
+			b.show();
+		}
+		for (Textlabel l : infol) {
+			l.show();
+		}
 
 	}
 
@@ -478,62 +499,97 @@ public class Equalizer extends PApplet {
 	}
 
 	private void removeMain() {
-
-		// System.out.println(cp5.isVisible());
-		cp5.get("Play").hide();
-		cp5.get("Farben").hide();
-		cp5.get("Geschwindigkeit").hide();
-		cp5.get("Vorlagen").hide();
-		cp5.get("Informationen").hide();
-		cp5.get("Beenden").hide();
-		cp5.hide();
-		System.out.println("hide");
-		// System.out.println(cp5.isVisible());
+		for (Button b : main) {
+			b.hide();
+		}
+				
+		//cp5.get("Play").hide();
+		//cp5.get("Farben").hide();
+		//cp5.get("Geschwindigkeit").hide();
+		//cp5.get("Vorlagen").hide();
+		//cp5.get("Informationen").hide();
+		//cp5.get("Beenden").hide();
+		//cp5.hide();
 	}
 
 	private void removeFarben() {
-		cp5.get("FZurueck").hide();
-		cp5.get("FarbenT").hide();
-		cp5.get("Farbe1").hide();
-		cp5.get("Farbe2").hide();
-		cp5.get("C1").hide();
-		cp5.get("C2").hide();
-		cp5.hide("Uebernehmen");
+		for (Button b : farbenb) {
+			b.hide();
+		}
+		for (ColorPicker c : farbenc) {
+			c.hide();
+		}
+		for (Textlabel l : farbenl) {
+			l.hide();
+		}
+		
+		//cp5.get("FZurueck").hide();
+		//cp5.get("FarbenT").hide();
+		//cp5.get("Farbe1").hide();
+		//cp5.get("Farbe2").hide();
+		//cp5.get("C1").hide();
+		//cp5.get("C2").hide();
+		//cp5.get("FUebernehmen").hide();
 	}
 
 	private void removeGeschw() {
-		cp5.get("GZurueck").hide();
-		cp5.get("GeschwindigkeitT").hide();
-		cp5.get("vergroessern").hide();
-		cp5.get("verblassen").hide();
-		cp5.get("verschwimmen").hide();
-		cp5.get("GUebernehmen").hide();
+		for (Button b : geschb) {
+			b.hide();
+		}
+		for (Slider s : geschs) {
+			s.hide();
+		}
+		for (Textlabel l : geschl) {
+			l.hide();
+		}
+		for (Toggle t : gescht) {
+			t.hide();
+		}
+		
+		//cp5.get("GZurueck");
+		//cp5.get("GeschwindigkeitT");
+		//cp5.get("vergroessern");
+		//cp5.get("verblassen");
+		//cp5.get("verschwimmen");
+		//cp5.get("GUebernehmen");
 	}
 
 	private void removeVorlagen() {
-		cp5.get("VZurueck").hide();
-		cp5.get("VorlagenT").hide();
-		cp5.hide("Vorlage1T");
-		cp5.get("Vorlage1").hide();
-		cp5.hide("Vorlage2T");
-		cp5.get("Vorlage2").hide();
-		cp5.hide("Vorlage3T");
-		cp5.get("Vorlage3").hide();
+		for (Button b : vorlagenb) {
+			b.hide();
+		}
+		for (Textlabel l : vorlagenl) {
+			l.hide();
+		}
+		//cp5.get("VZurueck");
+		//cp5.get("VorlagenT");
+		//cp5.get("Vorlage1T");
+		//cp5.get("Vorlage1");
+		//cp5.get("Vorlage2T");
+		//cp5.get("Vorlage2");
+		//cp5.get("Vorlage3T");
+		//cp5.get("Vorlage3");
 	}
 
 	private void removeInfo() {
-		cp5.get("IZurueck").hide();
-		cp5.get("InformationenT").hide();
-		cp5.get("TitelT").hide();
-		cp5.get("Titel").hide();
-		cp5.get("AlbumT").hide();
-		cp5.get("Album").hide();
-		cp5.get("KuenstlerT").hide();
-		cp5.get("Kuenstler").hide();
-		cp5.get("VeroeffentlichtT").hide();
-		cp5.get("Veroeffentlicht").hide();
-		cp5.get("GruppeT").hide();
-		cp5.get("Gruppe").hide();
+		for (Button b : info) {
+			b.hide();
+		}
+		for (Textlabel l : infol) {
+			l.hide();
+		}
+		//cp5.get("IZurueck").hide();
+		//cp5.get("InformationenT").hide();
+		//cp5.get("TitelT").hide();
+		//cp5.get("Titel").hide();
+		//cp5.get("AlbumT").hide();
+		//cp5.get("Album").hide();
+		//cp5.get("KuenstlerT").hide();
+		//cp5.get("Kuenstler").hide();
+		//cp5.get("VeroeffentlichtT").hide();
+		//cp5.get("Veroeffentlicht").hide();
+		//cp5.get("GruppeT").hide();
+		//cp5.get("Gruppe").hide();
 	}
 
 	private void transformCircle(long time2, Circle c) {
@@ -603,7 +659,7 @@ public class Equalizer extends PApplet {
 			} else if (key == BACKSPACE || key == ENTER) {
 				state = GAMESTATE.MENUE;
 				startSong = true;
-			}
+			} 
 		}
 		super.keyPressed();
 	}
