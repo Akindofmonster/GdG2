@@ -53,3 +53,4 @@ local.properties
 .scala_dependencies
 .worksheet
 *.classpath
+/out.txt
