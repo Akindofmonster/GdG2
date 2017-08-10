@@ -360,18 +360,30 @@ public class Equalizer extends PApplet {
 		geschb.add(cp5.addButton("GZurueck").setLabel("zurueck").setPosition((float)(width/1.6), (float)(height/5.4)).setSize((int)(width/19.2), (int)(height/21.6)));
 		geschl.add(cp5.addTextlabel("GeschwindigkeitT").setText("Geschwindigkeit").setPosition((float)(width/1.42222), (float)(height/5.4))
 				.setFont(createFont("Arial", (float)(height/21.6))));
-
+		//300
 		geschs.add(cp5.addSlider("vergroessern").setPosition((float)(width/1.6), (float)(height/3.6)).setSize((int)(width/4.26667), (int)(height/54))
 				.setRange(0, 10).setArrayValue(new float[] { 0, 0 }));
-
+		//375
 		geschs.add(cp5.addSlider("verblassen").setPosition((float)(width/1.6), (float)(height/2.88)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
 				.setArrayValue(new float[] { 0, 0 }));
 
 		//geschs.add(cp5.addSlider("verschwimmen").setPosition((float)(width/1.6), (float)(height/2.4)).setSize(450, 20).setRange(0, 1)
 		//		.setArrayValue(new float[] { 0, 0 }));
-		gescht.add(cp5.addToggle("verschwimmen").setPosition((float)(width/1.6), (float)(height/2.4)).setSize((int)(width/4.26667),(int)(height/54)).setValue(true).setLabelVisible(false));
-		geschl.add(cp5.addTextlabel("blur").setText("VERSCHWIMMEN").setPosition((float)(width/1.16364), (float)(height/2.37363)));
-		geschb.add(cp5.addButton("GUebernehmen").setLabel("uebernehmen").setPosition((float)(width/1.37143), (float)(height/1.8)).setSize((int)(width/5.48571), (int)(height/10.8)));
+		
+		//450
+		geschs.add(cp5.addSlider("verschieben").setPosition((float)(width/1.6), (float)(height/2.4)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
+				.setArrayValue(new float[] { 0, 0 }));
+		//525
+		geschs.add(cp5.addSlider("Dauer").setPosition((float)(width/1.6), (float)(height/2.05714)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
+				.setArrayValue(new float[] { 0, 0 }));
+		//600
+		geschs.add(cp5.addSlider("Abstand").setPosition((float)(width/1.6), (float)(height/1.8)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
+				.setArrayValue(new float[] { 0, 0 }));
+		//675
+		gescht.add(cp5.addToggle("verschwimmen").setPosition((float)(width/1.6), (float)(height/1.6)).setSize((int)(width/19.2),(int)(height/54)).setValue(true));
+		gescht.add(cp5.addToggle("wiederholen").setPosition((float)(width/1.23871), (float)(height/1.6)).setSize((int)(width/19.2),(int)(height/54)).setValue(true));
+		
+		geschb.add(cp5.addButton("GUebernehmen").setLabel("uebernehmen").setPosition((float)(width/1.37143), (float)(height/1.35)).setSize((int)(width/5.48571), (int)(height/10.8)));
 	}
 
 	private void buildVorlagen() {
