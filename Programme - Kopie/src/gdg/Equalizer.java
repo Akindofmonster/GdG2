@@ -20,13 +20,10 @@ import java.io.PrintStream;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-import controlP5.Bang;
 import controlP5.Button;
-import controlP5.CDrawable;
 import controlP5.ColorPicker;
 import controlP5.ControlP5;
 import controlP5.Controller;
-import controlP5.Label;
 import controlP5.Slider;
 import controlP5.Textlabel;
 import controlP5.Toggle;
@@ -110,11 +107,25 @@ public class Equalizer extends PApplet {
 	ArrayList<Button> info = new ArrayList<Button>();
 	ArrayList<Textlabel> infol = new ArrayList<Textlabel>();
 
-	boolean firstm = true;
-	boolean firstf = true;
-	boolean firstg = true;
-	boolean firstv = true;
-	boolean firsti = true;
+	int tempR1;
+	int tempG1;
+	int tempB1;
+	int tempA1;
+	
+	int tempR2;
+	int tempG2;
+	int tempB2;
+	int tempA2;
+	
+	long tempVergroessern;
+	long tempVerblassen;
+	long tempVerschieben;
+	long tempDauer;
+	long tempAbstand;
+	
+	boolean tempBlur;
+	boolean tempReplay;
+	
 
 	/**
 	 * Main method to instantiate the PApplet.
@@ -365,11 +376,7 @@ public class Equalizer extends PApplet {
 				.setRange(0, 10).setArrayValue(new float[] { 0, 0 }));
 		//375
 		geschs.add(cp5.addSlider("verblassen").setPosition((float)(width/1.6), (float)(height/2.88)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
-				.setArrayValue(new float[] { 0, 0 }));
-
-		//geschs.add(cp5.addSlider("verschwimmen").setPosition((float)(width/1.6), (float)(height/2.4)).setSize(450, 20).setRange(0, 1)
-		//		.setArrayValue(new float[] { 0, 0 }));
-		
+				.setArrayValue(new float[] { 0, 0 }));		
 		//450
 		geschs.add(cp5.addSlider("verschieben").setPosition((float)(width/1.6), (float)(height/2.4)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
 				.setArrayValue(new float[] { 0, 0 }));
@@ -509,7 +516,92 @@ public class Equalizer extends PApplet {
 		removeInfo();
 		showMain();
 	}
+	
+	public void Farbe1(int col){
+		tempR1 = (int)red(col);
+		tempG1 = (int)green(col);
+		tempB1 = (int)blue(col);
+		tempA1 = (int)alpha(col);
+	}
+	public void Farbe2(int col){
+		tempR2 = (int)red(col);
+		tempG2 = (int)green(col);
+		tempB2 = (int)blue(col);
+		tempA2 = (int)alpha(col);
+	}
+	public void FUebernehmen(int i){
+		removeFarben();
+		showMain();
+		//TODO temp values -> values
+	}
 
+	public void vergroessern(float f){
+		tempVergroessern = (long) f;
+	}
+	public void verblassen(float f){
+		tempVerblassen = (long) f;
+	}
+	public void verschieben(float f){
+		tempVerschieben = (long) f;
+	}
+	public void Dauer(float f){
+		tempDauer = (long) f;
+	}
+	public void Abstand(float f){
+		tempAbstand = (long) f;
+	}
+	public void verschwimmen(boolean b){
+		tempBlur = b;
+	}
+	public void wiederholen(boolean b){
+		tempReplay = b;
+	}
+	
+	public void GUebernehmen(int i){
+		removeGeschw();
+		showMain();
+		//TODO temp values -> values
+	}
+		
+	public void Vorlage1(int i){
+		tempBlur = true;
+		tempReplay = false;
+		
+		tempVergroessern = 0;
+		tempVerblassen = 0;
+		tempVerschieben = 0;
+		//TODO farbe
+		
+		removeVorlagen();
+		showMain();
+	}
+	public void Vorlage2(int i){
+		tempBlur = false;
+		tempReplay = false;
+		//TODO bewegung
+		
+		tempR1 = 255;
+		tempG1 = 255;
+		tempB1 = 255;
+		tempA1 = 255;
+		
+		tempR2 = 255;
+		tempG2 = 255;
+		tempB2 = 255;
+		tempA2 = 255;
+		
+		removeVorlagen();
+		showMain();
+	}
+	public void Vorlage3(int i){
+		tempBlur = true;
+		tempReplay = false;
+		//TODO bewegung & farbe
+		
+		removeVorlagen();
+		showMain();
+	}
+	
 	private void removeMain() {
 		for (Button b : main) {
 			b.hide();
