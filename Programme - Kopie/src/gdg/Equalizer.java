@@ -22,6 +22,7 @@ import java.util.ArrayList;
 
 import controlP5.Button;
 import controlP5.ColorPicker;
+import controlP5.ControlEvent;
 import controlP5.ControlP5;
 import controlP5.Controller;
 import controlP5.Slider;
@@ -191,12 +192,13 @@ public class Equalizer extends PApplet {
 		buildInfo();
 		buildVorlagen();
 		
+		uebernehmen();
+				
 		showMain();
 		removeFarben();
 		removeGeschw();
 		removeInfo();
 		removeVorlagen();
-		
 
 		// Start the song right away
 
@@ -532,26 +534,53 @@ public class Equalizer extends PApplet {
 	}
 	
 	public void Farbe1(int col){
+		System.out.println("Farbe1");
 		tempR1 = (int)red(col);
 		tempG1 = (int)green(col);
 		tempB1 = (int)blue(col);
 		tempA1 = (int)alpha(col);
 	}
 	public void Farbe2(int col){
+		System.out.println("Farbe2");
 		tempR2 = (int)red(col);
 		tempG2 = (int)green(col);
 		tempB2 = (int)blue(col);
 		tempA2 = (int)alpha(col);
 	}
 	public void FUebernehmen(int i){
+		System.out.println("Ü1"+R1+", "+G1+ ", "+B1+", "+A1);
+		System.out.println("Ü2"+R2+", "+G2+ ", "+B2+", "+A2);
+		System.out.println("Ü3"+tempR1+", "+tempG1+ ", "+tempB1+", "+tempA1);
+		System.out.println("Ü4"+tempR2+", "+tempG2+ ", "+tempB2+", "+tempA2);
 		uebernehmen();
+		System.out.println("Ü5"+R1+", "+G1+ ", "+B1+", "+A1);
+		System.out.println("Ü6"+R2+", "+G2+ ", "+B2+", "+A2);
 		removeFarben();
 		showMain();
 	}
+	public void controlEvent(ControlEvent c) {
+		  // when a value change from a ColorPicker is received, extract the ARGB values
+		  // from the controller's array value
+		  if(c.isFrom("C1")) {
+			System.out.println("CE Farbe1");  
+		    tempR1 = (int)(c.getArrayValue(0));
+		    tempG1 = (int)(c.getArrayValue(1));
+		    tempB1 = (int)(c.getArrayValue(2));
+		    tempA1 = (int)(c.getArrayValue(3));
+		    System.out.println(tempR1+", "+tempG1+ ", "+tempB1+", "+tempA1);
+		  }
+		  if(c.isFrom("C2")) {
+			System.out.println("CE Farbe2");  
+			tempR2 = (int)(c.getArrayValue(0));
+			tempG2 = (int)(c.getArrayValue(1));
+			tempB2 = (int)(c.getArrayValue(2));
+			tempA2 = (int)(c.getArrayValue(3));
+			System.out.println(tempR2+", "+tempG2+ ", "+tempB2+", "+tempA2);
+		  }
+		}
 
 	public void vergroessern(float f){
 		tempVergroessern = (long) f;
-		System.out.println("ficki");
 	}
 	public void verblassen(float f){
 		tempVerblassen = (long) f;
@@ -675,6 +704,9 @@ public class Equalizer extends PApplet {
 		G2 = tempG2;
 		B2 = tempB2;
 		A2 = tempA2;
+		
+		colorField = new ColorField(R1, G1, B1, A1, R2, G2, B2, A2);
+		System.out.println(colorField.toString());
 	}
 	
 	private void zurueck(){
@@ -868,6 +900,9 @@ public class Equalizer extends PApplet {
 			if (key == ' ') {
 				state = GAMESTATE.PAUSED;
 			} else if (key == BACKSPACE || key == ENTER) {
+				notes.clear();
+				createNotes();
+				circles.clear();
 				state = GAMESTATE.MENUE;
 				song.pause();
 				song.rewind();
