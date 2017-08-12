@@ -44,7 +44,7 @@ public class Equalizer extends PApplet {
 	public static boolean _vergroessern = true;
 	private static boolean _verschieben = false;
 	private static boolean _wiederholen = false;
-	private static boolean _blur = false;
+	private static boolean _blur = true;
 	
 	
 	static int R1 = 100;
@@ -352,8 +352,8 @@ public class Equalizer extends PApplet {
 			main.add(cp5.addButton("Play").setPosition((float)(width/19.2), (float)(height/3.6)).setSize((int)(width/3), (int)(height/2)));
 			// Farben
 			main.add(cp5.addButton("Farben").setPosition((float)(width/1.5), (float)(height/5.4)).setSize((int)(width/4.8), (int)(height/10.88)));
-			// Geschwindigkeit
-			main.add(cp5.addButton("Geschwindigkeit").setPosition((float)(width/1.5), (float)(height/3.08571)).setSize((int)(width/4.8), (int)(height/10.8)));
+			// Einstellungen
+			main.add(cp5.addButton("Einstellungen").setPosition((float)(width/1.5), (float)(height/3.08571)).setSize((int)(width/4.8), (int)(height/10.8)));
 			// Vorlagen
 			main.add(cp5.addButton("Vorlagen").setPosition((float)(width/1.5), (float)(height/2.16)).setSize((int)(width/4.8), (int)(height/10.8)));
 			// Informationen
@@ -382,7 +382,7 @@ public class Equalizer extends PApplet {
 
 	private void buildGeschw() {
 		geschb.add(cp5.addButton("GZurueck").setLabel("zurueck").setPosition((float)(width/1.6), (float)(height/5.4)).setSize((int)(width/19.2), (int)(height/21.6)));
-		geschl.add(cp5.addTextlabel("GeschwindigkeitT").setText("Geschwindigkeit").setPosition((float)(width/1.42222), (float)(height/5.4))
+		geschl.add(cp5.addTextlabel("EinstellungenT").setText("Einstellungen").setPosition((float)(width/1.42222), (float)(height/5.4))
 				.setFont(createFont("Arial", (float)(height/21.6))));
 		//300
 		geschs.add(cp5.addSlider("vergroessern").setPosition((float)(width/1.6), (float)(height/3.6)).setSize((int)(width/4.26667), (int)(height/54))
@@ -469,7 +469,7 @@ public class Equalizer extends PApplet {
 		}
 	}
 
-	public void Geschwindigkeit(int i) {
+	public void Einstellungen(int i) {
 		removeMain();
 		for (Button b : geschb) {
 			b.show();
@@ -748,7 +748,7 @@ public class Equalizer extends PApplet {
 				
 		//cp5.get("Play").hide();
 		//cp5.get("Farben").hide();
-		//cp5.get("Geschwindigkeit").hide();
+		//cp5.get("Einstellungen").hide();
 		//cp5.get("Vorlagen").hide();
 		//cp5.get("Informationen").hide();
 		//cp5.get("Beenden").hide();
@@ -790,7 +790,7 @@ public class Equalizer extends PApplet {
 		}
 		
 		//cp5.get("GZurueck");
-		//cp5.get("GeschwindigkeitT");
+		//cp5.get("EinstellungenT");
 		//cp5.get("vergroessern");
 		//cp5.get("verblassen");
 		//cp5.get("verschwimmen");
