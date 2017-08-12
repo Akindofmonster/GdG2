@@ -78,7 +78,7 @@ public class Circle {
       // scale = 1;
       // }
       // } else
-      if (Equalizer._vergroesserm) {
+      if (Equalizer._vergroessern) {
         shape.scale(scale);
         // System.out.println(scale);
       }
