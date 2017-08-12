@@ -40,17 +40,28 @@ public class Equalizer extends PApplet {
 	private static int Wide = 1820;
 
 	private static boolean _verblassen = true;
-	public static boolean _vergroesserm = true;
+	public static boolean _vergroessern = true;
 	private static boolean _verschieben = false;
-	private static boolean _wiederhohlen = false;
+	private static boolean _wiederholen = false;
 	private static boolean _blur = false;
-	private static ColorField colorField = new ColorField(100, 0, 0, 100, 255, 100, 0, 150);
+	
+	
+	static int R1 = 100;
+	static int G1 = 0;
+	static int B1 = 0;
+	static int A1 = 100;
+	
+	static int R2 = 255;
+	static int G2 = 100;
+	static int B2 = 0;
+	static int A2 = 150;
+	private static ColorField colorField = new ColorField(R1, G1, B1, A1, R2, G2, B2, A2);
 
 	private static float Scale = 0.8f;
 	private static float Pos = 0.25f;
 	private static float AlphaScale = 0.8f;
 	private static int Duration = 10000;
-	private static int _distance = 10;
+	private static float _distance = 10;
 
 	private static float AddScale = Scale * ((Height + Wide) / 700);
 	private static float PosFactor = AddScale * (1 / Pos);
@@ -107,24 +118,24 @@ public class Equalizer extends PApplet {
 	ArrayList<Button> info = new ArrayList<Button>();
 	ArrayList<Textlabel> infol = new ArrayList<Textlabel>();
 
-	int tempR1;
-	int tempG1;
-	int tempB1;
-	int tempA1;
+	int tempR1 = 100;
+	int tempG1 = 0;
+	int tempB1 = 0;
+	int tempA1 = 100;
 	
-	int tempR2;
-	int tempG2;
-	int tempB2;
-	int tempA2;
+	int tempR2 = 255;
+	int tempG2 = 100;
+	int tempB2 = 0;
+	int tempA2 = 150;
 	
-	long tempVergroessern;
-	long tempVerblassen;
-	long tempVerschieben;
-	long tempDauer;
-	long tempAbstand;
+	float tempVergroessern = 1.5f;
+	float tempVerblassen = 0;
+	float tempVerschieben = 0;
+	long tempDauer = 10000;
+	float tempAbstand = 10;
 	
-	boolean tempBlur;
-	boolean tempReplay;
+	boolean tempBlur = true;
+	boolean tempReplay = false;
 	
 
 	/**
@@ -137,7 +148,6 @@ public class Equalizer extends PApplet {
 		try {
 			System.setOut(new PrintStream("out.txt"));
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		PApplet.main(new String[] { Equalizer.class.getName() });
@@ -254,7 +264,7 @@ public class Equalizer extends PApplet {
 				song.cue((int) actualTime);
 			}
 			noStroke();
-			if (_blur && !(_verblassen || _vergroesserm || _verschieben)) {
+			if (_blur && !(_verblassen || _vergroessern || _verschieben)) {
 				// filter(blur);
 
 				filter(blurH);
@@ -362,8 +372,8 @@ public class Equalizer extends PApplet {
 		farbenl.add(
 				cp5.addTextlabel("Farbe2").setText("Farbe 2").setPosition((float)(width/1.28), (float)(height/3.6)).setFont(createFont("Arial", (float)(height/54))));
 		// ColorPicker
-		farbenc.add(cp5.addColorPicker("C1").setPosition((float)(width/1.6), (float)(height/3.08571)).setColorValue(color(255, 255, 255, 255)));
-		farbenc.add(cp5.addColorPicker("C2").setPosition((float)(width/1.28), (float)(height/3.08571)).setColorValue(color(255, 255, 255, 255)));
+		farbenc.add(cp5.addColorPicker("C1").setPosition((float)(width/1.6), (float)(height/3.08571)).setColorValue(color(tempR1, tempG1, tempB1, tempA1)));
+		farbenc.add(cp5.addColorPicker("C2").setPosition((float)(width/1.28), (float)(height/3.08571)).setColorValue(color(tempR2, tempG2, tempB2, tempA2)));
 		farbenb.add(cp5.addButton("FUebernehmen").setLabel("uebernehmen").setPosition((float)(width/1.37143), (float)(height/1.8)).setSize((int)(width/5.48571), (int)(height/10.8)));
 	}
 
@@ -373,22 +383,22 @@ public class Equalizer extends PApplet {
 				.setFont(createFont("Arial", (float)(height/21.6))));
 		//300
 		geschs.add(cp5.addSlider("vergroessern").setPosition((float)(width/1.6), (float)(height/3.6)).setSize((int)(width/4.26667), (int)(height/54))
-				.setRange(0, 10).setArrayValue(new float[] { 0, 0 }));
+				.setRange(0, 2).setValue(Scale));
 		//375
-		geschs.add(cp5.addSlider("verblassen").setPosition((float)(width/1.6), (float)(height/2.88)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
-				.setArrayValue(new float[] { 0, 0 }));		
+		geschs.add(cp5.addSlider("verblassen").setPosition((float)(width/1.6), (float)(height/2.88)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 2)
+				.setValue(AlphaScale));		
 		//450
-		geschs.add(cp5.addSlider("verschieben").setPosition((float)(width/1.6), (float)(height/2.4)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
-				.setArrayValue(new float[] { 0, 0 }));
+		geschs.add(cp5.addSlider("verschieben").setPosition((float)(width/1.6), (float)(height/2.4)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 2)
+				.setValue(Pos));
 		//525
-		geschs.add(cp5.addSlider("Dauer").setPosition((float)(width/1.6), (float)(height/2.05714)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
-				.setArrayValue(new float[] { 0, 0 }));
+		geschs.add(cp5.addSlider("Dauer").setPosition((float)(width/1.6), (float)(height/2.05714)).setSize((int)(width/4.26667), (int)(height/54)).setRange(2, 10)
+				.setValue(Duration/1000));
 		//600
-		geschs.add(cp5.addSlider("Abstand").setPosition((float)(width/1.6), (float)(height/1.8)).setSize((int)(width/4.26667), (int)(height/54)).setRange(0, 10)
-				.setArrayValue(new float[] { 0, 0 }));
+		geschs.add(cp5.addSlider("Abstand").setPosition((float)(width/1.6), (float)(height/1.8)).setSize((int)(width/4.26667), (int)(height/54)).setRange(5, 30)
+				.setValue(_distance));
 		//675
-		gescht.add(cp5.addToggle("verschwimmen").setPosition((float)(width/1.6), (float)(height/1.6)).setSize((int)(width/19.2),(int)(height/54)).setValue(true));
-		gescht.add(cp5.addToggle("wiederholen").setPosition((float)(width/1.23871), (float)(height/1.6)).setSize((int)(width/19.2),(int)(height/54)).setValue(true));
+		gescht.add(cp5.addToggle("verschwimmen").setPosition((float)(width/1.6), (float)(height/1.6)).setSize((int)(width/19.2),(int)(height/54)).setValue(_blur));
+		gescht.add(cp5.addToggle("wiederholen").setPosition((float)(width/1.23871), (float)(height/1.6)).setSize((int)(width/19.2),(int)(height/54)).setValue(_wiederholen));
 		
 		geschb.add(cp5.addButton("GUebernehmen").setLabel("uebernehmen").setPosition((float)(width/1.37143), (float)(height/1.35)).setSize((int)(width/5.48571), (int)(height/10.8)));
 	}
@@ -498,16 +508,19 @@ public class Equalizer extends PApplet {
 	}
 
 	public void FZurueck(int i) {
+		zurueck();
 		removeFarben();
 		showMain();
 	}
 
 	public void GZurueck(int i) {
+		zurueck();
 		removeGeschw();
 		showMain();
 	}
 
 	public void VZurueck(int i) {
+		zurueck();
 		removeVorlagen();
 		showMain();
 	}
@@ -530,13 +543,14 @@ public class Equalizer extends PApplet {
 		tempA2 = (int)alpha(col);
 	}
 	public void FUebernehmen(int i){
+		uebernehmen();
 		removeFarben();
 		showMain();
-		//TODO temp values -> values
 	}
 
 	public void vergroessern(float f){
 		tempVergroessern = (long) f;
+		System.out.println("ficki");
 	}
 	public void verblassen(float f){
 		tempVerblassen = (long) f;
@@ -558,9 +572,10 @@ public class Equalizer extends PApplet {
 	}
 	
 	public void GUebernehmen(int i){
+		uebernehmen();
 		removeGeschw();
 		showMain();
-		//TODO temp values -> values
+		
 	}
 		
 	public void Vorlage1(int i){
@@ -570,36 +585,127 @@ public class Equalizer extends PApplet {
 		tempVergroessern = 0;
 		tempVerblassen = 0;
 		tempVerschieben = 0;
-		//TODO farbe
+		tempDauer = 1000000;
+		tempAbstand = 10;
 		
+		tempR1 = 100;
+		tempG1 = 0;
+		tempB1 = 0;
+		tempA1 = 100;
+		
+		tempR2 = 255;
+		tempG2 = 100;
+		tempB2 = 0;
+		tempA2 = 150;
+		
+		uebernehmen();
 		removeVorlagen();
 		showMain();
 	}
 	public void Vorlage2(int i){
 		tempBlur = false;
 		tempReplay = false;
-		//TODO bewegung
+		
+		tempVergroessern = 0.8f;
+		tempVerblassen = 0.8f;
+		tempVerschieben = 0;
+		tempDauer = 10000;
+		tempAbstand = 10;
 		
 		tempR1 = 255;
 		tempG1 = 255;
 		tempB1 = 255;
-		tempA1 = 255;
+		tempA1 = 100;
 		
 		tempR2 = 255;
 		tempG2 = 255;
 		tempB2 = 255;
-		tempA2 = 255;
+		tempA2 = 150;
 		
+		uebernehmen();
 		removeVorlagen();
 		showMain();
 	}
 	public void Vorlage3(int i){
-		tempBlur = true;
+		tempBlur = false;
 		tempReplay = false;
-		//TODO bewegung & farbe
 		
+		tempVergroessern = 0.4f;
+		tempVerblassen = 0.4f;
+		tempVerschieben = 0.15f;
+		tempDauer = 10000;
+		tempAbstand = 20;
+		
+		tempR1 = 50;
+		tempG1 = 205;
+		tempB1 = 50;
+		tempA1 = 150;
+		
+		tempR2 = 0;
+		tempG2 = 100;
+		tempB2 = 0;
+		tempA2 = 200;
+		
+		uebernehmen();
 		removeVorlagen();
 		showMain();
+	}
+	
+	private void uebernehmen() {
+		_blur = tempBlur;
+		_wiederholen = tempReplay;
+		
+		_vergroessern = tempVergroessern > 0;
+		_verschieben = tempVerschieben > 0;
+		_verblassen = tempVerblassen > 0;
+		
+		Scale = tempVergroessern;
+		Pos = tempVerschieben;
+		AlphaScale = tempVerblassen;
+		Duration =  (int) tempDauer *1000;
+		_distance = tempAbstand;
+		
+		R1 = tempR1;
+		G1 = tempG1;
+		B1 = tempB1;
+		A1 = tempA1;
+		
+		R2 = tempR2;
+		G2 = tempG2;
+		B2 = tempB2;
+		A2 = tempA2;
+	}
+	
+	private void zurueck(){
+		tempBlur = _blur;
+		tempReplay = _wiederholen;
+		
+		tempVergroessern = Scale;
+		tempVerschieben = Pos;
+		tempVerblassen = AlphaScale;
+		
+		if(!_vergroessern){
+			tempVergroessern = 0;
+		}
+		if(!_verschieben){
+			tempVerschieben = 0;
+		}
+		if(!_verblassen){
+			tempVerblassen = 0;
+		}
+		
+		tempDauer = Duration/1000;
+		tempAbstand = _distance;
+		
+		tempR1 = R1;
+		tempG1 = G1;
+		tempB1 = B1;
+		tempA1 = A1;
+		
+		tempR2 = R2;
+		tempG2 = G2;
+		tempB2 = B2;
+		tempA2 = A2;
 	}
 	
 	private void removeMain() {
@@ -727,7 +833,7 @@ public class Equalizer extends PApplet {
 			// System.out.println(x + ":" + x2 + " " + y + ":" + y2);
 			c.position = new PVector(x, y);
 		}
-		if (actualTime - c.node.getTimeStamp() >= Duration && (_verblassen || _vergroesserm || _verschieben)) {
+		if (actualTime - c.node.getTimeStamp() >= Duration && (_verblassen || _vergroessern || _verschieben)) {
 			// System.out
 			// .println("Timer " + timer + " c.node.getTimeStamp() " +
 			// c.node.getTimeStamp() + " Duration " + Duration);
@@ -790,7 +896,7 @@ public class Equalizer extends PApplet {
 	}
 
 	public void checkRestartSong() {
-		if (!song.isPlaying() && _wiederhohlen) {
+		if (!song.isPlaying() && _wiederholen) {
 			Thread s = new Thread(new Runnable() {
 
 				@Override
