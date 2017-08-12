@@ -253,6 +253,7 @@ public class Equalizer extends PApplet {
 				background(0);
 				song.play();
 				SONGPLAYING = true;
+				actualTime = 0;
 				lastTime = System.currentTimeMillis();
 				startSong = false;
 			}
@@ -868,6 +869,11 @@ public class Equalizer extends PApplet {
 				state = GAMESTATE.PAUSED;
 			} else if (key == BACKSPACE || key == ENTER) {
 				state = GAMESTATE.MENUE;
+				song.pause();
+				song.rewind();
+				song.cue(0);
+				
+				showMain();
 				startSong = true;
 			} 
 		}
