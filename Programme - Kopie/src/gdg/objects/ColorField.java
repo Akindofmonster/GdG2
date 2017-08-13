@@ -11,6 +11,11 @@ public class ColorField {
   int gEnd;
   int bEnd;
   int alphaEnd;
+  
+  private int rK =1;
+  private int gK =1;
+  private int bK =1;
+  private int aK =1;
   public Color[] colors = new Color[_17]; // 17 Farben
   // 86
   // 76
@@ -43,8 +48,20 @@ public class ColorField {
     int g = Math.abs(gStart - gEnd) / (colors.length);
     int b = Math.abs(bStart - bEnd) / (colors.length);
     int alpha = Math.abs(alphaStart - alphaEnd) / (colors.length);
+    if(rStart> rEnd){
+    	rK = -1;
+    }
+    if(gStart> gEnd){
+    	gK = -1;
+    }
+    if(bStart> bEnd){
+    	bK = -1;
+    }
+    if(alphaStart> alphaEnd){
+    	aK = -1;
+    }
     for (int i = 0; i < colors.length; i++) {
-      colors[i] = new Color(rStart + r * i, gStart + g * i, bStart + b * i, alphaStart + alpha * i);
+      colors[i] = new Color(rStart + rK*(r * i), gStart + gK*(g * i), bStart + bK*(b * i), alphaStart + aK*(alpha * i));
       // System.out.println(colors[i].alpha);
     }
   }
@@ -76,6 +93,14 @@ public class ColorField {
   private Color getCopyColor(int i) {
     Color colorToCopy = colors[i];
     return new Color(colorToCopy.r, colorToCopy.g, colorToCopy.b, colorToCopy.alpha);
+  }
+  
+  public String toString(){
+	  String s = "";
+	  for(Color c : colors){
+		  s+= ":"+c.toString();
+	  }
+	  return s;
   }
 
   public Color getColor(int i) {

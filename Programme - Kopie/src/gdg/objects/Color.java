@@ -13,4 +13,8 @@ public class Color {
     this.b = b;
     this.alpha = alpha;
   }
+  
+  public String toString(){
+	  return "["+r+","+g+","+b+","+alpha+"]";
+  }
 }
