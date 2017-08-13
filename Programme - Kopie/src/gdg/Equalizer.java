@@ -11,6 +11,7 @@ import gdg.objects.Note;
 import gdg.objects.Enums.GAMESTATE;
 import processing.core.PApplet;
 import processing.core.PConstants;
+import processing.core.PFont;
 import processing.core.PShape;
 import processing.core.PVector;
 import processing.opengl.PShader;
@@ -23,6 +24,7 @@ import java.util.ArrayList;
 import controlP5.Button;
 import controlP5.ColorPicker;
 import controlP5.ControlEvent;
+import controlP5.ControlFont;
 import controlP5.ControlP5;
 import controlP5.Controller;
 import controlP5.Slider;
@@ -349,7 +351,7 @@ public class Equalizer extends PApplet {
 	private void buildMain() {
 		
 			// Play
-			main.add(cp5.addButton("Play").setPosition((float)(width/19.2), (float)(height/3.6)).setSize((int)(width/3), (int)(height/2)));
+			main.add(cp5.addButton("Play").setPosition((float)(width/19.2), (float)(height/3.6)).setSize((int)(width/3), (int)(height/2)));   
 			// Farben
 			main.add(cp5.addButton("Farben").setPosition((float)(width/1.5), (float)(height/5.4)).setSize((int)(width/4.8), (int)(height/10.88)));
 			// Einstellungen
@@ -410,15 +412,9 @@ public class Equalizer extends PApplet {
 		vorlagenb.add(cp5.addButton("VZurueck").setLabel("zurueck").setPosition((float)(width/1.6), (float)(height/5.4)).setSize((int)(width/19.2), (int)(height/21.6)));
 		vorlagenl.add(cp5.addTextlabel("VorlagenT").setText("Vorlagen").setPosition((float)(width/1.42222), (float)(height/5.4))
 				.setFont(createFont("Arial", (float)(height/21.6))));
-		vorlagenb.add(cp5.addButton("Vorlage1").setLabel("Vorlage 1").setPosition((float)(width/1.6), (float)(height/3.6)).setSize((int)(width/3.49091), (int)(height/10.8)));
-		vorlagenl.add(cp5.addTextlabel("Vorlag1T").setText("Sonnenuntergang: Rote unbewegliche Kreise mit Blur")
-				.setPosition((float)(width/1.6), (float)(height/2.57143)).setFont(createFont("Arial", (float)(height/90))));
-		vorlagenb.add(cp5.addButton("Vorlage2").setLabel("Vorlage 2").setPosition((float)(width/1.6), (float)(height/2.16)).setSize((int)(width/3.49091), (int)(height/10.8)));
-		vorlagenl.add(cp5.addTextlabel("Vorlag2T").setText("Schneesturm: Weisse schnelle Kreise").setPosition((float)(width/1.6), (int)(height/1.74194))
-				.setFont(createFont("Arial", (float)(height/90))));
-		vorlagenb.add(cp5.addButton("Vorlage3").setLabel("Vorlage 3").setPosition((float)(width/1.6), (float)(height/1.54286)).setSize((int)(width/3.49091), (int)(height/10.8)));
-		vorlagenl.add(cp5.addTextlabel("Vorlag3T").setText("Wald: Gruene langsam groesser werdende Kreise")
-				.setPosition((float)(width/1.6), (float)(height/1.31707)).setFont(createFont("Arial", (float)(height/90))));
+		vorlagenb.add(cp5.addButton("Vorlage1").setLabel("Sonnenuntergang: Rote unbewegliche Kreise").setPosition((float)(width/1.6), (float)(height/3.6)).setSize((int)(width/3.49091), (int)(height/10.8)));
+		vorlagenb.add(cp5.addButton("Vorlage2").setLabel("Schneesturm: Weisse schnelle Kreise").setPosition((float)(width/1.6), (float)(height/2.16)).setSize((int)(width/3.49091), (int)(height/10.8)));
+		vorlagenb.add(cp5.addButton("Vorlage3").setLabel("Wald: Gruene langsam groesser werdende Kreise").setPosition((float)(width/1.6), (float)(height/1.54286)).setSize((int)(width/3.49091), (int)(height/10.8)));
 	}
 
 	private void buildInfo() {
@@ -446,8 +442,25 @@ public class Equalizer extends PApplet {
 	}
 
 	public void showMain() {
+		PFont pfont = createFont("Arial",(float)(height/21.6),true); 
+		ControlFont font = new ControlFont(pfont,241);
+		
 		for (Button b : main) {
-			b.show();
+			if(b.getLabel()=="Play"){
+				b.getCaptionLabel().setFont(font).setSize(50).toUpperCase(false);
+				b.setColorBackground(color(0));
+				b.setColorForeground(color(190));
+				b.setColorActive(color(100));
+				b.show();
+			}
+			else{
+				b.getCaptionLabel().setFont(font).setSize(50).toUpperCase(false).alignX(0);
+				b.setColorBackground(color(0));
+				b.setColorForeground(color(190));
+				b.setColorActive(color(100));
+				b.show();
+			}
+			
 		}
 	}
 
@@ -457,50 +470,100 @@ public class Equalizer extends PApplet {
 	}
 
 	public void Farben(int i) {
+		PFont pfont = createFont("Arial",(float)(height/21.6),true); 
+		ControlFont font = new ControlFont(pfont,241);
+		
 		removeMain();
 		for (Button b : farbenb) {
+			b.getCaptionLabel().setFont(font).setSize((int)(height/54)).toUpperCase(false);
+			b.setColorBackground(color(50));
+			b.setColorForeground(color(190));
+			b.setColorActive(color(100));
 			b.show();
 		}
 		for (Textlabel l : farbenl) {
+			l.getCaptionLabel().setFont(font).setSize((int)(height/90)).toUpperCase(false);
 			l.show();
 		}
 		for (ColorPicker c : farbenc) {
+			c.getCaptionLabel().setFont(font).setSize((int)(height/90)).toUpperCase(false);
 			c.show();
 		}
 	}
 
 	public void Einstellungen(int i) {
+		PFont pfont = createFont("Arial",(float)(height/21.6),true); 
+		ControlFont font = new ControlFont(pfont,241);
+		
 		removeMain();
 		for (Button b : geschb) {
+			b.getCaptionLabel().setFont(font).setSize((int)(height/54)).toUpperCase(false);
+			b.setColorBackground(color(50));
+			b.setColorForeground(color(190));
+			b.setColorActive(color(100));
 			b.show();
 		}
 		for (Textlabel l : geschl) {
+			l.getCaptionLabel().setFont(font).setSize((int)(height/90)).toUpperCase(false);
 			l.show();
 		}
 		for (Slider s : geschs) {
+			s.getCaptionLabel().setFont(font).setSize((int)(height/90)).toUpperCase(false);
+			s.getValueLabel().setFont(font).setSize((int)(height/90)).toUpperCase(false);
+			s.setColorBackground(color(50));
+            s.setColorForeground(color(100));
+            s.setColorActive(color(190));
 			s.show();
 		}
 		for (Toggle t : gescht) {
+			t.getCaptionLabel().setFont(font).setSize((int)(height/90)).toUpperCase(false);
+			t.setColorBackground(color(50));
+            t.setColorForeground(color(100));
+            t.setColorActive(color(190));
 			t.show();
 		}
 	}
 
 	public void Vorlagen(int i) {
+		PFont pfont = createFont("Arial",(float)(height/21.6),true); 
+		ControlFont font = new ControlFont(pfont,241);
+		
 		removeMain();
 		for (Button b : vorlagenb) {
-			b.show();
+			if(b.getLabel()=="zurueck"){
+				b.getCaptionLabel().setFont(font).setSize((int)(height/54)).toUpperCase(false);
+				b.setColorBackground(color(50));
+				b.setColorForeground(color(190));
+				b.setColorActive(color(100));
+				b.show();
+			}else{
+				b.getCaptionLabel().setFont(font).setSize((int)(height/54)).toUpperCase(false).alignX(0);;
+				b.setColorBackground(color(50));
+				b.setColorForeground(color(190));
+				b.setColorActive(color(100));
+				b.show();
+			}
 		}
 		for (Textlabel l : vorlagenl) {
+			l.getCaptionLabel().setFont(font).setSize((int)(height/90)).toUpperCase(false);
 			l.show();
 		}
 	}
 
 	public void Informationen(int i) {
+		PFont pfont = createFont("Arial",(float)(height/21.6),true); 
+		ControlFont font = new ControlFont(pfont,241);
+		
 		removeMain();
 		for (Button b : info) {
+			b.getCaptionLabel().setFont(font).setSize((int)(height/54)).toUpperCase(false);
+			b.setColorBackground(color(50));
+			b.setColorForeground(color(190));
+			b.setColorActive(color(100));
 			b.show();
 		}
 		for (Textlabel l : infol) {
+			l.getCaptionLabel().setFont(font).setSize((int)(height/90)).toUpperCase(false);
 			l.show();
 		}
 
