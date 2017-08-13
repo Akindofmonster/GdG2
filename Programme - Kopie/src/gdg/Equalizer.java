@@ -192,6 +192,7 @@ public class Equalizer extends PApplet {
     buildInfo();
     buildVorlagen();
 
+    Vorlage1(1);
     uebernehmen();
 
     showMain();
@@ -249,7 +250,7 @@ public class Equalizer extends PApplet {
       // text("Press ENTER to start", 0, 0, width, height);
 
     } else if (state == GAMESTATE.RUNNING) {
-      System.out.println(cp5.isVisible());
+      // System.out.println(cp5.isVisible());
 
       if (startSong) {
         background(0);
@@ -682,15 +683,16 @@ public class Equalizer extends PApplet {
   }
 
   public void vergroessern(float f) {
-    tempVergroessern = (long) f;
+    tempVergroessern = f;
   }
 
   public void verblassen(float f) {
-    tempVerblassen = (long) f;
+    tempVerblassen = f;
+    System.out.println(tempVerblassen);
   }
 
   public void verschieben(float f) {
-    tempVerschieben = (long) f;
+    tempVerschieben = f;
   }
 
   public void Dauer(float f) {
@@ -698,7 +700,7 @@ public class Equalizer extends PApplet {
   }
 
   public void Abstand(float f) {
-    tempAbstand = (long) f;
+    tempAbstand = f;
   }
 
   public void verschwimmen(boolean b) {
@@ -816,18 +818,19 @@ public class Equalizer extends PApplet {
     A2 = tempA2;
 
     colorField = new ColorField(R1, G1, B1, A1, R2, G2, B2, A2);
-    
+
     cp5.get("C1").setColorValue(color(R1, G1, B1, A1));
     cp5.get("C2").setColorValue(color(R2, G2, B2, A2));
     cp5.get("vergroessern").setValue(Scale);
     cp5.get("verblassen").setValue(AlphaScale);
     cp5.get("verschieben").setValue(Pos);
-    cp5.get("Dauer").setValue(Duration/1000);
+    cp5.get("Dauer").setValue(Duration / 1000);
     cp5.get("Abstand").setValue(_distance);
-    ((Toggle)cp5.get("verschwimmen")).setValue(_blur);
-    ((Toggle)cp5.get("wiederholen")).setValue(_wiederholen);
-    
+    ((Toggle) cp5.get("verschwimmen")).setValue(_blur);
+    ((Toggle) cp5.get("wiederholen")).setValue(_wiederholen);
+
     System.out.println(colorField.toString());
+    System.out.println(tempVerblassen);
   }
 
   private void zurueck() {
@@ -860,16 +863,16 @@ public class Equalizer extends PApplet {
     tempG2 = G2;
     tempB2 = B2;
     tempA2 = A2;
-    
+
     cp5.get("C1").setColorValue(color(R1, G1, B1, A1));
     cp5.get("C2").setColorValue(color(R2, G2, B2, A2));
     cp5.get("vergroessern").setValue(Scale);
     cp5.get("verblassen").setValue(AlphaScale);
     cp5.get("verschieben").setValue(Pos);
-    cp5.get("Dauer").setValue(Duration/1000);
+    cp5.get("Dauer").setValue(Duration / 1000);
     cp5.get("Abstand").setValue(_distance);
-    ((Toggle)cp5.get("verschwimmen")).setValue(_blur);
-    ((Toggle)cp5.get("wiederholen")).setValue(_wiederholen);
+    ((Toggle) cp5.get("verschwimmen")).setValue(_blur);
+    ((Toggle) cp5.get("wiederholen")).setValue(_wiederholen);
   }
 
   private void removeMain() {
