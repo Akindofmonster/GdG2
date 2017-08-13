@@ -384,9 +384,9 @@ public class Equalizer extends PApplet {
             .setFont(createFont("Arial", (float) (height / 54))));
     // ColorPicker
     farbenc.add(cp5.addColorPicker("C1").setPosition((float) (width / 1.6), (float) (height / 3.08571))
-        .setColorValue(color(tempR1, tempG1, tempB1, tempA1)));
+        .setColorValue(color(R1, G1, B1, A1)));
     farbenc.add(cp5.addColorPicker("C2").setPosition((float) (width / 1.28), (float) (height / 3.08571))
-        .setColorValue(color(tempR2, tempG2, tempB2, tempA2)));
+        .setColorValue(color(R2, G2, B2, A2)));
     farbenb.add(cp5.addButton("FUebernehmen").setLabel("uebernehmen")
         .setPosition((float) (width / 1.37143), (float) (height / 1.8))
         .setSize((int) (width / 5.48571), (int) (height / 10.8)));
@@ -816,6 +816,17 @@ public class Equalizer extends PApplet {
     A2 = tempA2;
 
     colorField = new ColorField(R1, G1, B1, A1, R2, G2, B2, A2);
+    
+    cp5.get("C1").setColorValue(color(R1, G1, B1, A1));
+    cp5.get("C2").setColorValue(color(R2, G2, B2, A2));
+    cp5.get("vergroessern").setValue(Scale);
+    cp5.get("verblassen").setValue(AlphaScale);
+    cp5.get("verschieben").setValue(Pos);
+    cp5.get("Dauer").setValue(Duration/1000);
+    cp5.get("Abstand").setValue(_distance);
+    ((Toggle)cp5.get("verschwimmen")).setValue(_blur);
+    ((Toggle)cp5.get("wiederholen")).setValue(_wiederholen);
+    
     System.out.println(colorField.toString());
   }
 
@@ -849,6 +860,16 @@ public class Equalizer extends PApplet {
     tempG2 = G2;
     tempB2 = B2;
     tempA2 = A2;
+    
+    cp5.get("C1").setColorValue(color(R1, G1, B1, A1));
+    cp5.get("C2").setColorValue(color(R2, G2, B2, A2));
+    cp5.get("vergroessern").setValue(Scale);
+    cp5.get("verblassen").setValue(AlphaScale);
+    cp5.get("verschieben").setValue(Pos);
+    cp5.get("Dauer").setValue(Duration/1000);
+    cp5.get("Abstand").setValue(_distance);
+    ((Toggle)cp5.get("verschwimmen")).setValue(_blur);
+    ((Toggle)cp5.get("wiederholen")).setValue(_wiederholen);
   }
 
   private void removeMain() {
